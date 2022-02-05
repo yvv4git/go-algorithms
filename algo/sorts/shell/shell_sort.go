@@ -1,4 +1,4 @@
-package sorts
+package shell
 
 // ShellSort - used as algorithm shell sort
 // Вариация InsertionSort, где мы меняем шаг сортировки.
