@@ -1,4 +1,4 @@
-package sorts
+package insertion
 
 // InsertionSort - used as sort with insertion.
 // Have quadratic complexity - O(n^2).

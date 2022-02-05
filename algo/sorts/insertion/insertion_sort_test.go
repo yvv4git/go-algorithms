@@ -1,4 +1,4 @@
-package sorts
+package insertion
 
 import (
 	"reflect"
