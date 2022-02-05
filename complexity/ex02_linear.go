@@ -12,6 +12,7 @@ func main() {
 }
 
 // Linear complexity - O(n)
+// O(n) ограничивает нашу функцию сверху.
 func searchInArraySequentially(want int) int {
 	result := 0
 	for _, value := range arr {
