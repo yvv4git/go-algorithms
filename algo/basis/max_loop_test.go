@@ -1,4 +1,4 @@
-package max
+package basis
 
 import "testing"
 

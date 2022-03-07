@@ -1,4 +1,4 @@
-package max
+package basis
 
 func processing(idx int, arr []int) int {
 	// Вот это место называется "База рекурсии".
