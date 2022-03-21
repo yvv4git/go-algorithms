@@ -1,4 +1,4 @@
-package bylist
+package stack
 
 import (
 	"container/list"
@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_listStack_Push(t *testing.T) {
+func TestListStack_Push(t *testing.T) {
 	type fields struct {
 		stack *list.List
 	}
@@ -44,7 +44,7 @@ func Test_listStack_Push(t *testing.T) {
 	}
 }
 
-func Test_listStack_Pop(t *testing.T) {
+func TestListStack_Pop(t *testing.T) {
 	testList := list.New()
 	testList.PushFront("Vladimir")
 	testList.PushFront("Oly")
@@ -110,7 +110,7 @@ func Test_listStack_Pop(t *testing.T) {
 	}
 }
 
-func Test_listStack_Front(t *testing.T) {
+func TestListStack_Front(t *testing.T) {
 	listForTest := list.New()
 	listForTest.PushFront("Vladimir")
 
@@ -149,7 +149,7 @@ func Test_listStack_Front(t *testing.T) {
 	}
 }
 
-func Test_listStack_Size(t *testing.T) {
+func TestListStack_Size(t *testing.T) {
 	testList := list.New()
 	testList.PushFront("Vladimir")
 

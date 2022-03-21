@@ -1,4 +1,4 @@
-package bylist
+package stack
 
 import (
 	"container/list"
