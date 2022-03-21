@@ -18,7 +18,7 @@ func genSequence(count int64) []int64 {
 	return result
 }
 
-func Test_initStackInt64(t *testing.T) {
+func Test_NewStackInt64(t *testing.T) {
 	type args struct {
 		values    []int64
 		batchSize int
@@ -27,6 +27,7 @@ func Test_initStackInt64(t *testing.T) {
 	tests := []struct {
 		name string
 		args args
+		err  error
 	}{
 		{
 			name: "CASE-0",
@@ -34,6 +35,7 @@ func Test_initStackInt64(t *testing.T) {
 				values:    []int64{},
 				batchSize: 5,
 			},
+			err: ErrEmptyStack,
 		},
 		{
 			name: "CASE-1",
@@ -41,6 +43,7 @@ func Test_initStackInt64(t *testing.T) {
 				values:    genSequence(10),
 				batchSize: 3,
 			},
+			err: ErrGoingOffStack,
 		},
 		{
 			name: "CASE-2",
@@ -48,6 +51,7 @@ func Test_initStackInt64(t *testing.T) {
 				values:    genSequence(100),
 				batchSize: 5,
 			},
+			err: ErrGoingOffStack,
 		},
 		{
 			name: "CASE-3",
@@ -55,24 +59,23 @@ func Test_initStackInt64(t *testing.T) {
 				values:    genSequence(100),
 				batchSize: 15,
 			},
+			err: ErrGoingOffStack,
 		},
 	}
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			pop := initStackInt64(tt.args.values)
+			pop := NewStackInt64(tt.args.values)
 
 			for {
-				result, err := pop(tt.args.batchSize)
+				_, err := pop(tt.args.batchSize)
 				if err != nil {
-					if !errors.Is(err, ErrGoingOffStack) {
-						t.Fatalf("problems with stack: %v", err)
+					if !errors.Is(err, tt.err) {
+						t.Fatalf("we want: %v, but got %v", tt.err, err)
 					}
 
 					break
 				}
-
-				t.Log(result)
 			}
 		})
 	}

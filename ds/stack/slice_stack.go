@@ -7,11 +7,13 @@ var (
 	ErrGoingOffStack = errors.New("going off the stack")
 )
 
-type pop func(count int) ([]int64, error)
+// Pop - used for pop values from stack
+type Pop func(count int) ([]int64, error)
 
-func initStackInt64(values []int64) pop {
+// NewStackInt64 - used for init instance of Pop
+func NewStackInt64(values []int64) Pop {
 	idx := 0
-	lenValuse := len(values)
+	lenValues := len(values)
 
 	return func(count int) ([]int64, error) {
 		if len(values) == 0 {
@@ -24,8 +26,8 @@ func initStackInt64(values []int64) pop {
 
 		offset := idx + count
 		begin := idx
-		if offset > lenValuse {
-			offset = idx + (lenValuse - idx)
+		if offset > lenValues {
+			offset = idx + (lenValues - idx)
 		}
 
 		idx = offset
