@@ -1,4 +1,4 @@
-package basis
+package main
 
 import "testing"
 

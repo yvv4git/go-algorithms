@@ -1,4 +1,4 @@
-package basis
+package main
 
 func majorityElement(nums []int) int {
 	cnt := 0

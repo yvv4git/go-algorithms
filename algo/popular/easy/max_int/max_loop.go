@@ -1,4 +1,4 @@
-package basis
+package main
 
 // MaxByLoop - used for find max element in array
 func MaxByLoop(arr []int) int {

@@ -1,4 +1,4 @@
-package basis
+package main
 
 func containsDuplicate(nums []int) bool {
 	tmp := make(map[int]int)

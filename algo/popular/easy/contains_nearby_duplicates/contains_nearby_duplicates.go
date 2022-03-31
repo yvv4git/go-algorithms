@@ -1,4 +1,4 @@
-package basis
+package main
 
 func containsNearbyDuplicate(nums []int, k int) bool {
 	tmp := make(map[int]int, len(nums))

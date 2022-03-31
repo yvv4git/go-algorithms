@@ -1,8 +1,8 @@
-package basis
+package main
 
 import "testing"
 
-func TestMaxByLoop(t *testing.T) {
+func TestMaxByRecursion(t *testing.T) {
 	type args struct {
 		arr []int
 	}
@@ -30,15 +30,16 @@ func TestMaxByLoop(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := MaxByLoop(tt.args.arr); got != tt.want {
-				t.Errorf("MaxByLoop() = %v, want %v", got, tt.want)
+			//t.Log(MaxByRecursion(tt.args.arr))
+			if got := MaxByRecursion(tt.args.arr); got != tt.want {
+				t.Errorf("MaxByRecursion() = %v, want %v", got, tt.want)
 			}
 		})
 	}
 }
 
-func BenchmarkFactorialByLoop(b *testing.B) {
+func BenchmarkFactorialByRecursion(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		MaxByLoop([]int{1, 2, 3, 4, 5})
+		MaxByRecursion([]int{1, 2, 3, 4, 5})
 	}
 }

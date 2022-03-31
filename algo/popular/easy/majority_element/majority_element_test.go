@@ -1,8 +1,8 @@
-package basis
+package main
 
 import "testing"
 
-func Test_containsDuplicate(t *testing.T) {
+func Test_majorityElement(t *testing.T) {
 	type args struct {
 		nums []int
 	}
@@ -10,42 +10,42 @@ func Test_containsDuplicate(t *testing.T) {
 	tests := []struct {
 		name string
 		args args
-		want bool
+		want int
 	}{
 		{
 			name: "CASE-1",
 			args: args{
 				nums: []int{},
 			},
-			want: false,
+			want: 0,
 		},
 		{
 			name: "CASE-2",
 			args: args{
-				nums: []int{1, 2, 3, 1},
+				nums: []int{3, 2, 3},
 			},
-			want: true,
+			want: 3,
 		},
 		{
 			name: "CASE-3",
 			args: args{
-				nums: []int{1, 2, 3, 4},
+				nums: []int{2, 2, 1, 1, 1, 2, 2},
 			},
-			want: false,
+			want: 2,
 		},
 		{
 			name: "CASE-4",
 			args: args{
-				nums: []int{1, 1, 1, 3, 3, 4, 3, 2, 4, 2},
+				nums: []int{1, 1, 2, 2, 1, 2, 2},
 			},
-			want: true,
+			want: 2,
 		},
 	}
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := containsDuplicate(tt.args.nums); got != tt.want {
-				t.Errorf("containsDuplicate() = %v, want %v", got, tt.want)
+			if got := majorityElement(tt.args.nums); got != tt.want {
+				t.Errorf("majorityElement() = %v, want %v", got, tt.want)
 			}
 		})
 	}

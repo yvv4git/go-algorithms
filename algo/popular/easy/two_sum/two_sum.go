@@ -1,5 +1,5 @@
 //unlint:unused
-package basis
+package main
 
 func twoSum(nums []int, target int) []int {
 	for idx, number := range nums {

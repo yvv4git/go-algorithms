@@ -1,4 +1,4 @@
-package basis
+package main
 
 func reverseBits(num uint32) uint32 {
 	ret := uint32(0)
