@@ -53,6 +53,14 @@ func Test_binarySearch(t *testing.T) {
 			},
 			want: -1,
 		},
+		{
+			name: "CASE-6",
+			args: args{
+				list:   []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10},
+				target: 7,
+			},
+			want: 6,
+		},
 	}
 
 	for _, tt := range tests {
