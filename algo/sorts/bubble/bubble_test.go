@@ -31,7 +31,7 @@ func TestBubbleSort(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
+		t.Run(tt.name, func(_ *testing.T) {
 			BubbleSort(tt.args.ar)
 		})
 	}
@@ -64,7 +64,7 @@ func TestBubbleSort2(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
+		t.Run(tt.name, func(_ *testing.T) {
 			BubbleSort2(tt.args.ar)
 		})
 	}
@@ -97,7 +97,7 @@ func TestBubbleSort3(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
+		t.Run(tt.name, func(_ *testing.T) {
 			BubbleSort3(tt.args.ar)
 		})
 	}
