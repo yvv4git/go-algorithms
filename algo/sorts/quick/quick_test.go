@@ -22,6 +22,13 @@ func TestQuickSort(t *testing.T) {
 			},
 			want: []int{1, 2, 3, 4, 5},
 		},
+		{
+			name: "CASE-2",
+			args: args{
+				ar: []int{1, 3, 2, 5, 4},
+			},
+			want: []int{1, 2, 3, 4, 5},
+		},
 	}
 
 	for _, tt := range tests {
