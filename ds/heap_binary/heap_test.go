@@ -1,52 +1,70 @@
 package heapbinary
 
 import (
+	"reflect"
 	"testing"
 )
 
-func TestHeap(t *testing.T) {
-	testCasess := []struct {
-		name     string
+func TestBinaryHeap_Push(t *testing.T) {
+	type args struct {
 		elements []int
+	}
+
+	tests := []struct {
+		name string
+		args args
+		want []int
 	}{
 		{
-			name:     "CASE-1",
-			elements: []int{5, 3, 2, 4, 1},
+			name: "CASE-1",
+			args: args{
+				elements: []int{5, 3, 2, 4, 1},
+			},
+			want: []int{1, 2, 3, 5, 4},
 		},
 	}
 
-	for _, tc := range testCasess {
-		t.Run(tc.name, func(t *testing.T) {
-			h := BinaryHeap{}
-			for _, num := range tc.elements {
-				h.Push(num)
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			bh := BinaryHeap{}
+			for _, val := range tt.args.elements {
+				bh.Push(val)
 			}
 
-			t.Logf("%v", h.heap)
+			if !reflect.DeepEqual(bh.heap, tt.want) {
+				t.Errorf("BinaryHeap.Push() want %v, but created %v", tt.want, bh.heap)
+			}
 		})
 	}
 }
 
-func TestBinaryHeap_Push(t *testing.T) {
+func TestBinaryHeap_Pop(t *testing.T) {
 	type fields struct {
-		heap []int
+		keys []int
 	}
-	type args struct {
-		key int
-	}
+
 	tests := []struct {
 		name   string
 		fields fields
-		args   args
+		want   int
 	}{
-		// TODO: Add test cases.
+		{
+			name: "CASE-1",
+			fields: fields{
+				keys: []int{1, 2, 3, 5, 4},
+			},
+			want: 1,
+		},
 	}
+
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			bh := &BinaryHeap{
-				heap: tt.fields.heap,
+				heap: tt.fields.keys,
 			}
-			bh.Push(tt.args.key)
+			if got := bh.Pop(); got != tt.want {
+				t.Errorf("BinaryHeap.Pop() = %v, want %v", got, tt.want)
+			}
 		})
 	}
 }
