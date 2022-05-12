@@ -33,18 +33,39 @@ func Test_hasCycle(t *testing.T) {
 						Next: node2,
 					}
 
-					node4.Next = node2
+					node4.Next = node2 // Cycle
+					return node1
+				}(),
+			},
+			want: true, // Есть цикл
+		},
+		{
+			name: "CASE-2",
+			args: args{
+				head: func() *ListNode {
+					node2 := &ListNode{
+						Val: 2,
+					}
+					node1 := &ListNode{
+						Val:  1,
+						Next: node2,
+					}
+
+					node2.Next = node1 // Cycle
 					return node1
 				}(),
 			},
 			want: true,
 		},
-		// {
-		// 	name: "CASE-2",
-		// 	args: args{
-		// 		head: func(),
-		// 	},
-		// },
+		{
+			name: "CASE-3",
+			args: args{
+				head: &ListNode{
+					Val: 1,
+				},
+			},
+			want: false,
+		},
 	}
 
 	for _, tt := range tests {

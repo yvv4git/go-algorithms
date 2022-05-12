@@ -9,9 +9,11 @@ func hasCycle(head *ListNode) bool {
 		visited[head] = true
 		head = head.Next
 	}
+	
 	return false
 }
 
+// ListNode - ...
 type ListNode struct {
 	Val  int
 	Next *ListNode
