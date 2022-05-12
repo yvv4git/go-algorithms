@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestBubbleSort(t *testing.T) {
+func TestBubbleSort1(t *testing.T) {
 	type args struct {
 		ar []int
 	}
@@ -32,7 +32,7 @@ func TestBubbleSort(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(_ *testing.T) {
-			BubbleSort(tt.args.ar)
+			BubbleSort1(tt.args.ar)
 		})
 	}
 }
@@ -99,6 +99,39 @@ func TestBubbleSort3(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(tt.name, func(_ *testing.T) {
 			BubbleSort3(tt.args.ar)
+		})
+	}
+}
+
+func TestBubbleSort4(t *testing.T) {
+	type args struct {
+		arr []int
+	}
+
+	tests := []struct {
+		name string
+		args args
+	}{
+		{
+			name: "CASE-1",
+			args: args{
+				arr: []int{2, 1},
+			},
+			// want: []int{1, 2},
+		},
+		{
+			name: "CASE-2",
+			args: args{
+				arr: []int{2, 1, 4, 3, 6, 5},
+			},
+			// want: []int{1, 2, 3, 4, 5, 6},
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			BubbleSort4(tt.args.arr)
+			t.Logf("RESULT: %v", tt.args.arr)
 		})
 	}
 }

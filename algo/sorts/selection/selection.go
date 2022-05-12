@@ -1,6 +1,8 @@
 package selection
 
-import "github.com/yvv4git/go-algorithms/algo/sorts"
+import (
+	"github.com/yvv4git/go-algorithms/algo/sorts"
+)
 
 // SelectSort - used as selection sort
 func SelectSort(ar []int) {
