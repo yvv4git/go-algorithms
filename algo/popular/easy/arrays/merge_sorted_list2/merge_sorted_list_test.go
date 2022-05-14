@@ -1,0 +1,44 @@
+package main
+
+import (
+	"reflect"
+	"testing"
+)
+
+func Test_mergeTwoSortedList(t *testing.T) {
+	type args struct {
+		num1 []int
+		num2 []int
+	}
+
+	tests := []struct {
+		name       string
+		args       args
+		wantResult []int
+	}{
+		{
+			name: "CASE-1",
+			args: args{
+				num1: []int{1, 2, 5},
+				num2: []int{1, 2, 3, 4, 6},
+			},
+			wantResult: []int{1, 1, 2, 2, 3, 4, 5, 6},
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if gotResult := mergeTwoSortedList(tt.args.num1, tt.args.num2); !reflect.DeepEqual(gotResult, tt.wantResult) {
+				t.Errorf("mergeTwoSortedList() = %v, want %v", gotResult, tt.wantResult)
+			}
+		})
+	}
+}
+
+func TestSlice(t *testing.T) {
+	result := make([]int, 5)
+	num1 := []int{1, 2, 3, 4, 5}
+
+	copy(result[4:5], num1[0:1])
+	t.Logf("%v", result)
+}
