@@ -24,6 +24,30 @@ func Test_mergeTwoSortedList(t *testing.T) {
 			},
 			wantResult: []int{1, 1, 2, 2, 3, 4, 5, 6},
 		},
+		{
+			name: "CASE-2",
+			args: args{
+				num1: []int{1, 1},
+				num2: []int{1, 2, 3, 4, 6},
+			},
+			wantResult: []int{1, 1, 1, 2, 3, 4, 6},
+		},
+		{
+			name: "CASE-3",
+			args: args{
+				num1: []int{},
+				num2: []int{1, 2, 3, 4, 6},
+			},
+			wantResult: []int{1, 2, 3, 4, 6},
+		},
+		{
+			name: "CASE-4",
+			args: args{
+				num1: []int{},
+				num2: []int{},
+			},
+			wantResult: []int{},
+		},
 	}
 
 	for _, tt := range tests {
