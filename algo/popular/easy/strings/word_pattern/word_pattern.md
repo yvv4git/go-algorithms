@@ -5,6 +5,13 @@ Given a pattern and a string s, find if s follows the same pattern.
 
 Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s.
 
+## Task description RU
+Задача выглядит мутно, если прочесть суть задачи на английском.
+Но, если посмотреть, как она работает, то становится понятно.
+Есть pattern, например, [a, b, b, a]. И есть набор слов. 
+Соответственно, набор слов должен повторяться в таком же отношении,
+тогда функция вернет true. В противном случае, false.
+
 
 ## Constraints:
 - 1 <= pattern.length <= 300
