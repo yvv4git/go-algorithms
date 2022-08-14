@@ -1,4 +1,4 @@
-package arrays_intersection
+package v3
 
 func intersection(nums1 []int, nums2 []int) []int {
 	tmp := make(map[int]int)
@@ -11,7 +11,7 @@ func intersection(nums1 []int, nums2 []int) []int {
 			}
 		}
 	}
-	
+
 	for i := range tmp {
 		temp = append(temp, i)
 	}

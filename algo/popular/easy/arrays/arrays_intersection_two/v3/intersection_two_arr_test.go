@@ -1,4 +1,4 @@
-package arrays_intersection
+package v3
 
 import (
 	"reflect"

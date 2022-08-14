@@ -15,6 +15,7 @@ func Test_intersection(t *testing.T) {
 		name string
 		args args
 		want []int
+		desc string
 	}{
 		{
 			name: "CASE-1",
@@ -23,6 +24,7 @@ func Test_intersection(t *testing.T) {
 				b: []int{},
 			},
 			want: nil,
+			desc: "Когда в исходных массивах пусто",
 		},
 		{
 			name: "CASE-2",
@@ -31,6 +33,16 @@ func Test_intersection(t *testing.T) {
 				b: []int{3, 4, 5},
 			},
 			want: []int{3},
+			desc: "Когда есть пересекающиеся элементы",
+		},
+		{
+			name: "CASE-3",
+			args: args{
+				a: []int{1, 2},
+				b: []int{3, 4, 5},
+			},
+			want: nil,
+			desc: "Когда нет пересекающихся элементов",
 		},
 	}
 

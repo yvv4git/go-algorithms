@@ -1,4 +1,4 @@
-package arraysintersectiontwo
+package v1
 
 func intersect(nums1 []int, nums2 []int) []int {
 	index := 0
