@@ -1,4 +1,4 @@
-package main
+package v2
 
 func removeElement(nums []int, val int) int {
 	count := 0

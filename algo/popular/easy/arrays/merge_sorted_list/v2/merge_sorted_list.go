@@ -1,4 +1,4 @@
-package main
+package v2
 
 // Моя собственная реализация объединения двух отсортированных массивов.
 func mergeTwoSortedList(num1, num2 []int) (result []int) {

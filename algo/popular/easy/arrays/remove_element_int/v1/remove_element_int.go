@@ -1,4 +1,4 @@
-package main
+package v1
 
 func removeElement(nums []int, val int) int {
 	if len(nums) == 0 {
