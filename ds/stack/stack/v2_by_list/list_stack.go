@@ -1,4 +1,4 @@
-package stack
+package v2_by_list
 
 import (
 	"container/list"

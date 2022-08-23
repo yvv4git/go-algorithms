@@ -1,4 +1,4 @@
-package stack
+package v1_by_slice
 
 import "errors"
 
