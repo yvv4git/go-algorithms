@@ -9,15 +9,15 @@ func twoSumSorted(nums []int, target int) bool {
 		return false
 	}
 
-	lenght := len(nums)
+	length := len(nums)
 	min := 0
-	max := lenght - 1
+	max := length - 1
 	for {
 		sum := nums[min] + nums[max]
 
 		if sum == target {
 			return true
-		} else if min+1 == lenght {
+		} else if min+1 == length {
 			return false
 		} else if max-1 == -1 {
 			return false
