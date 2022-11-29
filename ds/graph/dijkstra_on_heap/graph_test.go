@@ -1,10 +1,8 @@
-package dijkstra_test
+package dijkstra
 
 import (
 	"github.com/stretchr/testify/assert"
 	"testing"
-
-	"git.cryptology.com/quotes-provider/quotes-provider/internal/utils/dijkstra"
 )
 
 func TestGraph_CalcMinPath(t *testing.T) {
@@ -90,7 +88,7 @@ func TestGraph_CalcMinPath(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			graph := dijkstra.NewGraph()
+			graph := NewGraph()
 			for _, e := range tt.args.edges {
 				graph.AddEdge(e.origin, e.destiny, e.weight)
 			}
