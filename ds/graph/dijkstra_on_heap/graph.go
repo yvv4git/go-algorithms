@@ -1,12 +1,9 @@
-/**
-
- */
-package main
+package dijkstra
 
 // Edge - an implementation of edge.
 type Edge struct {
 	node   string
-	weight int
+	weight float64
 }
 
 // Graph - an implementation of a graph.
@@ -20,9 +17,15 @@ func NewGraph() *Graph {
 }
 
 // AddEdge - used for add edge.
-func (g *Graph) AddEdge(origin, destiny string, weight int) {
-	g.nodes[origin] = append(g.nodes[origin], Edge{node: destiny, weight: weight})
-	g.nodes[destiny] = append(g.nodes[destiny], Edge{node: origin, weight: weight})
+func (g *Graph) AddEdge(origin, destiny string, weight float64) {
+	g.nodes[origin] = append(
+		g.nodes[origin],
+		Edge{node: destiny, weight: weight},
+	)
+	g.nodes[destiny] = append(
+		g.nodes[destiny],
+		Edge{node: origin, weight: weight},
+	)
 }
 
 // GetEdges - used for getting edges of node.
@@ -30,14 +33,18 @@ func (g *Graph) GetEdges(node string) []Edge {
 	return g.nodes[node]
 }
 
-// GetPath - used for calculate path.
-func (g *Graph) GetPath(origin, destiny string) (int, []string) {
+// CalcMinPath - used for calculate min path.
+func (g *Graph) CalcMinPath(origin, destiny string) (float64, []string) {
 	h := NewHeap()
-	h.Push(Path{value: 0, nodes: []string{origin}})
+	h.Push(
+		Path{
+			weight: 0,
+			nodes:  []string{origin},
+		},
+	)
 	visited := make(map[string]bool)
 
-	for len(*h.values) > 0 {
-		// Find the nearest yet to visit node
+	for len(h.MinPath.Route) > 0 {
 		p := h.Pop()
 		node := p.nodes[len(p.nodes)-1]
 
@@ -46,13 +53,17 @@ func (g *Graph) GetPath(origin, destiny string) (int, []string) {
 		}
 
 		if node == destiny {
-			return p.value, p.nodes
+			return p.weight, p.nodes
 		}
 
 		for _, e := range g.GetEdges(node) {
 			if !visited[e.node] {
-				// We calculate the total spent so far plus the cost and the Path of getting here
-				h.Push(Path{value: p.value + e.weight, nodes: append([]string{}, append(p.nodes, e.node)...)})
+				h.Push(
+					Path{
+						weight: p.weight + e.weight,
+						nodes:  append([]string{}, append(p.nodes, e.node)...),
+					},
+				)
 			}
 		}
 

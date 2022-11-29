@@ -1,9 +1,22 @@
-package main
+package dijkstra
 
-import "testing"
+import (
+	"github.com/stretchr/testify/require"
+	"testing"
+)
 
-func TestHeapEx01(t *testing.T) {
-	graph := NewGraph()
-	graph.AddEdge("BTC", "USD", 5)
-	graph.AddEdge("USD", "ETH", 6)
+func TestHeap_Push(t *testing.T) {
+	h := NewHeap()
+
+	originalPath := Path{
+		weight: 3.1,
+		nodes: []string{
+			"BTC",
+		},
+	}
+
+	h.Push(originalPath)
+	resultPath := h.Pop()
+
+	require.Equalf(t, originalPath, resultPath, "the values must be the same")
 }
