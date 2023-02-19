@@ -44,8 +44,8 @@ func Test_majorityElement(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := majorityElement(tt.args.nums); got != tt.want {
-				t.Errorf("majorityElement() = %v, want %v", got, tt.want)
+			if got := majorityElementBoyerMooreVotingV1(tt.args.nums); got != tt.want {
+				t.Errorf("majorityElementBoyerMooreVotingV1() = %v, want %v", got, tt.want)
 			}
 		})
 	}
@@ -93,8 +93,8 @@ func Test_majorityElementV2(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := majorityElementV2(tt.args.nums); got != tt.want {
-				t.Errorf("majorityElement() = %v, want %v", got, tt.want)
+			if got := majorityElementBoyerMooreVotingV2(tt.args.nums); got != tt.want {
+				t.Errorf("majorityElementBoyerMooreVotingV2() = %v, want %v", got, tt.want)
 			}
 		})
 	}

@@ -1,6 +1,6 @@
 package main
 
-func majorityElement(nums []int) int {
+func majorityElementBoyerMooreVotingV1(nums []int) int {
 	cnt := 0
 	result := 0
 
@@ -18,7 +18,7 @@ func majorityElement(nums []int) int {
 	return result
 }
 
-func majorityElementV2(nums []int) int {
+func majorityElementBoyerMooreVotingV2(nums []int) int {
 	count := 0
 
 	var candidate int
