@@ -1,7 +1,7 @@
-package v2
+package main
 
 // Моя собственная реализация объединения двух отсортированных массивов.
-func mergeTwoSortedList(num1, num2 []int) (result []int) {
+func mergeV1(num1, num2 []int) (result []int) {
 	len1, len2 := len(num1), len(num2)
 	i := 0
 	j := 0

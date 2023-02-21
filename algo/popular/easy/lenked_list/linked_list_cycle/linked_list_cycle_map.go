@@ -1,6 +1,6 @@
 package main
 
-func hasCycle(head *ListNode) bool {
+func hasCycleWithMap(head *ListNode) bool {
 	visited := make(map[*ListNode]bool)
 	for head != nil {
 		if visited[head] {
@@ -9,7 +9,7 @@ func hasCycle(head *ListNode) bool {
 		visited[head] = true
 		head = head.Next
 	}
-	
+
 	return false
 }
 

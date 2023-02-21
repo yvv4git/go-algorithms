@@ -1,11 +1,11 @@
-package v2
+package main
 
 import (
 	"reflect"
 	"testing"
 )
 
-func Test_mergeTwoSortedList(t *testing.T) {
+func Test_mergeV2(t *testing.T) {
 	type args struct {
 		num1 []int
 		num2 []int
@@ -52,17 +52,9 @@ func Test_mergeTwoSortedList(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if gotResult := mergeTwoSortedList(tt.args.num1, tt.args.num2); !reflect.DeepEqual(gotResult, tt.wantResult) {
-				t.Errorf("mergeTwoSortedList() = %v, want %v", gotResult, tt.wantResult)
+			if gotResult := mergeV2(tt.args.num1, tt.args.num2); !reflect.DeepEqual(gotResult, tt.wantResult) {
+				t.Errorf("mergeV2() = %v, want %v", gotResult, tt.wantResult)
 			}
 		})
 	}
-}
-
-func TestSlice(t *testing.T) {
-	result := make([]int, 5)
-	num1 := []int{1, 2, 3, 4, 5}
-
-	copy(result[4:5], num1[0:1])
-	t.Logf("%v", result)
 }

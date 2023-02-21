@@ -1,6 +1,6 @@
-package main
+package with_numbers
 
-func merge(nums1 []int, m int, nums2 []int, n int) {
+func mergeV3(nums1 []int, m int, nums2 []int, n int) {
 	i := m + n - 1
 	j, k := m-1, n-1
 

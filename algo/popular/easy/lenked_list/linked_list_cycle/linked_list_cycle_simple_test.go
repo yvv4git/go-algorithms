@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func Test_hasCycle(t *testing.T) {
+func Test_hasCycleSimple(t *testing.T) {
 	type args struct {
 		head *ListNode
 	}
@@ -70,8 +70,8 @@ func Test_hasCycle(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := hasCycle(tt.args.head); got != tt.want {
-				t.Errorf("hasCycle() = %v, want %v", got, tt.want)
+			if got := hasCycleSimple(tt.args.head); got != tt.want {
+				t.Errorf("hasCycleSimple() = %v, want %v", got, tt.want)
 			}
 		})
 	}

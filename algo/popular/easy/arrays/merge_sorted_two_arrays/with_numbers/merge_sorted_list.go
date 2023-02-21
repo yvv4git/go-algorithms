@@ -1,6 +1,6 @@
-package v1
+package with_numbers
 
-func merge(nums1 []int, m int, nums2 []int, n int) {
+func mergeV1(nums1 []int, m int, nums2 []int, n int) {
 	i, j, k := m-1, n-1, m+n-1
 	for j >= 0 && k >= 0 {
 		if i >= 0 && nums1[i] > nums2[j] {
