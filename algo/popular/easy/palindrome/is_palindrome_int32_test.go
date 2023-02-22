@@ -70,42 +70,25 @@ func Test_checkInt32(t *testing.T) {
 	}
 }
 
-func Test_isPalindromeNumber(t *testing.T) {
-	type args struct {
-		n int64
+func isPalindromeInt32(x int32) bool {
+	var reverse, remainder, tmp int32
+	reverse = 0
+
+	if x < 0 {
+		return false
 	}
-	tests := []struct {
-		name string
-		args args
-		want bool
-	}{
-		{
-			name: "CASE-1",
-			args: args{
-				n: 121,
-			},
-			want: true,
-		},
-		{
-			name: "CASE-2",
-			args: args{
-				n: 123454321,
-			},
-			want: true,
-		},
-		{
-			name: "CASE-3",
-			args: args{
-				n: 1234567,
-			},
-			want: false,
-		},
+
+	tmp = x
+
+	for {
+		remainder = x % 10
+		reverse = reverse*10 + remainder
+		x /= 10
+
+		if x == 0 {
+			break
+		}
 	}
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			if got := isPalindromeNumber(tt.args.n); got != tt.want {
-				t.Errorf("isPalindromeNumber() = %v, want %v", got, tt.want)
-			}
-		})
-	}
+
+	return tmp == reverse
 }
