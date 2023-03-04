@@ -5,7 +5,7 @@ type item struct {
 	bytes []byte
 }
 
-func decodeStringV1(str string) string {
+func decodeStringStackV1(str string) string {
 	num := 0
 	st := []item{{1, []byte{}}}
 

@@ -37,8 +37,8 @@ func Test_decodeStringV1(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := decodeStringV1(tt.args.str); got != tt.want {
-				t.Errorf("decodeStringV1() = %v, want %v", got, tt.want)
+			if got := decodeStringStackV1(tt.args.str); got != tt.want {
+				t.Errorf("decodeStringStackV1() = %v, want %v", got, tt.want)
 			}
 		})
 	}
