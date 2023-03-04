@@ -1,7 +1,8 @@
-package v2_by_list
+package main
+
+import "container/list"
 
 import (
-	"container/list"
 	"errors"
 )
 

@@ -1,4 +1,4 @@
-package rune_brackets
+package v2_container_list
 
 import (
 	"github.com/stretchr/testify/assert"

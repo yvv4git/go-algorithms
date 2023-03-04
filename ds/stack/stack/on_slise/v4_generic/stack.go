@@ -20,3 +20,7 @@ func (s *Stack[T]) Pop() (T, bool) {
 
 	return top, true
 }
+
+func (s *Stack[T]) Size() int {
+	return len(s.values)
+}

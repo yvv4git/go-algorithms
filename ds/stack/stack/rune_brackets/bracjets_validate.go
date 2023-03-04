@@ -1,5 +1,7 @@
 package rune_brackets
 
+import "github.com/yvv4git/go-algorithms/ds/stack/stack/on_list/v2_container_list"
+
 /*
 Given string s.
 s contains only '[', ']', '(', ')', '{', '}'
@@ -23,7 +25,7 @@ func Validate(s string) bool {
 		//'}': '{',
 	}
 
-	stack := NewStack()
+	stack := v2_container_list.NewStack()
 
 	var lastSymbol rune
 	for _, symbol := range s {

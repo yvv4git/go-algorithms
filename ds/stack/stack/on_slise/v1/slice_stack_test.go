@@ -1,4 +1,4 @@
-package v1_by_slice
+package main
 
 import (
 	"errors"
