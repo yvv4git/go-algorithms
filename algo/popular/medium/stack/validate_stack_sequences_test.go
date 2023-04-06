@@ -3,6 +3,13 @@ package stack
 import "testing"
 
 func Test_validateStackSequences(t *testing.T) {
+	/*
+		Дано:
+		- На вход подаются 2 массива целых чисел.
+
+		Надо:
+		- Проверить, что оба массива являются результатом работы стека. Т.е. один массив это положили значения, а другой - достали из стека.
+	*/
 	type args struct {
 		pushed []int
 		popped []int

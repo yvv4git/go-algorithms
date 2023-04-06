@@ -5,6 +5,10 @@ Given a non-empty array of integers nums, every element appears twice except for
 
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
+
+## Суть задачи
+Суть задачи в том, что в массиве повторяются все числа, кроме одного. Надо найти это число, которое не повторяется.
+
 ## Constraints:
 
 - 1 <= nums.length <= 3 * 10^4
