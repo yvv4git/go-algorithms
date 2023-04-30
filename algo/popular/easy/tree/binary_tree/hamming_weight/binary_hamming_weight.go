@@ -10,7 +10,7 @@ func hammingWeight(num uint32) int {
 	return int(count)
 }
 
-/* 
+/*
 Т.е. каждый раз мы сдвигаем наше число вправо.
 num=11[00001011]  count=1
 num=5[00000101]  count=2
