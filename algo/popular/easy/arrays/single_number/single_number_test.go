@@ -54,7 +54,9 @@ func Test_singleNumber(t *testing.T) {
 	}
 }
 
-func TestXor(t *testing.T) {
+// ------------
+
+func TestXor01(t *testing.T) {
 	testCases := []struct {
 		nums []int
 	}{
@@ -74,4 +76,72 @@ func TestXor(t *testing.T) {
 			res ^= num
 		}
 	}
+}
+
+func TestXor02(t *testing.T) {
+	/*
+		Операция xor работает так:
+		- если оба операнда равны, то значение становится равно 0.
+		- если оба операнда не равны, то работает как сложение. 1 xor 2.
+	*/
+	x := 0
+	for i := 0; i < 10; i++ {
+		fmt.Printf("i=%d xor x=%d", i, x)
+		x ^= i
+		fmt.Printf(" = x=%d \n", x)
+	}
+}
+
+func TestXor03(t *testing.T) {
+	/*
+		XOR - Bitwise Operator.
+		0 ^ 0 = 0
+		0 ^ 1 = 1
+		1 ^ 0 = 1
+		1 ^ 1 = 0
+	*/
+	x := 0
+	y := 0
+	res := x ^ y
+	t.Logf("%d(%08b) xor %d(%08b) = %d(%08b)", x, x, y, y, res, res)
+
+	x = 1
+	y = 0
+	res = x ^ y
+	t.Logf("%d(%08b) xor %d(%08b) = %d(%08b)", x, x, y, y, res, res)
+
+	x = 1
+	y = 1
+	res = x ^ y
+	t.Logf("%d(%08b) xor %d(%08b) = %d(%08b)", x, x, y, y, res, res)
+
+	x = 1
+	y = 2
+	res = x ^ y // 3 - работает как сложение.
+	t.Logf("%d(%08b) xor %d(%08b) = %d(%08b)", x, x, y, y, res, res)
+
+	x = 1
+	y = 3
+	res = x ^ y // 2- работает как вычитание.
+	t.Logf("%d(%08b) xor %d(%08b) = %d(%08b)", x, x, y, y, res, res)
+
+	x = 1
+	y = 4
+	res = x ^ y // 7 - работает как сложение.
+	t.Logf("%d(%08b) xor %d(%08b) = %d(%08b)", x, x, y, y, res, res)
+
+	x = 1
+	y = 5
+	res = x ^ y // 4 - работает как вычитание.
+	t.Logf("%d(%08b) xor %d(%08b) = %d(%08b)", x, x, y, y, res, res)
+
+	x = 1
+	y = 6
+	res = x ^ y // 7 - работает как сложение.
+	t.Logf("%d(%08b) xor %d(%08b) = %d(%08b)", x, x, y, y, res, res)
+
+	x = 2
+	y = 4
+	res = x ^ y // 6 - работает как сложение.
+	t.Logf("%d(%08b) xor %d(%08b) = %d(%08b)", x, x, y, y, res, res)
 }
