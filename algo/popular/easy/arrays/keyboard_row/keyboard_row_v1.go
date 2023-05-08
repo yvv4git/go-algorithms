@@ -5,10 +5,14 @@ import (
 )
 
 func findWordsV1(words []string) []string {
-	// Сначала надо создать массив и каждому коду символа задать группу, в которою он(символ) входит.
 	/*
+		Time complexity : O(n)
+		Space complexity : O(1)
+
 		Конструкция [r-'a'] позволяет узнать порядковый номер буквы в латинском алфавите.
 	*/
+
+	// Сначала надо создать массив и каждому коду символа задать группу, в которою он(символ) входит.
 	letters := [26]int{}
 	for _, r := range "qwertyuiop" {
 		letters[r-'a'] = 1
@@ -20,7 +24,7 @@ func findWordsV1(words []string) []string {
 		letters[r-'a'] = 3
 	}
 
-	result := []string{}
+	result := []string{} // В таком случае значение slice не равно nil.
 	for _, word := range words {
 		w := strings.ToLower(word)
 		match := true
