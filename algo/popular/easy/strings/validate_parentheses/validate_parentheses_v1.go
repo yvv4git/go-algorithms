@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func isValid(s string) bool {
+func isValidV1(s string) bool {
 	/*
 		Time complexity: O(n)
 		Space complexity: O(n)
