@@ -2,6 +2,12 @@ package main
 
 // Моя собственная реализация объединения двух отсортированных массивов.
 func mergeV1(num1, num2 []int) (result []int) {
+	/*
+		Time complexity : O(n)
+		Space complexity : O(n log n + n)
+
+		Здесь вроде есть какое-то объяснение, как вычислять сложность: https://www.codingninjas.com/codestudio/library/merging-two-sorted-arrays
+	*/
 	len1, len2 := len(num1), len(num2)
 	i := 0
 	j := 0
