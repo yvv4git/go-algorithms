@@ -1,4 +1,4 @@
-package queue_on_node
+package queue_on_stack
 
 type Node struct {
 	Val  int
