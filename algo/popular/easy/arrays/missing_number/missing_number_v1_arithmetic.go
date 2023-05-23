@@ -1,6 +1,6 @@
 package missingnumber
 
-func missingNumber(nums []int) int {
+func missingNumberV1(nums []int) int {
 	/*
 		Method: Arithmetic
 		Time complexity: O(n)

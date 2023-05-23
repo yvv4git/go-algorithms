@@ -2,7 +2,7 @@ package missingnumber
 
 import "testing"
 
-func Test_missingNumber(t *testing.T) {
+func Test_missingNumberV2(t *testing.T) {
 	type args struct {
 		nums []int
 	}
@@ -49,38 +49,9 @@ func Test_missingNumber(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := missingNumber(tt.args.nums); got != tt.want {
-				t.Errorf("missingNumber() = %v, want %v", got, tt.want)
+			if got := missingNumberV2(tt.args.nums); got != tt.want {
+				t.Errorf("missingNumberV2() = %v, want %v", got, tt.want)
 			}
 		})
 	}
-}
-
-// ----------------------------------------
-func TestResearch01(t *testing.T) {
-	/*
-		Задача решается элементарно!
-		Т.е. у нас есть:
-		- числа от 0 до n
-		- числа уникальные, т.е. 0, 1, 2, 3, 4, 5..., n
-
-		Например, было [0, 1, 2, 3], затем 2 удалили и осталось [0, 1, 3]. Как вычислить 2?
-		Можно итерируясь по индексам посчитать, какая должна быть сумма чисел: ind += i+1, 0 + 1 + 2 + 3 = 6.
-		Затем посчитать текущую сумму элементов: 0 + 1 + 3 = 4.
-		Следовательно, какого числа не хватает? 6-4 = 2.
-	*/
-	a := []int{3, 0, 1}
-	t.Logf("a: %#v", a)
-
-	var sum int
-	var ind int
-
-	for i, v := range a {
-		t.Logf("i=%d v=%d", i, v)
-		sum += v
-		ind += i + 1
-	}
-
-	result := ind - sum
-	t.Logf("result: %#v", result)
 }
