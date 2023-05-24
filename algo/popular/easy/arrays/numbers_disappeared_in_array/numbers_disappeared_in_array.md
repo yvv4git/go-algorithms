@@ -6,7 +6,7 @@ Given an array nums of n integers where nums[i] is in the range [1, n], return a
 
 ## Translate task
 
-Т.е. надо найти числа, которые отсутствуют в последовательности числе массива.
+Т.е. надо найти числа, которые отсутствуют в последовательности чисел массива.
 
 ## Constraints:
 
