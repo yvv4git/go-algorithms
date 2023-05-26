@@ -1,6 +1,11 @@
 package v3
 
 func intersection(nums1 []int, nums2 []int) []int {
+	/*
+		Method: Hash
+		Time complexity: O(n)
+		Space complexity: O(n)
+	*/
 	tmp := make(map[int]int)
 	temp := []int{}
 
