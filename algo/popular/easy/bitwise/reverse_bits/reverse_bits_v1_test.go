@@ -28,8 +28,8 @@ func Test_reverseBits(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := reverseBits(tt.args.num); got != tt.want {
-				t.Errorf("reverseBits() = %v, want %v", got, tt.want)
+			if got := reverseBitsV1(tt.args.num); got != tt.want {
+				t.Errorf("reverseBitsV1() = %v, want %v", got, tt.want)
 			}
 		})
 	}
