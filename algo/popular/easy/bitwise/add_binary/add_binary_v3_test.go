@@ -1,12 +1,11 @@
 package main
 
 import (
-	"testing"
-
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
-func Test_addBinary(t *testing.T) {
+func Test_addBinaryV3(t *testing.T) {
 	type args struct {
 		a string
 		b string
@@ -49,16 +48,19 @@ func Test_addBinary(t *testing.T) {
 			},
 			want: "110111101100010011000101110110100000011101000101011001000011011000001100011110011010010011000000000",
 		},
+		{
+			name: "CASE-5",
+			args: args{
+				a: "1111",
+				b: "1111",
+			},
+			want: "11110",
+		},
 	}
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			result := addBinary(tt.args.a, tt.args.b)
-			// t.Log("----->", result)
-			assert.Equal(t, tt.want, result)
-			// if result := addBinary(tt.args.a, tt.args.b); result != tt.want {
-			// 	t.Errorf("addBinary() = %v, want %v", result, tt.want)
-			// }
+			assert.Equalf(t, tt.want, addBinaryV3(tt.args.a, tt.args.b), "addBinaryV3(%v, %v)", tt.args.a, tt.args.b)
 		})
 	}
 }

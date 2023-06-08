@@ -1,6 +1,6 @@
 package main
 
-func addBinary(a string, b string) string {
+func addBinaryV1(a string, b string) string {
 	lenA := len(a)
 	lenB := len(b)
 
@@ -12,7 +12,7 @@ func addBinary(a string, b string) string {
 	idx := maxLen - 1
 	i := lenA - 1
 	j := lenB - 1
-	var tmp bool
+	var status bool
 	var result []rune
 	for idx >= 0 {
 		var bitA, bitB bool
@@ -25,14 +25,14 @@ func addBinary(a string, b string) string {
 
 		switch {
 		case bitA && bitB:
-			tmp = true
+			status = true
 			result = append(result, '0')
-		case (bitA || bitB) && tmp:
+		case (bitA || bitB) && status:
 			result = append(result, '0')
-		case (bitA || bitB) && !tmp:
+		case (bitA || bitB) && !status:
 			result = append(result, '1')
-		case (!bitA && !bitB) && tmp:
-			tmp = false
+		case (!bitA && !bitB) && status:
+			status = false
 			result = append(result, '1')
 		default:
 			result = append(result, '0')
@@ -42,7 +42,7 @@ func addBinary(a string, b string) string {
 		j--
 	}
 
-	if tmp {
+	if status {
 		result = append(result, '1')
 	}
 
