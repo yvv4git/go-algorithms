@@ -1,4 +1,4 @@
-package decode_xored_array_v1
+package decode_xored_array
 
 import (
 	"fmt"
