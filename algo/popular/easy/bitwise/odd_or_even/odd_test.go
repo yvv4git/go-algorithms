@@ -1,13 +1,18 @@
 package odd_or_even
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func isOdd(n int) bool {
 	/*
 		Функция позволяет определить - не четное ли число.
+
+		Понятия:
+		- odd - нечетный
+		- even - четный
 	*/
 	if n&1 != 0 {
 		return true
