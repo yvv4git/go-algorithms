@@ -13,8 +13,8 @@ func topKFrequent(nums []int, k int) []int {
 		Ввод: nums = [1], k = 1
 		Вывод: [1]
 
-		Times complexity: ???
-		Space complexity: ???
+		Times complexity: O(n)
+		Space complexity: O(n)
 	*/
 	dict := make(map[int]int)
 
