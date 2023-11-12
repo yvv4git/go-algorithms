@@ -1,4 +1,4 @@
-package happy_number
+package _02_happy_number
 
 func isHappyV3(n int) bool {
 	/*
