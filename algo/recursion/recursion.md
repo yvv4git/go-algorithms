@@ -15,9 +15,9 @@ func rec(n int) {
 	println(n)
 
 	if n < 1 {
-		return // base case - база рекурсии
+		return // base case - база рекурсии, крайний случай. После него начинается обратный ход.
 	}
 
-	rec(n - 1) // recursion case - рекурсивный случай
+	rec(n - 1) // recursion case - рекурсивный случай. Прямой ход.
 }
 ```
