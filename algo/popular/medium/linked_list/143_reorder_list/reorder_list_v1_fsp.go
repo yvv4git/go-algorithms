@@ -3,7 +3,7 @@ package main
 // Функция для перестановки узлов в списке так, чтобы он стал палиндромом
 func reorderListV1(head *ListNode) {
 	/*
-		Method: Two Pointer Technique (Двухпутевой указатель)
+		Method: Fast & slow pointers (Двухпутевой указатель)
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/
