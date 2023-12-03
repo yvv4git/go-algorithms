@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func Test_mergeTwoLists(t *testing.T) {
+func Test_mergeTwoListsV2(t *testing.T) {
 	type args struct {
 		l1 *ListNode
 		l2 *ListNode
@@ -51,20 +51,8 @@ func Test_mergeTwoLists(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			result := mergeTwoLists(tt.args.l1, tt.args.l2)
-
-			resultList := []int{}
-			noda := result
-			for {
-				resultList = append(resultList, noda.Val)
-				if noda.Next == nil {
-					break
-				}
-
-				noda = noda.Next
-			}
-			if !reflect.DeepEqual(resultList, tt.want) {
-				t.Errorf("mergeTwoLists() = %v, want %v", resultList, tt.want)
+			if got := mergeTwoListsV2(tt.args.l1, tt.args.l2); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("mergeTwoListsV2() = %v, want %v", got, tt.want)
 			}
 		})
 	}
