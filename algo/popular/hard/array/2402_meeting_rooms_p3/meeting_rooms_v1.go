@@ -1,4 +1,4 @@
-package meeting_rooms_p3
+package _402_meeting_rooms_p3
 
 import (
 	"container/heap"

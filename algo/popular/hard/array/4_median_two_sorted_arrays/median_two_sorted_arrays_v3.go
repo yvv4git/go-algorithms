@@ -1,4 +1,4 @@
-package median_two_sorted_arrays
+package __median_two_sorted_arrays
 
 func findMedianSortedArraysV3(nums1 []int, nums2 []int) float64 {
 	/*

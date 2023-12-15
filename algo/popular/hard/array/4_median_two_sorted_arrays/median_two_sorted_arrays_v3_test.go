@@ -1,8 +1,8 @@
-package median_two_sorted_arrays
+package __median_two_sorted_arrays
 
 import "testing"
 
-func Test_findMedianSortedArraysV2(t *testing.T) {
+func Test_findMedianSortedArraysV3(t *testing.T) {
 	type args struct {
 		nums1 []int
 		nums2 []int
@@ -33,8 +33,8 @@ func Test_findMedianSortedArraysV2(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := findMedianSortedArraysV2(tt.args.nums1, tt.args.nums2); got != tt.want {
-				t.Errorf("findMedianSortedArraysV2() = %v, want %v", got, tt.want)
+			if got := findMedianSortedArraysV3(tt.args.nums1, tt.args.nums2); got != tt.want {
+				t.Errorf("findMedianSortedArraysV3() = %v, want %v", got, tt.want)
 			}
 		})
 	}
