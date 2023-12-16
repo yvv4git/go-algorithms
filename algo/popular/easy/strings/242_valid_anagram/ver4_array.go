@@ -1,4 +1,4 @@
-package valid_anagram
+package _42_valid_anagram
 
 func isAnagramV4(s string, t string) bool {
 	/*

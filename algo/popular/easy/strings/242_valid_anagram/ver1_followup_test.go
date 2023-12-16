@@ -1,8 +1,8 @@
-package valid_anagram
+package _42_valid_anagram
 
 import "testing"
 
-func Test_isAnagramV3(t *testing.T) {
+func Test_isAnagramV1(t *testing.T) {
 	type args struct {
 		s string
 		t string
@@ -33,8 +33,8 @@ func Test_isAnagramV3(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := isAnagramV3(tt.args.s, tt.args.t); got != tt.want {
-				t.Errorf("isAnagramV3() = %v, want %v", got, tt.want)
+			if got := isAnagramV1(tt.args.s, tt.args.t); got != tt.want {
+				t.Errorf("isAnagramV1() = %v, want %v", got, tt.want)
 			}
 		})
 	}

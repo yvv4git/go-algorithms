@@ -1,6 +1,6 @@
-package valid_anagram
+package _42_valid_anagram
 
-func isAnagramV1(s string, t string) bool {
+func isAnagramV2(s string, t string) bool {
 	/*
 		Method: Followup
 		Time complexity : O(n)
@@ -13,14 +13,11 @@ func isAnagramV1(s string, t string) bool {
 	}
 
 	for _, v := range t {
+		if number, exists := chars[v]; !exists || number == 0 {
+			return false
+		}
 		chars[v]--
 	}
 
-	for _, v := range chars {
-		if v != 0 {
-			return false
-		}
-	}
-
-	return true
+	return len(s) == len(t)
 }
