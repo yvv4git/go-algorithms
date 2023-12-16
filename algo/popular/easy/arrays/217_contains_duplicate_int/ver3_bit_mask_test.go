@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func Test_containsDuplicate(t *testing.T) {
+func Test_containsDuplicateV3(t *testing.T) {
 	type args struct {
 		nums []int
 	}
@@ -44,8 +44,8 @@ func Test_containsDuplicate(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := containsDuplicate(tt.args.nums); got != tt.want {
-				t.Errorf("containsDuplicate() = %v, want %v", got, tt.want)
+			if got := containsDuplicateV3(tt.args.nums); got != tt.want {
+				t.Errorf("containsDuplicateV3() = %v, want %v", got, tt.want)
 			}
 		})
 	}
