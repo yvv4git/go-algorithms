@@ -1,4 +1,4 @@
-package queue_using_stack
+package _32_implement_queue_using_stacks
 
 import "testing"
 

@@ -19,6 +19,12 @@ Notes:
 - Depending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.
 
 
+## Объяснение
+Задача "232. Implement Queue using Stacks" заключается в том, чтобы реализовать очередь (queue) с помощью двух стеков (stacks). 
+Стек - это структура данных, которая работает по принципу LIFO (Last In - First Out), то есть последний вошедший - первый вышедший. 
+Очередь - это структура данных, которая работает по принципу FIFO (First In - First Out), то есть первый вошедший - первый вышедший.
+
+
 ## Constraints:
 - 1 <= x <= 9
 - At most 100 calls will be made to push, pop, peek, and empty.
