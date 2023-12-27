@@ -1,21 +1,23 @@
 package _05_design_hashset
 
+const limit = 1_000_001
+
 type MyHashSetV3 struct {
-	Values [1_000_001]bool
+	payload [limit]bool
 }
 
 func ConstructorV3() MyHashSetV3 {
-	return MyHashSetV3{Values: [1_000_001]bool{}}
+	return MyHashSetV3{payload: [limit]bool{}}
 }
 
 func (h *MyHashSetV3) Add(key int) {
-	h.Values[key] = true
+	h.payload[key] = true
 }
 
 func (h *MyHashSetV3) Remove(key int) {
-	h.Values[key] = false
+	h.payload[key] = false
 }
 
 func (h *MyHashSetV3) Contains(key int) bool {
-	return h.Values[key]
+	return h.payload[key]
 }
