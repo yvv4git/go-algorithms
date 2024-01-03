@@ -1,6 +1,6 @@
 package linear
 
-import "github.com/yvv4git/go-algorithms/algo/sorts"
+import "github.com/yvv4git/go-algorithms/algo/math/sorts"
 
 // LinearSortBigOrder - used for sort list of elements with start big order
 func LinearSortBigOrder(list []int) {

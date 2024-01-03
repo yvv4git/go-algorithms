@@ -1,8 +1,9 @@
 package blockchain
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_powSHA256(t *testing.T) {

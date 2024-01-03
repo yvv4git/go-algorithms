@@ -1,7 +1,7 @@
 package selection
 
 import (
-	"github.com/yvv4git/go-algorithms/algo/sorts"
+	"github.com/yvv4git/go-algorithms/algo/math/sorts"
 )
 
 // SelectSort - used as selection sort

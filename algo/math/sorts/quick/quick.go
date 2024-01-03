@@ -1,7 +1,7 @@
 package quick
 
 import (
-	"github.com/yvv4git/go-algorithms/algo/sorts"
+	"github.com/yvv4git/go-algorithms/algo/math/sorts"
 )
 
 func QuickSort(ar []int) {

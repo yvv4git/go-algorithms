@@ -1,7 +1,7 @@
 package bubble
 
 import (
-	"github.com/yvv4git/go-algorithms/algo/sorts"
+	"github.com/yvv4git/go-algorithms/algo/math/sorts"
 )
 
 // Sort1 - used as bubble sort. Здесь самый простой пример реализации. Прям очевидный
