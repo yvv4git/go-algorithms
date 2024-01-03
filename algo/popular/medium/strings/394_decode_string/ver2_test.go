@@ -1,8 +1,8 @@
-package decode_string
+package _94_decode_string
 
 import "testing"
 
-func Test_decodeStringV1(t *testing.T) {
+func Test_decodeStringV2(t *testing.T) {
 	type args struct {
 		str string
 	}
@@ -37,8 +37,8 @@ func Test_decodeStringV1(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := decodeStringStackV1(tt.args.str); got != tt.want {
-				t.Errorf("decodeStringStackV1() = %v, want %v", got, tt.want)
+			if got := decodeStringV2(tt.args.str); got != tt.want {
+				t.Errorf("decodeStringV2() = %v, want %v", got, tt.want)
 			}
 		})
 	}

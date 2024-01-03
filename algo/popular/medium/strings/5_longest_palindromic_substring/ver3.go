@@ -1,4 +1,4 @@
-package longest_palindromic_substring
+package __longest_palindromic_substring
 
 func longestPalindromeV3(s string) string {
 	/*

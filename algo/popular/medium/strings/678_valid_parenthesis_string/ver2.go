@@ -1,4 +1,4 @@
-package valid_parenthesis_string
+package _78_valid_parenthesis_string
 
 func checkValidStringV2(s string) bool {
 	/*

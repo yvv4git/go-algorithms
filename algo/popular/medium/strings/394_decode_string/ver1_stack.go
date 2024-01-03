@@ -1,4 +1,4 @@
-package decode_string
+package _94_decode_string
 
 type item struct {
 	n     int

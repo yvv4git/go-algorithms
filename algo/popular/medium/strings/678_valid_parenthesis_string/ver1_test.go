@@ -1,8 +1,8 @@
-package valid_parenthesis_string
+package _78_valid_parenthesis_string
 
 import "testing"
 
-func Test_checkValidStringV2(t *testing.T) {
+func Test_checkValidStringV1(t *testing.T) {
 	type args struct {
 		s string
 	}
@@ -37,8 +37,8 @@ func Test_checkValidStringV2(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := checkValidStringV2(tt.args.s); got != tt.want {
-				t.Errorf("checkValidStringV2() = %v, want %v", got, tt.want)
+			if got := checkValidStringV1(tt.args.s); got != tt.want {
+				t.Errorf("checkValidStringV1() = %v, want %v", got, tt.want)
 			}
 		})
 	}
