@@ -1,8 +1,8 @@
-package kth_factor_of_n
+package _492_the_kth_factor_of_n
 
 import "testing"
 
-func Test_kthFactorV2(t *testing.T) {
+func Test_kthFactorV1(t *testing.T) {
 	type args struct {
 		n int
 		k int
@@ -45,8 +45,8 @@ func Test_kthFactorV2(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := kthFactorV2(tt.args.n, tt.args.k); got != tt.want {
-				t.Errorf("kthFactorV2() = %v, want %v", got, tt.want)
+			if got := kthFactorV1(tt.args.n, tt.args.k); got != tt.want {
+				t.Errorf("kthFactorV1() = %v, want %v", got, tt.want)
 			}
 		})
 	}
