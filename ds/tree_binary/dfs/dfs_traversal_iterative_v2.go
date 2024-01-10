@@ -1,4 +1,4 @@
-package tree_binary
+package dfs
 
 func dfsTraversalIterativeV2(root *Node) []int {
 	/*

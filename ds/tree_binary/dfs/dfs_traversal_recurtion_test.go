@@ -1,4 +1,4 @@
-package tree_binary
+package dfs
 
 import (
 	"testing"

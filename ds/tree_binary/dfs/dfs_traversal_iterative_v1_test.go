@@ -1,10 +1,10 @@
-package tree_binary
+package dfs
 
 import (
 	"testing"
 )
 
-func Test_inorderTraversal(t *testing.T) {
+func Test_dfsIterative(t *testing.T) {
 	type args struct {
 		root *Node
 	}
@@ -44,7 +44,7 @@ func Test_inorderTraversal(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			result := dfsTraversalIterativeV2(tt.args.root)
+			result := dfsTraversalIterativeV1(tt.args.root)
 			t.Logf("result=%#v", result)
 		})
 	}
