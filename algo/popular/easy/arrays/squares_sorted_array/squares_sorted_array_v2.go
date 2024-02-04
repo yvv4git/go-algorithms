@@ -3,7 +3,7 @@ package squares_sorted_array
 func sortedSquaresV2(nums []int) []int {
 	/*
 		METHOD: Two pointers.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: ???
 	*/
 	// STEP 1

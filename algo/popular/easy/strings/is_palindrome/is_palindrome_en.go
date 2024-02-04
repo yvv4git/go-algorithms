@@ -2,7 +2,7 @@ package is_palindrome
 
 func isPalindromeEn(input string) (out bool) {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	l := 0

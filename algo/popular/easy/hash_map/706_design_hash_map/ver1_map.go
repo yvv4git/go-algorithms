@@ -13,7 +13,7 @@ func Constructor() MyHashMap {
 }
 
 // Put - used for add element.
-// Time complexity: O(1)
+// TIME COMPLEXITY: O(1)
 func (m *MyHashMap) Put(key int, value int) {
 	m.mutex.Lock()
 	defer m.mutex.Unlock()
@@ -22,7 +22,7 @@ func (m *MyHashMap) Put(key int, value int) {
 }
 
 // Get - used for getting element.
-// Time complexity: O(1)
+// TIME COMPLEXITY: O(1)
 func (m *MyHashMap) Get(key int) int {
 	m.mutex.RLock()
 	defer m.mutex.RUnlock()
@@ -34,7 +34,7 @@ func (m *MyHashMap) Get(key int) int {
 }
 
 // Remove - used for remove element.
-// Time complexity: O(1)
+// TIME COMPLEXITY: O(1)
 func (m *MyHashMap) Remove(key int) {
 	m.mutex.Lock()
 	defer m.mutex.Unlock()

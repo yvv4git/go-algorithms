@@ -4,7 +4,7 @@ package main
 func reverseListV3(head *ListNode) *ListNode {
 	/*
 		METHOD: Stack
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity.

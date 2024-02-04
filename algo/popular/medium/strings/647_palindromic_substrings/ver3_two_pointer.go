@@ -3,7 +3,7 @@ package _47_palindromic_substrings
 func countSubstringsV3(s string) int {
 	/*
 		METHOD: Two pointer
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(1)
 
 		Time complexity

@@ -4,7 +4,7 @@ package _436_destination_city
 func destCityV1(paths [][]string) string {
 	/*
 		METHOD: Adjacency List(список смежности) on hash table
-		Time complexity: O(n) - где n есть количество путей
+		TIME COMPLEXITY: O(n) - где n есть количество путей
 		Space complexity: O(n) - храним все пути в хеш-таблице
 	*/
 	// Создаем хеш-таблицу для подсчета вхождений каждого города

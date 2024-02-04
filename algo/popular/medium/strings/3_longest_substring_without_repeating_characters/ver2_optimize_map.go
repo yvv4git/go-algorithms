@@ -4,7 +4,7 @@ package __longest_substring_without_repeating_characters
 func lengthOfLongestSubstringV2(s string) int {
 	/*
 		METHOD: Optimize map
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity:  O(min(n, m)), где m - размер алфавита, а n - количество символов в окне.
 	*/
 	// Инициализируем map для хранения последнего встречаемого символа

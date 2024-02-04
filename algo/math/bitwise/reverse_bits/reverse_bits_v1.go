@@ -2,7 +2,7 @@ package reverse_bits
 
 func reverseBitsV1(n int) int {
 	/*
-		Time complexity: O(num), where num is the number of bits in binary representation of n
+		TIME COMPLEXITY: O(num), where num is the number of bits in binary representation of n
 		Space complexity: O(1)
 	*/
 	result := 0

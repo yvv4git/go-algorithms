@@ -3,7 +3,7 @@ package main
 func recoverTreeV2(root *TreeNode) {
 	/*
 		METHOD: DFS
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Метод решения задачи:

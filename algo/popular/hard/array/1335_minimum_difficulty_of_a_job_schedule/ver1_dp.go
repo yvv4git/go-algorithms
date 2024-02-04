@@ -3,7 +3,7 @@ package _335_minimum_difficulty_of_a_job_schedule
 func minDifficultyV1(jobDifficulty []int, d int) int {
 	/*
 		METHOD: Dynamic programming
-		Time complexity: O(n^2 * d), где n - количество задач, d - количество дней.
+		TIME COMPLEXITY: O(n^2 * d), где n - количество задач, d - количество дней.
 		Space complexity: O(n * d), так как мы используем дополнительный массив dp для хранения результатов
 	*/
 

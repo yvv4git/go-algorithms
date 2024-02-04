@@ -6,7 +6,7 @@ import "math"
 func minDiffInBSTV2(root *TreeNode) int {
 	/*
 		METHOD: BFS
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(n)
 
 		Time complexity

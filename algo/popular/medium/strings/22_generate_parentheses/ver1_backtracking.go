@@ -6,7 +6,7 @@ import "fmt"
 func generateParenthesis(n int) []string {
 	/*
 		METHOD: Backtracking & Recursion
-		Time complexity: O(4^n / sqrt(n))
+		TIME COMPLEXITY: O(4^n / sqrt(n))
 		Space complexity: O(4^n / sqrt(n))
 
 		Time complexity

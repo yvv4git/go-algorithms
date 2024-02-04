@@ -5,13 +5,13 @@ import "sort"
 func divideArrayV1(nums []int) bool {
 	/*
 		METHOD: Use lib sort.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 	*/
-	sort.Ints(nums) // Time complexity: O(n log(n))
+	sort.Ints(nums) // TIME COMPLEXITY: O(n log(n))
 	res := true
 
-	// Time complexity: O(n)
+	// TIME COMPLEXITY: O(n)
 	for i := 0; i < len(nums); i += 2 {
 		if nums[i] != nums[i+1] {
 			return false

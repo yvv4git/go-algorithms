@@ -24,7 +24,7 @@ func Constructor(k int, nums []int) KthLargest {
 // Add - добавляет новый элемент в кучу
 func (this *KthLargest) Add(val int) int {
 	/*
-		Time complexity: O(log k), так как вставка элемента в кучу занимает O(log k) времени.
+		TIME COMPLEXITY: O(log k), так как вставка элемента в кучу занимает O(log k) времени.
 		Space complexity: O(k), так как в худшем случае мы храним k элементов в куче.
 
 		Метод Add добавляет новый элемент в кучу, а затем, если размер кучи превышает k, удаляет наименьший элемент из кучи.

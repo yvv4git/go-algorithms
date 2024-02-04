@@ -4,10 +4,10 @@ package _807_insert_greatest_common_divisors_in_linked_list
 func insertGreatestCommonDivisorsV1(head *ListNode) *ListNode {
 	/*
 		METHOD:
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
-		Time complexity:
+		TIME COMPLEXITY:
 		Временная сложность этого алгоритма составляет O(n), где n - количество узлов в связанном списке.
 		Это связано с тем, что мы проходим по каждому узлу списка ровно один раз.
 

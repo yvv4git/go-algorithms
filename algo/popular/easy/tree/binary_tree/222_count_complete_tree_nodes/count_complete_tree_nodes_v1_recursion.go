@@ -15,7 +15,7 @@ func count(root *TreeNode, nodeGetter NodeGetter) int {
 func countNodesV1(root *TreeNode) int {
 	/*
 		METHOD: Recursion
-		Time complexity: O(log N * logN)
+		TIME COMPLEXITY: O(log N * logN)
 		Space complexity: O(log N)
 	*/
 	if root == nil {

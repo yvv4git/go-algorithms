@@ -3,7 +3,7 @@ package minimum_bit_flip_convert_number
 func minBitFlipsV2(start int, goal int) int {
 	/*
 		METHOD: Kernighan algorithm
-		Time complexity: O(log(n))
+		TIME COMPLEXITY: O(log(n))
 		Space complexity: O(1)
 	*/
 	result := 0

@@ -2,7 +2,7 @@ package longest_consecutive_sequence
 
 func longestConsecutiveV1(nums []int) int {
 	/*
-		Time complexity: O(n). It consists of building a set in O(n) time + iteration in O(n).
+		TIME COMPLEXITY: O(n). It consists of building a set in O(n) time + iteration in O(n).
 		Space complexity: at worst nnn elements will be stored in the set, so O(n).
 	*/
 

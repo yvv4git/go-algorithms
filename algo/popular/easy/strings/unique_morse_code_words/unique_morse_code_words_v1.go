@@ -4,7 +4,7 @@ import "fmt"
 
 func uniqueMorseRepresentationsV1(words []string) int {
 	/*
-		Time complexity:100%
+		TIME COMPLEXITY:100%
 		Space complexity:28%
 	*/
 	morseMap := map[byte]string{

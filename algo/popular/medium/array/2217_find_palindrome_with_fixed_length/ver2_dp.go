@@ -3,7 +3,7 @@ package _217_find_palindrome_with_fixed_length
 func kthPalindromeV2(queries []int, intLength int) []int64 {
 	/*
 		METHOD: DP + math
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Time complexity
@@ -39,7 +39,7 @@ func kthPalindromeV2(queries []int, intLength int) []int64 {
 
 func mirror(v int, doubleLast bool) int64 {
 	/*
-		Time complexity: O(log(v)
+		TIME COMPLEXITY: O(log(v)
 		Space complexity: O(1)
 
 		Time complexity

@@ -3,7 +3,7 @@ package squares_sorted_array
 func sortedSquaresV3(nums []int) []int {
 	/*
 		METHOD: Clean code
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		В задаче есть закономерность - слева будет самое большое отрицательное число, а справа самое большое положительное.

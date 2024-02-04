@@ -4,7 +4,7 @@ package main
 func removeNthFromEndV4(head *ListNode, n int) *ListNode {
 	/*
 		METHOD: Two pointer and dummy
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity:	O(1)
 
 		Time Complexity: O(n)

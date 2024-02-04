@@ -3,7 +3,7 @@ package count_number_of_consistent_strings
 func countConsistentStringsV2(allowed string, words []string) int {
 	/*
 		METHOD: Bitwise
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	result := 0

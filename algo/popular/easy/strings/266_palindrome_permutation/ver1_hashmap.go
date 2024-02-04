@@ -3,7 +3,7 @@ package _66_palindrome_permutation
 func canPermutePalindromeV1(s string) bool {
 	/*
 		METHOD: HashMap, Dict
-		Time complexity: O(n), где n - длина строки, поскольку мы проходим по всем символам строки.
+		TIME COMPLEXITY: O(n), где n - длина строки, поскольку мы проходим по всем символам строки.
 		Space complexity: O(n), поскольку в худшем случае мы можем хранить все символы строки в словаре
 	*/
 	// Создаем словарь для подсчета количества вхождений каждого символа

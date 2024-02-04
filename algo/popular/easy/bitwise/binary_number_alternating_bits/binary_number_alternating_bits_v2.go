@@ -3,7 +3,7 @@ package binary_number_alternating_bits
 func hasAlternatingBitsV2(n int) bool {
 	/*
 		METHOD: Bitwise
-		Time complexity: ???
+		TIME COMPLEXITY: ???
 		Space complexity: O(1)
 	*/
 	prevBit := n & 1 // Если младший(правый) бит будет 1, то & даст 1, иначе 0.

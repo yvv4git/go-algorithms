@@ -3,7 +3,7 @@ package _04_sum_of_left_leaves
 func sumOfLeftLeavesV2(root *TreeNode) int {
 	/*
 		METHOD: BFS with queue.
-		Time complexity: O(n), O(n log n).
+		TIME COMPLEXITY: O(n), O(n log n).
 		Space complexity: O(n).
 
 		1. В лучшем случае, когда граф является деревом, временная сложность BFS будет O(n),

@@ -3,7 +3,7 @@ package _31_palindrome_partitioning
 func partitionV3(s string) [][]string {
 	/*
 		METHOD: Backtracking
-		Time complexity: O(n * 2^n)
+		TIME COMPLEXITY: O(n * 2^n)
 		Space complexity: O(n * 2^n)
 
 		Time complexity

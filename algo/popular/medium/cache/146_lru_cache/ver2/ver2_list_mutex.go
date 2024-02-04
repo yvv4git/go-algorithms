@@ -20,7 +20,7 @@ type LRUCache struct {
 }
 
 // Constructor - функция для создания нового LRUCache
-// Time complexity: O(1)
+// TIME COMPLEXITY: O(1)
 func Constructor(capacity int) LRUCache {
 	return LRUCache{
 		Capacity: capacity,
@@ -30,7 +30,7 @@ func Constructor(capacity int) LRUCache {
 }
 
 // Get - функция для получения значения по ключу
-// Time complexity: O(1)
+// TIME COMPLEXITY: O(1)
 func (c *LRUCache) Get(key int) int {
 	c.Mutex.RLock()
 	defer c.Mutex.RUnlock()
@@ -44,7 +44,7 @@ func (c *LRUCache) Get(key int) int {
 }
 
 // Put - функция для добавления пары ключ-значение
-// Time complexity: O(1)
+// TIME COMPLEXITY: O(1)
 func (c *LRUCache) Put(key int, value int) {
 	c.Mutex.Lock()
 	defer c.Mutex.Unlock()

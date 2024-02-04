@@ -8,7 +8,7 @@ import "math"
 func isValidBSTV4(root *TreeNode) bool {
 	/*
 		METHOD: DFS
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 

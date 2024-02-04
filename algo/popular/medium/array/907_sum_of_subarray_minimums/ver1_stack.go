@@ -3,7 +3,7 @@ package _07_sum_of_subarray_minimums
 func sumSubarrayMinsV1(arr []int) int {
 	/*
 		METHOD: Two pointers & stack
-		Time complexity: O(n), где n - размер входного массива, потому что мы проходим по массиву два раза.
+		TIME COMPLEXITY: O(n), где n - размер входного массива, потому что мы проходим по массиву два раза.
 		Space complexity: O(n), потому что мы создаем стек для хранения индексов элементов. Стек может содержать до n элементов в худшем случае.
 	*/
 

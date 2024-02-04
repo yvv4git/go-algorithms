@@ -3,7 +3,7 @@ package _05_isomorphic_strings
 func isIsomorphicV1(s string, t string) bool {
 	/*
 		METHOD: Loop
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1), количество символов ограничено
 	*/
 	if len(s) != len(t) {

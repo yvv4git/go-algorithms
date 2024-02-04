@@ -5,7 +5,7 @@ import "fmt"
 func longestNiceSubstringV3(s string) string {
 	/*
 		METHOD: Divide And Conquer
-		Time complexity: ???
+		TIME COMPLEXITY: ???
 		Space complexity: ???
 	*/
 	return string(helper([]byte(s)))

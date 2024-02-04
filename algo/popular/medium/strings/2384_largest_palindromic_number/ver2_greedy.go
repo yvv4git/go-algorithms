@@ -5,7 +5,7 @@ import "strconv"
 func largestPalindromeV2(num string) string {
 	/*
 		METHOD: Greedy algorithm
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	frequency := make([]int, 10)

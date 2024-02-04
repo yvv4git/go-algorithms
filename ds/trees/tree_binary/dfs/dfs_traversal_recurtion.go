@@ -9,7 +9,7 @@ type Node struct {
 func dfsTraversalRecursion(root *Node) []*Node {
 	/*
 		Алгоритм обхода(Traversal) графа в грубину(DFS - Depth-First Search) с использованием рекурсии.
-		Time complexity: O(V + E)
+		TIME COMPLEXITY: O(V + E)
 		Space complexity: O(V + E)
 		Where V is the number of vertices and E is the number of edges in the graph.
 	*/

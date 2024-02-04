@@ -4,7 +4,7 @@ package main
 func containsDuplicateV3(nums []int) bool {
 	/*
 		METHOD: Bit mask
-		Time complexity: O(n) - проходим по всем элементам массива.
+		TIME COMPLEXITY: O(n) - проходим по всем элементам массива.
 		Space complexity: O(1) - используем фиксированное количество памяти.
 		Предполагается, что числа в массиве находятся в диапазоне от 0 до 31.
 	*/

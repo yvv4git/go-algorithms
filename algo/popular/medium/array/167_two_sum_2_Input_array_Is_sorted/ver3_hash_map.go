@@ -6,7 +6,7 @@ package _67_two_sum_2_Input_array_Is_sorted
 func twoSumV3(numbers []int, target int) []int {
 	/*
 		METHOD: Hash map
-		Time complexity: O(n), где n - количество элементов в массиве.
+		TIME COMPLEXITY: O(n), где n - количество элементов в массиве.
 		Space complexity: O(n), поскольку в худшем случае мы можем хранить все элементы в HashMap.
 	*/
 

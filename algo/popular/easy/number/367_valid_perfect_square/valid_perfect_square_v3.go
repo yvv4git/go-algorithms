@@ -5,7 +5,7 @@ import "math"
 func isPerfectSquareV3(num int) bool {
 	/*
 		METHOD: Newton's method
-		Time complexity: O(log n)
+		TIME COMPLEXITY: O(log n)
 
 		Time complexity метода Ньютона для вычисления квадратного корня числа n в общем случае является O(log(n)),
 		так как в среднем каждая итерация цикла уменьшает размер проверяемого интервала вдвое.

@@ -8,7 +8,7 @@ type TreeNode struct {
 
 func pathSum(root *TreeNode, targetSum int) [][]int {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 	*/
 	res := make([][]int, 0)

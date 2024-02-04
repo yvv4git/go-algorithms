@@ -5,7 +5,7 @@ import "unicode"
 func reverseVowelsV3(s string) string {
 	/*
 		METHOD: Two pointer / Window.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	vowelsMap := map[rune]bool{

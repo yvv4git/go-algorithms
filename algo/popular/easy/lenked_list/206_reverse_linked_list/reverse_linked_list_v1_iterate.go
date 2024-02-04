@@ -3,10 +3,10 @@ package main
 func reverseListV1(head *ListNode) *ListNode {
 	/*
 		METHOD: Iterative Reversal
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
-		Time complexity:
+		TIME COMPLEXITY:
 		Временная сложность этого метода составляет O(n), где n - количество узлов в списке.
 		Это связано с тем, что мы проходим по всем узлам списка только один раз.
 

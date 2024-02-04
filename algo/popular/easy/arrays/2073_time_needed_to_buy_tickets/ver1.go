@@ -3,7 +3,7 @@ package _073_time_needed_to_buy_tickets
 func timeRequiredToBuyV1(tickets []int, k int) int {
 	/*
 		METHOD:
-		Time complexity: O(n^2), где n - количество людей в очереди
+		TIME COMPLEXITY: O(n^2), где n - количество людей в очереди
 		Space complexity: O(1), так как мы используем фиксированное количество доп. памяти, не зависящей от входных данных.
 	*/
 	time := 0 // Инициализируем время

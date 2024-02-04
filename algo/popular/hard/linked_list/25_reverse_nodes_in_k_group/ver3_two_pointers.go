@@ -7,7 +7,7 @@ package _5_reverse_nodes_in_k_group
 func reverseKGroupV3(head *ListNode, k int) *ListNode {
 	/*
 		METHOD: Two pointer
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Time complexity

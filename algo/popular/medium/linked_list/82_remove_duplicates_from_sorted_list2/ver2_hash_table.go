@@ -3,7 +3,7 @@ package _2_remove_duplicates_from_sorted_list2
 func deleteDuplicatesV2(head *ListNode) *ListNode {
 	/*
 		METHOD: Hash table, Dictionary
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 	*/
 	// Создаем фиктивный узел, который указывает на начало списка

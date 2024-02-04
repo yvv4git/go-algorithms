@@ -5,7 +5,7 @@ import "sort"
 func threeSumV2(nums []int) [][]int {
 	/*
 		METHOD: Bruteforce.
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(1)
 	*/
 	sort.Ints(nums) // O(n log n)

@@ -5,7 +5,7 @@ package _42_linked_list_cycle2
 func detectCycleV3(head *ListNode) *ListNode {
 	/*
 		METHOD: Stack
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(n)
 
 		Time complexity

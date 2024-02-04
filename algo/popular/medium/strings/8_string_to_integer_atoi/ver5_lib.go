@@ -9,7 +9,7 @@ import (
 func myAtoiV5(s string) int {
 	/*
 		METHOD: Iteration + lib
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1) - в общем случае, в худшем случае, если строка состоит только из цифр, то n записей придется копировать.
 	*/
 	result := ""

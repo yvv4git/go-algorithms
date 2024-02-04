@@ -31,7 +31,7 @@ func findMiddle(head *ListNode) *ListNode {
 func sortedListToBST(head *ListNode) *TreeNode {
 	/*
 		METHOD: Fast and slow pointers
-		Time complexity: O(n log n), так как на каждом уровне рекурсии мы делим список на пополам, а затем рекурсивно обрабатываем каждую половину
+		TIME COMPLEXITY: O(n log n), так как на каждом уровне рекурсии мы делим список на пополам, а затем рекурсивно обрабатываем каждую половину
 		Space complexity: O(log n), так как мы используем дополнительное пространство для стека вызовов рекурсии
 	*/
 	// Если список пуст, то и дерево пусто

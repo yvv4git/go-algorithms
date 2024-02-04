@@ -4,7 +4,7 @@ import "fmt"
 
 func isValidV1(s string) bool {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 	*/
 	var stack []rune

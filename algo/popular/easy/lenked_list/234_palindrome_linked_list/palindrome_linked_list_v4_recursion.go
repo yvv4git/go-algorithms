@@ -3,10 +3,10 @@ package main
 func isPalindromeV4(head *ListNode) bool {
 	/*
 		METHOD: Recursion
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
-		Time complexity:
+		TIME COMPLEXITY:
 		Временная сложность для всех этих решений будет O(n), где n - количество узлов в списке.
 		Это связано с тем, что мы проходим по всем узлам списка только один раз.
 

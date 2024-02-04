@@ -2,7 +2,7 @@ package longest_consecutive_sequence
 
 func longestConsecutiveV2(nums []int) int {
 	/*
-		Time complexity: O(n). It consists of building a memory in O(n) time + iteration in O(n).
+		TIME COMPLEXITY: O(n). It consists of building a memory in O(n) time + iteration in O(n).
 		Space complexity: at worst nnn elements will be stored in the memory, so O(n).
 	*/
 	memory := make(map[int]int)

@@ -15,7 +15,7 @@ func countChars(s string, left, right int) [26]int {
 func canMakePaliQueriesV1(s string, queries [][]int) []bool {
 	/*
 		METHOD: Prefix sums
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Time complexity

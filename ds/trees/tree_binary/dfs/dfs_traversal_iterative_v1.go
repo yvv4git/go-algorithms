@@ -3,7 +3,7 @@ package dfs
 func dfsTraversalIterativeV1(root *Node) []int {
 	/*
 		Алгоритм обхода(Traversal) графа в грубину(DFS - Depth-First Search) без использования рекурсии.
-		Time complexity: O(V + E)
+		TIME COMPLEXITY: O(V + E)
 		Space complexity: O(V + E)
 		Where V is the number of vertices and E is the number of edges in the graph.
 	*/

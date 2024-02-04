@@ -47,7 +47,7 @@ const eof = rune(0)
 func deserialize(s string) *NestedInteger {
 	/*
 		METHOD: Stack
-		Time complexity: O(n), где n - длина строки s
+		TIME COMPLEXITY: O(n), где n - длина строки s
 		Space complexity: O(n), используется дополнительная память на хранение stack
 	*/
 

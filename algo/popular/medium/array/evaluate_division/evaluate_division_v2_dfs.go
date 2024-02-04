@@ -3,7 +3,7 @@ package evaluate_division
 func calcEquationV2(equations [][]string, values []float64, queries [][]string) []float64 {
 	/*
 		METHOD: DFS (Depth-First Search)
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(n)
 	*/
 	graph := make(map[string]map[string]float64)

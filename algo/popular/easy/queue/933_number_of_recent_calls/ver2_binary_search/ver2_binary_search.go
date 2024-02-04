@@ -10,7 +10,7 @@ func Constructor() RecentCounter {
 
 func (this *RecentCounter) Ping(t int) int {
 	/*
-		Time complexity: O(log n)
+		TIME COMPLEXITY: O(log n)
 		Временная сложность этого алгоритма - O(log n) на каждый вызов метода Ping,
 		потому что для каждого вызова метода Ping мы выполняем бинарный поиск в массиве.
 

@@ -87,7 +87,7 @@ func max(x, y int) int {
 
 func maxProfitWithTransactionFeeV1(prices []int, fee int) int {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	cash := 0           // Сколько заработаем.
@@ -103,7 +103,7 @@ func maxProfitWithTransactionFeeV1(prices []int, fee int) int {
 
 func maxProfitWithTransactionFeeV2(prices []int, fee int) int {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	result, hold := 0, math.MinInt32
@@ -117,7 +117,7 @@ func maxProfitWithTransactionFeeV2(prices []int, fee int) int {
 
 func maxProfitWithTransactionFeeV3(prices []int, fee int) int {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	// Hold - сколько денег удержано.
@@ -132,7 +132,7 @@ func maxProfitWithTransactionFeeV3(prices []int, fee int) int {
 
 func maxProfitWithTransactionFeeV4(prices []int, fee int) int {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	length := len(prices)
@@ -153,7 +153,7 @@ func maxProfitWithTransactionFeeV5(prices []int, fee int) int {
 	/*
 		Задача решается динамическим программированием.
 
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 

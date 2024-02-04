@@ -3,7 +3,7 @@ package main
 func robV3(nums []int) int {
 	/*
 		METHOD: Knapsack Problem = Dynamic programming
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

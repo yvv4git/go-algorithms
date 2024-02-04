@@ -2,7 +2,7 @@ package main
 
 func addTwoNumbersV2(l1 *ListNode, l2 *ListNode) *ListNode {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 		Where n ==> max(len(l1), len(l2))
 	*/

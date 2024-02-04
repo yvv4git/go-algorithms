@@ -2,7 +2,7 @@ package _02_happy_number
 
 func isHappyV2(n int) bool {
 	/*
-		Time complexity: O(log n)
+		TIME COMPLEXITY: O(log n)
 		Space complexity: O(1)
 	*/
 	slow, fast := n, n

@@ -7,7 +7,7 @@ import (
 func maximumOddBinaryNumber(s string) string {
 	/*
 		METHOD: Iteration
-		Time complexity: O(n), т.к. надо пройтись по строке
+		TIME COMPLEXITY: O(n), т.к. надо пройтись по строке
 		Space complexity: O(1), т.к. не используем доп. памяти, которая зависит от n
 
 		Данный алгоритм решает задачу "Максимальное нечетное двоичное число" следующим образом:

@@ -3,7 +3,7 @@ package missingnumber
 func missingNumberV1(nums []int) int {
 	/*
 		METHOD: Arithmetic
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Задача решается элементарно!

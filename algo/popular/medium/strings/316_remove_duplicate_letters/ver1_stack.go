@@ -4,7 +4,7 @@ package _16_remove_duplicate_letters
 func removeDuplicateLettersV1(s string) string {
 	/*
 		METHOD: Stack
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Time complexity

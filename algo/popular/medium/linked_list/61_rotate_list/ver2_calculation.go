@@ -3,7 +3,7 @@ package _1_rotate_list
 func rotateRightV2(head *ListNode, k int) *ListNode {
 	/*
 		METHOD: Length Calculation Method
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Time complexity

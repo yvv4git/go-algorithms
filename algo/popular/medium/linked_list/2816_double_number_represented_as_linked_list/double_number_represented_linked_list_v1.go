@@ -3,7 +3,7 @@ package _816_double_number_represented_as_linked_list
 func doubleItV1(head *ListNode) *ListNode {
 	/*
 		METHOD:
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Основная идея метода заключается в том, чтобы удвоить значение каждого узла в списке, если его значение меньше 5,

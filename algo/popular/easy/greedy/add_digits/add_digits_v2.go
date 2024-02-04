@@ -4,7 +4,7 @@ func addDigitsV2(num int) int {
 	/*
 		Более сложный вариант решения задачи, нежели предыдущий V1.
 
-		Time complexity: O(1)
+		TIME COMPLEXITY: O(1)
 		Space complexity: O(1)
 	*/
 	if num <= 9 {

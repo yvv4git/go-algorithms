@@ -8,7 +8,7 @@ import (
 func readBinaryWatchV2(turnedOn int) []string {
 	/*
 		METHOD: Bitwise
-		Time complexity: ???
+		TIME COMPLEXITY: ???
 		Space complexity: O(1)
 	*/
 	result := []string{}

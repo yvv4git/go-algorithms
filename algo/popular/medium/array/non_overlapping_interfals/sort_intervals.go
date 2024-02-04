@@ -5,7 +5,7 @@ import "sort"
 func sortIntervals(intervals [][]int) {
 	/*
 		METHOD: Default sort.
-		Time complexity: O(n*log(n))
+		TIME COMPLEXITY: O(n*log(n))
 		Space complexity: O(1)
 	*/
 	sort.Slice(intervals, func(i, j int) bool {

@@ -4,7 +4,7 @@ package main
 func reorderListV1(head *ListNode) {
 	/*
 		METHOD: Fast & slow pointers (Двухпутевой указатель)
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	if head == nil || head.Next == nil {

@@ -5,7 +5,7 @@ import "strings"
 func convertV3(s string, numRows int) string {
 	/*
 		METHOD: Simple loop
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Команда curRow-- используется для перемещения вверх по строкам.

@@ -3,7 +3,7 @@ package find_first_palindromic_string_in_array
 func firstPalindromeV1(words []string) string {
 	/*
 		METHOD: Iterate
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	// Проверяем строку на палиндром

@@ -6,7 +6,7 @@ import "math"
 func getMinimumDifference(root *TreeNode) int {
 	/*
 		METHOD: DFS in-order
-		Time complexity: O(n), так как в худшем случае функция может хранить все значения узлов в дереве в срезе.
+		TIME COMPLEXITY: O(n), так как в худшем случае функция может хранить все значения узлов в дереве в срезе.
 		Space complexity: O(n), так как в худшем случае функция может хранить все значения узлов в дереве в срезе.
 
 		В данном коде используется In-Order Depth-First Search (DFS), так как мы сначала обходим левое поддерево,

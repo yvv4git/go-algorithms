@@ -5,10 +5,10 @@ import "container/heap"
 func mergeKListsV1(lists []*ListNode) *ListNode {
 	/*
 		METHOD: Priority Queue
-		Time complexity: O(N log k), N - общее количество узлов во всех списках, k - количество списков
+		TIME COMPLEXITY: O(N log k), N - общее количество узлов во всех списках, k - количество списков
 		Space complexity: O(k), k - количество списков
 
-		Time complexity:
+		TIME COMPLEXITY:
 		Временная сложность этого алгоритма составляет O(N log k), где N - общее количество узлов во всех списках, k - количество списков.
 		Это связано с тем, что мы вставляем и извлекаем каждый узел из очереди ровно один раз.
 

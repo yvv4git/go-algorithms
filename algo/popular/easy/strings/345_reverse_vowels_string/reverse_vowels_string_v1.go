@@ -5,7 +5,7 @@ import "unicode"
 func isVowel(c rune) bool {
 	/*
 		METHOD: Window loop.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	// alternatively, we can just check

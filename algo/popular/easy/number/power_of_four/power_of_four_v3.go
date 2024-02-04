@@ -5,7 +5,7 @@ const SecondBit int = 0x55555555 //  in binary ...1010101
 func isPowerOfFourV3(n int) bool {
 	/*
 		METHOD: Bitwise
-		Time complexity: O(1)
+		TIME COMPLEXITY: O(1)
 		Space complexity: O(1)
 
 		Explanation:

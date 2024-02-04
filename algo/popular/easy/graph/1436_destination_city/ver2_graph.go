@@ -3,7 +3,7 @@ package _436_destination_city
 func destCityV2(paths [][]string) string {
 	/*
 		METHOD: Graph
-		Time complexity: O(V+E)
+		TIME COMPLEXITY: O(V+E)
 		Space complexity: O(V+E)
 
 		Time complexity

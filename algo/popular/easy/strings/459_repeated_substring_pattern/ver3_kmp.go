@@ -3,7 +3,7 @@ package _59_repeated_substring_pattern
 func repeatedSubstringPatternV3(s string) bool {
 	/*
 		METHOD: KMP (Алгоритм Кнута-Морриса-Пратта)
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

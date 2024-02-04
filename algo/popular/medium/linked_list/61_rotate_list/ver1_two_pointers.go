@@ -4,7 +4,7 @@ package _1_rotate_list
 func rotateRightV1(head *ListNode, k int) *ListNode {
 	/*
 		METHOD: Two-Pointer
-		Time complexity: O(n), где n - количество узлов в списке.
+		TIME COMPLEXITY: O(n), где n - количество узлов в списке.
 		Space complexity: O(1).
 	*/
 

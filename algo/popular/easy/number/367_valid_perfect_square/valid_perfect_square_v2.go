@@ -3,7 +3,7 @@ package _67_valid_perfect_square
 func isPerfectSquareV2(num int) bool {
 	/*
 		METHOD: Iterative
-		Time complexity: O(sqrt(n))
+		TIME COMPLEXITY: O(sqrt(n))
 		Space complexity: O(1)
 	*/
 	i := 1

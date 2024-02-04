@@ -3,7 +3,7 @@ package numbersdisappearedinarray
 func findDisappearedNumbers(nums []int) []int {
 	/*
 		METHOD: Arithmetic
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n) - из-за того, что используем дополнительный массив result, где хранится ответ
 	*/
 	abs := func(n int) int {

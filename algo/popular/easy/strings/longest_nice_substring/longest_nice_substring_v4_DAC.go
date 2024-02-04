@@ -5,7 +5,7 @@ import "unicode"
 func longestNiceSubstringV4(s string) string {
 	/*
 		METHOD: Divide And Conquer
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Разделяй и властвуй в информатике — схема разработки алгоритмов, заключающаяся в рекурсивном разбиении решаемой

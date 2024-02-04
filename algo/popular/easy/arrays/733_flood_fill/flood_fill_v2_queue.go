@@ -3,7 +3,7 @@ package _33_flood_fill
 func floodFillV2(image [][]int, sr int, sc int, color int) [][]int {
 	/*
 		METHOD: Queue
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Данный алгоритм представляет собой алгоритм покраски (flood fill) для изображений.

@@ -5,7 +5,7 @@ import "strings"
 func repeatedSubstringPatternV1(s string) bool {
 	/*
 		METHOD: Brute force
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(n)
 
 		Time complexity

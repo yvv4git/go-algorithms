@@ -3,7 +3,7 @@ package _16_longest_palindromic_subsequence
 func longestPalindromeSubseqV1(s string) int {
 	/*
 		METHOD: Dynamic programming
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(n^2)
 
 		Time complexity

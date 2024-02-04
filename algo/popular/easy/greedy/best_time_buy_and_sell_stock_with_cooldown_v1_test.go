@@ -75,7 +75,7 @@ func TestMaxProfitWithCoolDownV1(t *testing.T) {
 
 func maxProfitWithCoolDownV1(prices []int) int {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 

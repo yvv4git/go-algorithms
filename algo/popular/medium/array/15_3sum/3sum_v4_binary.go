@@ -5,7 +5,7 @@ import "sort"
 func threeSumV4(nums []int) [][]int {
 	/*
 		METHOD: Sort & two pointer.
-		Time complexity: O(n^2) ??? Я думаю, что O(n log n)
+		TIME COMPLEXITY: O(n^2) ??? Я думаю, что O(n log n)
 		Space complexity: O(1)
 
 		Этот код сортирует массив, а затем использует два указателя (l, r) для нахождения троек, сумма которых равна нулю.

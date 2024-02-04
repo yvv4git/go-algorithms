@@ -24,7 +24,7 @@ func (s IntervalSlice) Less(i, j int) bool {
 func canAttendMeetingsV1(intervals []Interval) bool {
 	/*
 		METHOD: Loop after sort.
-		Time complexity: O(n log n)
+		TIME COMPLEXITY: O(n log n)
 		Space complexity: O(1)
 
 		Асимптотическая сложность(Time complexity) алгоритма зависит от того, как вы реализуете сортировку.

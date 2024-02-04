@@ -3,7 +3,7 @@ package main
 func insertIntoBST(root *TreeNode, val int) *TreeNode {
 	/*
 		METHOD: Recursion
-		Time complexity: O(h), где h - высота дерева.
+		TIME COMPLEXITY: O(h), где h - высота дерева.
 		Space complexity: O(h)
 
 		Time complexity

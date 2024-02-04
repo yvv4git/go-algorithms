@@ -3,7 +3,7 @@ package find_difference
 func findTheDifferenceV2(s string, t string) byte {
 	/*
 		METHOD: Bitwise
-		Time complexity: O(n + n) = O(2n) = O(n)
+		TIME COMPLEXITY: O(n + n) = O(2n) = O(n)
 		Space complexity: O(n)
 	*/
 	var bs, bt byte

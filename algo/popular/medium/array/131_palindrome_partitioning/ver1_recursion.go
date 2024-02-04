@@ -4,7 +4,7 @@ package _31_palindrome_partitioning
 func partitionV1(s string) [][]string {
 	/*
 		METHOD: Recursion
-		Time complexity: O(n * 2^n)
+		TIME COMPLEXITY: O(n * 2^n)
 		Space complexity: O(n * 2^n)
 
 		Time complexity

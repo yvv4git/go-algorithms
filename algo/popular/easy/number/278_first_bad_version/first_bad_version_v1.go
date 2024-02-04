@@ -3,7 +3,7 @@ package _78_first_bad_version
 func firstBadVersionV1(n int) int {
 	/*
 		METHOD: Binary search
-		Time complexity: O(log n)
+		TIME COMPLEXITY: O(log n)
 		Space complexity: O(n)
 	*/
 	left, right := 1, n

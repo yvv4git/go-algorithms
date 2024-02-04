@@ -3,7 +3,7 @@ package number_of_even_and_odd
 func evenOddBitV2(n int) []int {
 	/*
 		METHOD: Hash
-		Time complexity: O(Log(n))
+		TIME COMPLEXITY: O(Log(n))
 		Space complexity: O(1) - хоть мы и используем хэш, все равно размер хэша не зависит от n, это постоянное значение, константа
 
 		В бинарном представлении even(четный) - 1, odd(нечетный) - 0

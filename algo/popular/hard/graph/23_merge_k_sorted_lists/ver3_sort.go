@@ -7,7 +7,7 @@ import "sort"
 func mergeKListsV3(lists []*ListNode) *ListNode {
 	/*
 		METHOD: Sort
-		Time complexity: O(n log n)
+		TIME COMPLEXITY: O(n log n)
 		Space complexity: O(n)
 
 		Что тут происходит:

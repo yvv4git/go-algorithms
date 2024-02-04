@@ -5,7 +5,7 @@ import "sort"
 func checkArithmeticSubArraysV1(nums []int, l []int, r []int) []bool {
 	/*
 		METHOD: ???
-		Time complexity: O(mn log(n))
+		TIME COMPLEXITY: O(mn log(n))
 		Space complexity: O(n)
 	*/
 	resul := make([]bool, len(l))

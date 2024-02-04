@@ -3,7 +3,7 @@ package power_of_three
 func isPowerOfThreeV3(n int) bool {
 	/*
 		METHOD: Recursion
-		Time complexity: O(1)
+		TIME COMPLEXITY: O(1)
 		Space complexity: O(1)
 	*/
 	if n == 1 {

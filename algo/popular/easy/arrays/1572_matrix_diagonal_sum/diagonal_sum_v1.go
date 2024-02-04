@@ -3,7 +3,7 @@ package main
 func diagonalSumV1(mat [][]int) int {
 	/*
 		METHOD: Iterate
-		Time complexity: O(1)
+		TIME COMPLEXITY: O(1)
 		Space complexity: O(n)
 	*/
 	var (

@@ -3,7 +3,7 @@ package _78_valid_parenthesis_string
 func checkValidStringV3(s string) bool {
 	/*
 		METHOD: Loop with counters.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	var mainStack int

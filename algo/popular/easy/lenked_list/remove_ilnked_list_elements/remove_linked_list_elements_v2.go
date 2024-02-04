@@ -3,7 +3,7 @@ package remove_ilnked_list_elements
 func removeElementsV2(head *ListNode, val int) *ListNode {
 	/*
 		METHOD: Loop
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	if head == nil {

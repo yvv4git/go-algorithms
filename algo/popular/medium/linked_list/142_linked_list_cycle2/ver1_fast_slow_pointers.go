@@ -5,7 +5,7 @@ package _42_linked_list_cycle2
 func detectCycleV1(head *ListNode) *ListNode {
 	/*
 		METHOD: Floyd's Tortoise and Hare / Fast and slow pointers
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Time complexity

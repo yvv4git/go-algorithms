@@ -3,7 +3,7 @@ package main
 func numTreesV1(n int) int {
 	/*
 		METHOD: Dynamic programming
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

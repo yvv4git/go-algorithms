@@ -3,7 +3,7 @@ package intersection_two
 func getIntersectionNodeV1(headA, headB *ListNode) *ListNode {
 	/*
 		METHOD: Using map.
-		Time complexity: O(n + m)
+		TIME COMPLEXITY: O(n + m)
 		Space complexity: O(n)
 	*/
 	if headA == nil || headB == nil {

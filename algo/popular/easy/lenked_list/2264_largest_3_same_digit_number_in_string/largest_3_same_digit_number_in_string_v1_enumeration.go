@@ -10,10 +10,10 @@ import (
 func largestGoodIntegerV1(num string) string {
 	/*
 		METHOD: Enumeration / Перебор
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
-		Time complexity:
+		TIME COMPLEXITY:
 		Временная сложность этого алгоритма составляет O(n), где n - длина входной строки,
 		потому что мы проходим по каждому символу в строке.
 

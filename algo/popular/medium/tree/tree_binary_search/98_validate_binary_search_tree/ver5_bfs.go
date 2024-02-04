@@ -4,7 +4,7 @@ package main
 func isValidBSTV5(root *TreeNode) bool {
 	/*
 		METHOD: DFS
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

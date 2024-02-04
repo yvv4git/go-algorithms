@@ -5,7 +5,7 @@ import "fmt"
 func backtrack(candidates []int, target int, temp []int, result *[][]int, start int) {
 	/*
 		METHOD: Backtracking
-		Time complexity: O(n ^ T), где n - количество элементов в наборе, t - это целевое значение.
+		TIME COMPLEXITY: O(n ^ T), где n - количество элементов в наборе, t - это целевое значение.
 
 		Почему так?
 		В худшем случае, когда каждое число может быть использовано несколько раз, мы можем вызвать функцию backtrack для каждого числа в наборе.

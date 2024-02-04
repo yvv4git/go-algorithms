@@ -8,7 +8,7 @@ package _252_meeting_rooms
 func canAttendMeetingsV2(intervals []Interval) bool {
 	/*
 		METHOD: Loop after sort.
-		Time complexity: O(n log n)
+		TIME COMPLEXITY: O(n log n)
 		Space complexity: O(1)
 
 		В этом коде мы используем быструю сортировку для сортировки начал и концов встреч.
@@ -42,7 +42,7 @@ func canAttendMeetingsV2(intervals []Interval) bool {
 // Рекурсивный алгоритм быстрой сортировки.
 func quickSort(arr []int, low, high int) {
 	/*
-		Time complexity: O(n log n)
+		TIME COMPLEXITY: O(n log n)
 
 		Асимптотическая сложность алгоритма быстрой сортировки в среднем и наилучшем случае составляет O(n log n).
 		Это означает, что время сортировки растет линейно пропорционально логарифму количества элементов в массиве.

@@ -3,7 +3,7 @@ package kth_largest_element_in_array
 func findKthLargestV2(nums []int, k int) int {
 	/*
 		METHOD: Quick selection
-		Time complexity: O(n) + O(n*log(n)) = O(n)
+		TIME COMPLEXITY: O(n) + O(n*log(n)) = O(n)
 		Space complexity: O(1)
 	*/
 	return recursion(nums, k, 0, len(nums)-1)

@@ -4,7 +4,7 @@ package main
 func reverseListV2(head *ListNode) *ListNode {
 	/*
 		METHOD: Recursive
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity.

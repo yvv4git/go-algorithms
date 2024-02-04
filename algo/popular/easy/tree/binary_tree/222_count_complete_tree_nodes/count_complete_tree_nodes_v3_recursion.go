@@ -3,7 +3,7 @@ package _22_count_complete_tree_nodes
 func counter(count int, x *TreeNode) int {
 	/*
 		METHOD: Recursion.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	if x == nil {

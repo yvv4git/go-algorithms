@@ -4,7 +4,7 @@ package main
 func largestPalindromicV1(num string) string {
 	/*
 		METHOD: Greedy algorithm
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

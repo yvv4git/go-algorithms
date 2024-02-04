@@ -5,7 +5,7 @@ package _42_linked_list_cycle2
 func detectCycleV2(head *ListNode) *ListNode {
 	/*
 		METHOD: Hash set
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

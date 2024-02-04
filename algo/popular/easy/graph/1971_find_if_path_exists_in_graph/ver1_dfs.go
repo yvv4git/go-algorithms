@@ -4,7 +4,7 @@ package _971_find_if_path_exists_in_graph
 func validPathV1(n int, edges [][]int, start int, end int) bool {
 	/*
 		METHOD: DFS
-		Time complexity: O(n + m), где n - количество вершин, m - количество ребер
+		TIME COMPLEXITY: O(n + m), где n - количество вершин, m - количество ребер
 		Space complexity: O(n + m), где n - количество вершин, m - количество ребер
 
 		Time complexity

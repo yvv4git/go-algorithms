@@ -3,7 +3,7 @@ package _2_reverse_linked_list_II
 func reverseBetweenV4(head *ListNode, left int, right int) *ListNode {
 	/*
 		METHOD: Two pointers.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	dummy := &ListNode{Val: 0, Next: head}

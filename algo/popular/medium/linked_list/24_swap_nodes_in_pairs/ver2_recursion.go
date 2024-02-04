@@ -4,10 +4,10 @@ package _4_swap_nodes_in_pairs
 func swapPairsV2(head *ListNode) *ListNode {
 	/*
 		METHOD: Recursion
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
-		Time complexity:
+		TIME COMPLEXITY:
 		Временная сложность этого алгоритма составляет O(n), где n - количество узлов в списке, потому что мы проходим по списку один раз.
 
 		Space complexity:

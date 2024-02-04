@@ -3,7 +3,7 @@ package _436_destination_city
 func destCityV3(paths [][]string) string {
 	/*
 		METHOD: Список смежности / Adjacency List
-		Time complexity: O(V)
+		TIME COMPLEXITY: O(V)
 		Space complexity: O(V)
 
 		Time complexity

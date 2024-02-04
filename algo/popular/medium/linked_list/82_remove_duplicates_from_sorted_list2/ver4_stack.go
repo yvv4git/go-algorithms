@@ -3,7 +3,7 @@ package _2_remove_duplicates_from_sorted_list2
 func deleteDuplicatesV4(head *ListNode) *ListNode {
 	/*
 		METHOD: Stack
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

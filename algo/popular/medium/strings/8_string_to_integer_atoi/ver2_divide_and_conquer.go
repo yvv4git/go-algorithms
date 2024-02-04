@@ -4,7 +4,7 @@ package main
 func myAtoiV2(s string) int {
 	/*
 		METHOD: Divide and conquer
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Разделяй и властвуй:

@@ -3,13 +3,13 @@ package kth_largest_element_in_array
 func findKthLargestV1(nums []int, k int) int {
 	/*
 		METHOD: Hash
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(max(nums) - min(nums)+1)
 	*/
 	const MaxInt = 2147483647
 	const MinInt = -2147483648
 
-	// Time complexity: O(n) = O(nums)
+	// TIME COMPLEXITY: O(n) = O(nums)
 	maxValue, minValue := MinInt, MaxInt
 	for i := 0; i < len(nums); i++ {
 		if nums[i] > maxValue {
@@ -27,7 +27,7 @@ func findKthLargestV1(nums []int, k int) int {
 		count[nums[i]-minValue]++
 	}
 
-	// Time complexity: O(n) = O(count)
+	// TIME COMPLEXITY: O(n) = O(count)
 	var result int
 	for i := len(count) - 1; i >= 0 && k > 0; i-- {
 		if count[i] > 0 {

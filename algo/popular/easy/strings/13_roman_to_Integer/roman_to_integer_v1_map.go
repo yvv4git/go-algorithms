@@ -3,7 +3,7 @@ package _3_roman_to_Integer
 func romanToIntV1(s string) int {
 	/*
 		METHOD: Use map.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	var romanMap = map[byte]int{'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}

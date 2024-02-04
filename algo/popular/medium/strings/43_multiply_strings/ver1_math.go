@@ -8,7 +8,7 @@ import (
 func multiply(num1 string, num2 string) string {
 	/*
 		METHOD: Math
-		Time complexity: O(n*m), где n и m - длины входных строк num1 и num2 соответственно.
+		TIME COMPLEXITY: O(n*m), где n и m - длины входных строк num1 и num2 соответственно.
 		Space complexity: O(n+m), где n и m - длины входных строк num1 и num2 соответственно.
 
 		Time complexity

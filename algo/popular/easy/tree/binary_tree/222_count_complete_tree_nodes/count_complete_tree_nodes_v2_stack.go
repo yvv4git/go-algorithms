@@ -3,7 +3,7 @@ package _22_count_complete_tree_nodes
 func countNodesV2(root *TreeNode) int {
 	/*
 		METHOD: Stack.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	var count int

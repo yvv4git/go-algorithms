@@ -3,7 +3,7 @@ package __zigzag_conversion
 func convertV2(s string, numRows int) string {
 	/*
 		METHOD: Matrix
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time Complexity для этого алгоритма составляет O(n), где n - длина входной строки.

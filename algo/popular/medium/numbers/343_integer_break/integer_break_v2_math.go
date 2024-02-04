@@ -3,7 +3,7 @@ package _43_integer_break
 func integerBreakV2(n int) int {
 	/*
 		METHOD: Math
-		Time complexity: O(1)
+		TIME COMPLEXITY: O(1)
 		Space complexity: O(1)
 
 		Time complexity
@@ -47,7 +47,7 @@ func integerBreakV2(n int) int {
 // Функция pow возводит число a в степень b.
 func pow(a, b int) int {
 	/*
-		Time complexity: O(b), где b - степень числа.
+		TIME COMPLEXITY: O(b), где b - степень числа.
 		Space complexity: O(1)
 
 		Time complexity & Space complexity

@@ -9,7 +9,7 @@ type Key [26]int
 func groupAnagramsV2(strs []string) [][]string {
 	/*
 		METHOD: Group by Hash / Hash
-		Time complexity: O(n * m), где n - количество слов в strs, а m - средняя длина слова.
+		TIME COMPLEXITY: O(n * m), где n - количество слов в strs, а m - средняя длина слова.
 		Space complexity: O(m), где m - длина слова.
 	*/
 	// Создаем карту, где ключ - это хеш-ключ, а значение - это слайс строк.

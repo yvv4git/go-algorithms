@@ -3,7 +3,7 @@ package _807_insert_greatest_common_divisors_in_linked_list
 func insertGreatestCommonDivisorsV3(head *ListNode) *ListNode {
 	/*
 		METHOD:
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity:	O(1)
 
 		Данный метод insertGreatestCommonDivisors использует итеративный подход для добавления новых узлов в связный список.

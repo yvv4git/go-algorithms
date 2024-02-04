@@ -6,7 +6,7 @@ package _073_time_needed_to_buy_tickets
 func timeRequiredToBuyV2(tickets []int, k int) (res int) {
 	/*
 		METHOD: Loop
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Хороший метод решения задачи за O(n).

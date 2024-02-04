@@ -5,7 +5,7 @@ import "strings"
 func findTheDifferenceV3(s string, t string) byte {
 	/*
 		METHOD: Bitwise
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	// Concatenate two string
@@ -14,7 +14,7 @@ func findTheDifferenceV3(s string, t string) byte {
 	str.WriteString(t)
 
 	var resultByte int
-	// Time complexity: O(n)
+	// TIME COMPLEXITY: O(n)
 	for _, value := range str.String() {
 		resultByte ^= int(value)
 	}

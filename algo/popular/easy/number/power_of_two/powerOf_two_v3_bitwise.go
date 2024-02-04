@@ -3,7 +3,7 @@ package power_of_two
 func isPowerOfTwoV3(n int) bool {
 	/*
 		METHOD: Bitwise
-		Time complexity: O(1)
+		TIME COMPLEXITY: O(1)
 		Space complexity: O(1)
 
 		Как числа хранятся в памяти?

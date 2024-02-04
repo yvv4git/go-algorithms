@@ -4,7 +4,7 @@ package main
 func mergeTwoListsV2(l1 *ListNode, l2 *ListNode) *ListNode {
 	/*
 		METHOD: Recursion
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity.

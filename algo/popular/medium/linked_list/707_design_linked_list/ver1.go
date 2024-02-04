@@ -17,7 +17,7 @@ func Constructor() LinkedList {
 }
 
 // Get the value of the index-th node in the linked list. If the index is invalid, return -1.
-// Time complexity: O(n)
+// TIME COMPLEXITY: O(n)
 func (this *LinkedList) Get(index int) int {
 	if index < 0 || index >= this.Size {
 		return -1
@@ -30,7 +30,7 @@ func (this *LinkedList) Get(index int) int {
 }
 
 // AddAtHead - добавить ноду с головы
-// Time complexity: O(1)
+// TIME COMPLEXITY: O(1)
 func (this *LinkedList) AddAtHead(val int) {
 	node := &Node{val, this.Head.Next}
 	this.Head.Next = node
@@ -38,7 +38,7 @@ func (this *LinkedList) AddAtHead(val int) {
 }
 
 // AddAtTail - добавить ноду с хвоста
-// Time complexity: O(n)
+// TIME COMPLEXITY: O(n)
 func (this *LinkedList) AddAtTail(val int) {
 	node := &Node{val, nil}
 	curr := this.Head
@@ -50,7 +50,7 @@ func (this *LinkedList) AddAtTail(val int) {
 }
 
 // AddAtIndex - добавить по индексу
-// Time complexity: O(n)
+// TIME COMPLEXITY: O(n)
 func (this *LinkedList) AddAtIndex(index int, val int) {
 	if index < 0 || index > this.Size {
 		return
@@ -66,7 +66,7 @@ func (this *LinkedList) AddAtIndex(index int, val int) {
 }
 
 // DeleteAtIndex - удалить по индексу
-// Time complexity: O(n)
+// TIME COMPLEXITY: O(n)
 func (this *LinkedList) DeleteAtIndex(index int) {
 	if index < 0 || index >= this.Size {
 		return

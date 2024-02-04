@@ -5,7 +5,7 @@ import "fmt"
 func convertToTitleV2(columnNumber int) string {
 	/*
 		METHOD: Recursion
-		Time complexity: O(log(columnNumber))
+		TIME COMPLEXITY: O(log(columnNumber))
 		Space complexity: O(1)
 	*/
 	if columnNumber == 0 {

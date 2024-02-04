@@ -5,7 +5,7 @@ import "math"
 func find132patternV1(nums []int) bool {
 	/*
 		METHOD: Stack
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

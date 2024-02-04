@@ -3,7 +3,7 @@ package main
 func containsDuplicateV1(nums []int) bool {
 	/*
 		METHOD: Hash table, dictionary.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity.

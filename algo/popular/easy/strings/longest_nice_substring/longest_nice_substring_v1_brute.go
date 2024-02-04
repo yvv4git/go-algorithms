@@ -3,7 +3,7 @@ package longest_nice_substring
 func longestNiceSubstringV1(s string) string {
 	/*
 		METHOD: Bruteforce
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(1)
 	*/
 	var lower, upper, longest, ind int

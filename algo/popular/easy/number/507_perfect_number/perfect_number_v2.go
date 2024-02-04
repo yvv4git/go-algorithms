@@ -2,7 +2,7 @@ package _07_perfect_number
 
 func checkPerfectNumberV2(num int) bool {
 	/*
-		Time complexity: O(logN), ии, говорит, что O(sqrt(n))
+		TIME COMPLEXITY: O(logN), ии, говорит, что O(sqrt(n))
 		Space complexity: O(1)
 
 		Time Complexity:

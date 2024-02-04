@@ -5,7 +5,7 @@ import "sort"
 func threeSumV1(nums []int) [][]int {
 	/*
 		METHOD: Sort & two pointer.
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(1)
 
 		Асимптотическая сложность этого алгоритма составляет O(n^2), где n - это количество элементов в массиве.

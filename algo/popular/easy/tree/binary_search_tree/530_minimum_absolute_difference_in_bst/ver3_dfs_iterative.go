@@ -6,7 +6,7 @@ import "math"
 func getMinimumDifferenceV3(root *TreeNode) int {
 	/*
 		METHOD: DFS iterative
-		Time complexity: O(n), где n - количество узлов в дереве, поскольку мы посещаем каждый узел ровно один раз.
+		TIME COMPLEXITY: O(n), где n - количество узлов в дереве, поскольку мы посещаем каждый узел ровно один раз.
 		Space complexity: O(n), так как в худшем случае мы можем поместить все узлы в стек.
 	*/
 	// Создаем пустой стек для хранения узлов

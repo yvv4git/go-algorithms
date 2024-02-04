@@ -4,7 +4,7 @@ package main
 func checkPalindromeFormationV2(a string, b string) bool {
 	/*
 		METHOD: Two pointers & Greedy
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n), helper будет создавать новые строки, которые могут быть достаточно большими.
 
 

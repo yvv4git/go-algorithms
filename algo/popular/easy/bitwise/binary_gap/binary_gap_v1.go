@@ -8,7 +8,7 @@ import (
 func binaryGapV1(n int) int {
 	/*
 		METHOD: NoBitwise
-		Time complexity: O(n + (n Log(n))) = O(n)
+		TIME COMPLEXITY: O(n + (n Log(n))) = O(n)
 		Space complexity: O(n)
 	*/
 	str := strconv.FormatInt(int64(n), 2)

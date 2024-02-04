@@ -5,7 +5,7 @@ import "strconv"
 func summaryRangesV3(nums []int) []string {
 	/*
 		METHOD: Recursive
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 	*/
 	if len(nums) == 0 {

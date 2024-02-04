@@ -3,7 +3,7 @@ package _7_letter_combinations_of_a_phone_number
 func letterCombinationsV3(digits string) []string {
 	/*
 		METHOD: DFS
-		Time complexity: O(4^n), где n - количество цифр в входной строке.
+		TIME COMPLEXITY: O(4^n), где n - количество цифр в входной строке.
 		Space complexity: O(4^n), так как в худшем случае мы можем иметь 4^n комбинаций.
 
 		Time complexity

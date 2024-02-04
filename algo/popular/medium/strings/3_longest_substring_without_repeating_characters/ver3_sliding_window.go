@@ -3,7 +3,7 @@ package __longest_substring_without_repeating_characters
 func lengthOfLongestSubstringV3(s string) int {
 	/*
 		METHOD: Sliding window
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(min(n, m)), где m - размер алфавита, а n - количество символов в окне.
 
 		Текущий подход в функции lengthOfLongestSubstringV3 использует карту для хранения уникальных символов и их позиций.

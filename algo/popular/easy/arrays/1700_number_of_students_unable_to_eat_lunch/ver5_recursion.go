@@ -6,7 +6,7 @@ package _700_number_of_students_unable_to_eat_lunch
 func countStudentsV5(students []int, sandwiches []int) int {
 	/*
 		METHOD: Recursion
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

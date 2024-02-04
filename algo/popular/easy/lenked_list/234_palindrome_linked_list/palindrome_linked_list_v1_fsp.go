@@ -4,7 +4,7 @@ package main
 func isPalindromeV1(head *ListNode) bool {
 	/*
 		METHOD: Fast and slow pointers
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Time complexity для этого алгоритма составляет O(n), где n - количество узлов в связном списке.

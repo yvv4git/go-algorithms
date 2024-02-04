@@ -3,7 +3,7 @@ package non_overlapping_interfals
 func eraseOverlapIntervalsV2(intervals [][]int) int {
 	/*
 		METHOD:
-		Time complexity: O(n*log(n))
+		TIME COMPLEXITY: O(n*log(n))
 		Space complexity: O(1)
 	*/
 	cnt, result := len(intervals), 0

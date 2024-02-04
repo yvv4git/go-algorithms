@@ -3,7 +3,7 @@ package number_of_even_and_odd
 func evenOddBitV1(n int) []int {
 	/*
 		METHOD: Hash
-		Time complexity: O(num), where num is count of bits
+		TIME COMPLEXITY: O(num), where num is count of bits
 		Space complexity: O(1)
 	*/
 	res := make([]int, 2, 2)

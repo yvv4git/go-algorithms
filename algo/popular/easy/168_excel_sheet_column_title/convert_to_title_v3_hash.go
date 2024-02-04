@@ -5,7 +5,7 @@ import "strings"
 func convertToTitleV3(columnNumber int) string {
 	/*
 		METHOD: Map / Hash
-		Time complexity: O(columnNumber)
+		TIME COMPLEXITY: O(columnNumber)
 		Space complexity: O(columnNumber)
 	*/
 	m := map[int]uint8{

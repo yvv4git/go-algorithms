@@ -3,7 +3,7 @@ package remove_palindromic_subsequences
 func removePalindromeSubV3(s string) int {
 	/*
 		METHOD: Iterate
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		1. If s is a palindrome return 1

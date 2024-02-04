@@ -7,7 +7,7 @@ var current *ListNode
 func reorderListV2(head *ListNode) {
 	/*
 		METHOD: Stack || Recursion
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 

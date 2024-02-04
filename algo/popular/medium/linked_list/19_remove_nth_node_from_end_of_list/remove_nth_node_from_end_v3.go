@@ -3,7 +3,7 @@ package main
 func removeNthFromEndV3(head *ListNode, n int) *ListNode {
 	/*
 		METHOD: Fast and slow pointers
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		В данном алгоритме два указателя fast и slow используются для создания "отступа" между ними, равного n узлам. Начальное положение обоих указателей - фиктивный узел dummy.

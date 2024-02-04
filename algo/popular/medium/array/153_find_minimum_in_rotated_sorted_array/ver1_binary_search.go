@@ -3,7 +3,7 @@ package _53_find_minimum_in_rotated_sorted_array
 func findMinV1(nums []int) int {
 	/*
 		METHOD: Binary search
-		Time complexity: O(log n), так как мы делим массив на половины в каждой итерации.
+		TIME COMPLEXITY: O(log n), так как мы делим массив на половины в каждой итерации.
 		Space complexity: O(1), так как мы используем некоторые переменные для хранения индексов, но не используем дополнительное пространство, зависящее от размера входных данных.
 	*/
 

@@ -6,7 +6,7 @@ import "sort"
 func sortByBitsV4(arr []int) []int {
 	/*
 		METHOD: Bitwise
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	sort.SliceStable(arr, func(a, b int) bool {

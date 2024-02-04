@@ -5,7 +5,7 @@ import "math"
 func sumDigits(n float64) int {
 	/*
 		METHOD: Math + loop
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	sum := 0

@@ -3,7 +3,7 @@ package main
 func removeNthFromEndV2(head *ListNode, n int) *ListNode {
 	/*
 		METHOD: Dummy node
-		Time complexity: O(N)
+		TIME COMPLEXITY: O(N)
 		Space complexity: O(1)
 
 		В этом коде мы создаем фиктивный узел dummy, который указывает на начало списка head.

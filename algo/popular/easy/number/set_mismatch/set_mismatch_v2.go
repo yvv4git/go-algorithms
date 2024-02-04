@@ -3,7 +3,7 @@ package set_mismatch
 func findErrorNumsV2(nums []int) []int {
 	/*
 		METHOD: Hash
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 	*/
 	numsMap := map[int]int{}

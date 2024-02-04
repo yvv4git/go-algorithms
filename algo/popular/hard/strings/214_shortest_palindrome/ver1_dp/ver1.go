@@ -4,7 +4,7 @@ package ver1_dp
 func shortestPalindrome(s string) string {
 	/*
 		METHOD: Dynamic programming
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

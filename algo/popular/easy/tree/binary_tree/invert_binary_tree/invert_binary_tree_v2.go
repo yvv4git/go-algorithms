@@ -3,7 +3,7 @@ package invert_binary_tree
 func invertTreeV2(root *TreeNode) *TreeNode {
 	/*
 		METHOD: Recursion, DSF
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 	*/
 	if root == nil {

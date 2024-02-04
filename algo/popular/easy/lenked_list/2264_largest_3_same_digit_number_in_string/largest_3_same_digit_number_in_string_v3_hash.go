@@ -9,7 +9,7 @@ import "sort"
 func largestGoodInteger(num string) string {
 	/*
 		METHOD:
-		Time complexity: O(n log n)
+		TIME COMPLEXITY: O(n log n)
 		Space complexity: O(n)
 	*/
 

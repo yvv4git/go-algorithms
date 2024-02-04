@@ -3,7 +3,7 @@ package _07_perfect_number
 func checkPerfectNumberV4(num int) bool {
 	/*
 		METHOD: Bruteforce
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Совершенное число - натуральное число, равное сумме всех своих собственных делителей.

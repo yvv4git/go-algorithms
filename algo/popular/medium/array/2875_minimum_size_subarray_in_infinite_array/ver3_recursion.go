@@ -5,7 +5,7 @@ import "math"
 func minSubArrayLenV3(nums []int, target int) int {
 	/*
 		METHOD: Recursion
-		Time complexity: O(n^2), это связано с тем, что для каждого элемента мы можем вызвать функцию рекурсивно до тех пор, пока сумма элементов не станет больше или равна целевому значению.
+		TIME COMPLEXITY: O(n^2), это связано с тем, что для каждого элемента мы можем вызвать функцию рекурсивно до тех пор, пока сумма элементов не станет больше или равна целевому значению.
 		Space complexity: O(n^2)
 	*/
 	return minSubArrayLenRecursive(nums, target, 0, 0, 0, math.MaxInt32)

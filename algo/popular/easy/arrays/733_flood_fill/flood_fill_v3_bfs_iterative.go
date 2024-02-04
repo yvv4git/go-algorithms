@@ -3,7 +3,7 @@ package _33_flood_fill
 func floodFillV3(image [][]int, sr int, sc int, color int) [][]int {
 	/*
 		METHOD: BFS iterative.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	type Point struct {

@@ -4,7 +4,7 @@ package main
 func middleNodeV4(head *ListNode) *ListNode {
 	/*
 		METHOD: Using an Array
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time Complexity.

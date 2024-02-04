@@ -5,7 +5,7 @@ import "math"
 func find132patternV2(nums []int) bool {
 	/*
 		Method Dynamic programming
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

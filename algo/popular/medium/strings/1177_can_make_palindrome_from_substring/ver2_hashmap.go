@@ -3,7 +3,7 @@ package _177_can_make_palindrome_from_substring
 func canMakePaliQueriesV2(s string, queries [][]int) []bool {
 	/*
 		METHOD: Hashmap
-		Time complexity: O(n + m), где n - длина строки s, m - количество запросов
+		TIME COMPLEXITY: O(n + m), где n - длина строки s, m - количество запросов
 		Space complexity: O(n), где n - длина строки s.
 
 		Объяснение:

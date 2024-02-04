@@ -7,7 +7,7 @@ var mem = 0
 func addBinaryV2(a string, b string) string {
 	/*
 		METHOD: Recursion
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	if a == "" && b == "" {

@@ -20,13 +20,13 @@ func topKFrequentV1(a []int, k int) []int {
 	var result []int
 	dict := make(map[int]int)
 
-	// Time complexity: O(n)
+	// TIME COMPLEXITY: O(n)
 	// Space complexity: O(n)
 	for _, val := range a {
 		dict[val]++
 	}
 
-	// Time complexity: O(n)
+	// TIME COMPLEXITY: O(n)
 	// Space complexity: O(n)
 	buf := make([]KV, 0, len(dict))
 	for k, v := range dict {
@@ -36,7 +36,7 @@ func topKFrequentV1(a []int, k int) []int {
 		})
 	}
 
-	// Time complexity: O(n log(n)), because QuickSort
+	// TIME COMPLEXITY: O(n log(n)), because QuickSort
 	// Space complexity: O(1)
 	sort.Slice(buf, func(i, j int) bool {
 		return buf[i].v > buf[j].v

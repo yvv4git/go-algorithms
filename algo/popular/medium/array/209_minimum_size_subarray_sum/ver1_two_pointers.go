@@ -6,7 +6,7 @@ package _09_minimum_size_subarray_sum
 func minSubArrayLenV1(target int, nums []int) int {
 	/*
 		METHOD: Two pointers
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Time complexity

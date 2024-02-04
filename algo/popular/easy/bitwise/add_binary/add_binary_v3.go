@@ -3,7 +3,7 @@ package main
 func addBinaryV3(a string, b string) string {
 	/*
 		METHOD: Binary addition
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	var result string

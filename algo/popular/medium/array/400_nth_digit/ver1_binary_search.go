@@ -4,7 +4,7 @@ package _00_nth_digit
 func findNthDigitV1(n int) int {
 	/*
 		METHOD: Binary search
-		Time complexity: O(log n), так как мы делим пространство поиска пополам в цикле
+		TIME COMPLEXITY: O(log n), так как мы делим пространство поиска пополам в цикле
 		Space complexity: O(1), так как мы используем небольшое количество переменных, которые не зависят от размера входных данных
 	*/
 

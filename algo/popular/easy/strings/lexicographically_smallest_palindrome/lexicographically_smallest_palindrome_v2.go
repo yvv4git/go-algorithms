@@ -3,7 +3,7 @@ package lexicographically_smallest_palindrome
 func makeSmallestPalindromeV2(s string) string {
 	/*
 		METHOD: Swap
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	p := []byte(s)

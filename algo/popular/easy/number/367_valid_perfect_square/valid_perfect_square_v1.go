@@ -5,7 +5,7 @@ import "fmt"
 func isPerfectSquareV1(num int) bool {
 	/*
 		METHOD: Binary search.
-		Time complexity: O(log n)
+		TIME COMPLEXITY: O(log n)
 		Space complexity:
 
 		Асимптотическая сложность данного алгоритма - O(log n).
@@ -63,7 +63,7 @@ func isPerfectSquareV1(num int) bool {
 func isPerfectSquareV1Research(num int) bool {
 	/*
 		METHOD: Binary search.
-		Time complexity: O(log n)
+		TIME COMPLEXITY: O(log n)
 		Space complexity:
 
 		Асимптотическая сложность данного алгоритма - O(log n).

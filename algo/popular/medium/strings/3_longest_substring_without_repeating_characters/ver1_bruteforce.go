@@ -4,7 +4,7 @@ package __longest_substring_without_repeating_characters
 func lengthOfLongestSubstringV1(s string) int {
 	/*
 		METHOD: Bruteforce
-		Time complexity: O(n^3)
+		TIME COMPLEXITY: O(n^3)
 		Space complexity: O(min(n,m)), где n - длина строки, а m - размер алфавита
 
 		В этом коде мы используем метод брутфорса для решения задачи.

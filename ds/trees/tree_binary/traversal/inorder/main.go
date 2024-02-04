@@ -41,7 +41,7 @@ type TreeNode struct {
 func inorderTraversal(root *TreeNode) []int {
 	/*
 		METHOD:
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

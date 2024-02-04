@@ -3,7 +3,7 @@ package squares_sorted_array
 func sortedSquaresV4(nums []int) []int {
 	/*
 		METHOD: Two pointer
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n) - используется массив, в который помещается результат
 	*/
 	res := make([]int, len(nums))

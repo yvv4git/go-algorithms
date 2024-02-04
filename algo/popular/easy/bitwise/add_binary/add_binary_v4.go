@@ -8,7 +8,7 @@ import (
 func addBinaryV4(a string, b string) string {
 	/*
 		METHOD: Bitwise
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	// have to catch this case because of the trim at the end of the function

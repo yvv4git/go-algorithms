@@ -5,7 +5,7 @@ import "strconv"
 func binaryTreePathsV1(root *TreeNode) []string {
 	/*
 		METHOD: DFS / Recursion
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(n^2)
 	*/
 	if root == nil {

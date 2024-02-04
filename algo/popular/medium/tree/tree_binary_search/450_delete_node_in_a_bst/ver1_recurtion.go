@@ -3,7 +3,7 @@ package main
 func deleteNode(root *TreeNode, key int) *TreeNode {
 	/*
 		METHOD: Recursion
-		Time complexity: O(h) / O(log n)
+		TIME COMPLEXITY: O(h) / O(log n)
 		Space complexity: O(h) / O(log n)
 
 		Time complexity

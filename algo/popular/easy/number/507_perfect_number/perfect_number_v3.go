@@ -2,7 +2,7 @@ package _07_perfect_number
 
 func checkPerfectNumberV3(num int) bool {
 	/*
-		Time complexity: O(1)
+		TIME COMPLEXITY: O(1)
 		Space complexity: O(1)
 
 		Объяснение: в задаче стоит ограничение, что максимальное число 10^8 = 100 000 000.

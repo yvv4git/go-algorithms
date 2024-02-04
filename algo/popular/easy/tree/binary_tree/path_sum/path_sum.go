@@ -2,7 +2,7 @@ package path_sum
 
 func hasPathSum(root *TreeNode, targetSum int) bool {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		This is a depth-first search that decrements targetSum by the current node's value.

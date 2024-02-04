@@ -7,7 +7,7 @@ import "sort"
 func containsDuplicateV2(nums []int) bool {
 	/*
 		METHOD: Sort
-		Time complexity: O(n log n)
+		TIME COMPLEXITY: O(n log n)
 		Space complexity: O(1)
 
 		В этом коде мы сначала сортируем массив, а затем проходим по нему и проверяем, равны ли соседние элементы.

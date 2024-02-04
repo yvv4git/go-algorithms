@@ -3,7 +3,7 @@ package _2_reverse_linked_list_II
 func reverseBetweenV2(head *ListNode, left int, right int) *ListNode {
 	/*
 		METHOD: Recursion.
-		Time complexity: O(n).
+		TIME COMPLEXITY: O(n).
 		Space complexity: O(1).
 	*/
 

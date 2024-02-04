@@ -3,7 +3,7 @@ package _47_palindromic_substrings
 func countSubstringsV1(s string) int {
 	/*
 		METHOD: Dynamic programming
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(n^2)
 
 		Time complexity

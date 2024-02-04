@@ -3,7 +3,7 @@ package __longest_palindromic_substring
 func longestPalindromeV2(s string) string {
 	/*
 		METHOD: Hash
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(n)
 	*/
 	var n = len(s)

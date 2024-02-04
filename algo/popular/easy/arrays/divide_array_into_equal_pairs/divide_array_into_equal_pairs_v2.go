@@ -3,7 +3,7 @@ package divide_array_into_equal_pairs
 func divideArrayV2(nums []int) bool {
 	/*
 		METHOD: Hash
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 	*/
 	hash := map[int]bool{}

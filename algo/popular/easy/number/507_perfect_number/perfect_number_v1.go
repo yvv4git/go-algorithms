@@ -2,7 +2,7 @@ package _07_perfect_number
 
 func checkPerfectNumberV1(num int) bool {
 	/*
-		Time complexity: O(sqrt(n))
+		TIME COMPLEXITY: O(sqrt(n))
 		Space complexity: O(1)
 
 		Это связано с тем, что в цикле for происходит проверка условия left < right, которая выполняется до тех пор,

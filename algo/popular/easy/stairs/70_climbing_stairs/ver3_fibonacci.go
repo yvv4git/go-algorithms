@@ -3,7 +3,7 @@ package main
 func climbStairsV3(n int) int {
 	/*
 		METHOD: Fibonacci
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Функция climbStairs(n int) int принимает на вход количество ступеней n и возвращает количество способов,

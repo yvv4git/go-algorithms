@@ -3,7 +3,7 @@ package missingnumber
 func missingNumberV3(nums []int) int {
 	/*
 		METHOD: Pattern xor
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	a, b := 0, 0

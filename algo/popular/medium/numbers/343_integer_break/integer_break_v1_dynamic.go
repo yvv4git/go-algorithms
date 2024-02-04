@@ -4,12 +4,12 @@ package _43_integer_break
 func integerBreakV1(n int) int {
 	/*
 		METHOD: Dynamic programming
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Это задача на динамическое программирование.
 
-		Time complexity:
+		TIME COMPLEXITY:
 		Временная сложность этого алгоритма составляет O(n), так как в худшем случае мы проходимся по всем числам от 1 до n.
 
 		Space complexity:

@@ -5,7 +5,7 @@ var first, second, prev *TreeNode
 func recoverTreeV1(root *TreeNode) {
 	/*
 		METHOD: Inorder
-		Time complexity: O(n), где n - количество узлов в дереве, так как мы проходим по всем узлам.
+		TIME COMPLEXITY: O(n), где n - количество узлов в дереве, так как мы проходим по всем узлам.
 		Space complexity: O(h), где h - высота дерева, так как в худшем случае мы можем хранить в стеке все узлы дерева.
 
 		Метод решения задачи:

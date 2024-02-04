@@ -3,7 +3,7 @@ package _04_sum_of_left_leaves
 func sumOfLeftLeavesV1(root *TreeNode) int {
 	/*
 		METHOD: DFS recursion.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n) - O(n^2)
 
 		Time Complexity:

@@ -3,7 +3,7 @@ package main
 func shortestDistance(words []string, word1 string, word2 string) int {
 	/*
 		METHOD: Two pointers
-		Time complexity: O(n), где n - количество слов в массиве, потому что мы проходим по массиву всего один раз.
+		TIME COMPLEXITY: O(n), где n - количество слов в массиве, потому что мы проходим по массиву всего один раз.
 		Space complexity: O(1), так как мы используем не более константного количества дополнительной памяти.
 	*/
 

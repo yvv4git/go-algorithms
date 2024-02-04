@@ -5,7 +5,7 @@ const balon = "balon"
 func maxNumberOfBalloonsV2(text string) int {
 	/*
 		METHOD: Hashing
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	mm := make(map[byte]int)

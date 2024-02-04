@@ -5,7 +5,7 @@ package main
 func findMinimumOperations(s1, s2, s3 string) int {
 	/*
 		METHOD: Divide and conquer
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1) or O(n)
 
 		Time complexity

@@ -6,7 +6,7 @@ package main
 func mergeTwoListsV1(l1 *ListNode, l2 *ListNode) *ListNode {
 	/*
 		METHOD: Dummy node
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Временная сложность: O(n), где n - количество узлов в обоих списках.

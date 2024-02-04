@@ -3,7 +3,7 @@ package _470_shuffle_the_array
 func shuffleV3(nums []int, n int) []int {
 	/*
 		METHOD: Iterate
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 	*/
 	var result []int

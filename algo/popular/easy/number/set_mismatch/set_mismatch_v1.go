@@ -3,7 +3,7 @@ package set_mismatch
 func findErrorNumsV1(nums []int) []int {
 	/*
 		METHOD: Cycle sort
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 

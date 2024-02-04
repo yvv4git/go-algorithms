@@ -3,7 +3,7 @@ package main
 func middleNodeV3(head *ListNode) *ListNode {
 	/*
 		METHOD: Counting the Nodes
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Суть метода:

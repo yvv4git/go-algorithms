@@ -4,7 +4,7 @@ package main
 func checkPalindromeFormationV1(a string, b string) bool {
 	/*
 		METHOD: Two pointers
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Time complexity

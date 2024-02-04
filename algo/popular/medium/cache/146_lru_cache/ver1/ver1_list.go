@@ -10,7 +10,7 @@ type LRUCache struct {
 }
 
 // Constructor - функция для создания нового LRUCache
-// Time complexity: O(1)
+// TIME COMPLEXITY: O(1)
 func Constructor(capacity int) LRUCache {
 	return LRUCache{
 		Capacity: capacity,
@@ -20,7 +20,7 @@ func Constructor(capacity int) LRUCache {
 }
 
 // Get - функция для получения значения по ключу
-// Time complexity: O(1)
+// TIME COMPLEXITY: O(1)
 func (c *LRUCache) Get(key int) int {
 	if node, ok := c.Items[key]; ok {
 		value := node.Value.(*list.Element).Value.(Node).Value
@@ -31,7 +31,7 @@ func (c *LRUCache) Get(key int) int {
 }
 
 // Put - функция для добавления пары ключ-значение
-// Time complexity: O(1)
+// TIME COMPLEXITY: O(1)
 func (c *LRUCache) Put(key int, value int) {
 	if node, ok := c.Items[key]; ok {
 		c.List.MoveToFront(node)

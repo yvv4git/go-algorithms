@@ -8,7 +8,7 @@ package smallest_common_element
 
 func smallestCommonElement(m [][]int) int {
 	/*
-		Time complexity: O(M x N).
+		TIME COMPLEXITY: O(M x N).
 		Auxiliary Space: O(M)
 
 		The steps are as follows:

@@ -3,7 +3,7 @@ package _33_flood_fill
 func floodFillV4(image [][]int, sr int, sc int, color int) [][]int {
 	/*
 		METHOD: DFS iterative.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Асимптотическая сложность алгоритмов BFS, DFS, итеративного DFS и рекурсивного DFS в этой задаче одинаковая и равна O(n),

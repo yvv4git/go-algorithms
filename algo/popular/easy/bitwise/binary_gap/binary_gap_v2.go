@@ -3,7 +3,7 @@ package binary_gap
 func BinaryGapV2(N int) int {
 	/*
 		METHOD: Bitwise
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Explanation: We check each bit of number from right to left.

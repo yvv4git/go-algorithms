@@ -5,7 +5,7 @@ import "strconv"
 func readBinaryWatchV3(turnedOn int) []string {
 	/*
 		METHOD: Not backtrack
-		Time complexity: ???
+		TIME COMPLEXITY: ???
 		Space complexity: O(1)
 	*/
 	const (

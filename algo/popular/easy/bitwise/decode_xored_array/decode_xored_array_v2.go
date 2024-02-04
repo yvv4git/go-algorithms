@@ -2,7 +2,7 @@ package decode_xored_array
 
 func decodeV2(encoded []int, first int) []int {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 	*/
 	origin := []int{first}

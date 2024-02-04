@@ -4,7 +4,7 @@ package main
 func middleNodeV1(head *ListNode) *ListNode {
 	/*
 		METHOD: Fast and slow pointers
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Особенность метода Fast & slow pointers!

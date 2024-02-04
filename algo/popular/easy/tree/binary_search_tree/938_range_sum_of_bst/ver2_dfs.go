@@ -3,7 +3,7 @@ package main
 func rangeSumBSTV2(root *TreeNode, low int, high int) int {
 	/*
 		METHOD: DFS
-		Time complexity: O(n), где n - количество узлов в дереве, так как мы проходим по каждому узлу.
+		TIME COMPLEXITY: O(n), где n - количество узлов в дереве, так как мы проходим по каждому узлу.
 		Space complexity: O(h), где h - высота дерева, так как в худшем случае глубина рекурсии может достигать высоты дерева.
 	*/
 	if root == nil {

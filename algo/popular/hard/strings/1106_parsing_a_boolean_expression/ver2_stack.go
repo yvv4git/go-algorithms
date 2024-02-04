@@ -4,7 +4,7 @@ package main
 func parseBoolExprV2(expression string) bool {
 	/*
 		METHOD: Stack & Recursion
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

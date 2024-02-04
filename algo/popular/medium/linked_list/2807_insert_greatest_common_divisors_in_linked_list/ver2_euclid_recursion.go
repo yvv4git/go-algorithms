@@ -3,10 +3,10 @@ package _807_insert_greatest_common_divisors_in_linked_list
 func insertGreatestCommonDivisorsV2(head *ListNode) *ListNode {
 	/*
 		METHOD: Euclid + recursion
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity:  O(n)
 
-		Time complexity:
+		TIME COMPLEXITY:
 		Временная сложность этого алгоритма - O(n), где n - количество узлов в списке.
 		Это связано с тем, что мы проходим по каждому узлу списка ровно один раз.
 

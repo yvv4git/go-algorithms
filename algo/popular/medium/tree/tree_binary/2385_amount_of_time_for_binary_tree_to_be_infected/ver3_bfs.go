@@ -4,7 +4,7 @@ package main
 func amountOfTimeV3(root *TreeNode, start int) int {
 	/*
 		Methods: BFS + backtracking
-		Time complexity: O(n^2), в среднем случае, так как она вызывает функции bfs и backtracking.
+		TIME COMPLEXITY: O(n^2), в среднем случае, так как она вызывает функции bfs и backtracking.
 		Space complexity: O(n)
 	*/
 

@@ -8,7 +8,7 @@ type TrieNode struct {
 func findMaximumXORV1(nums []int) int {
 	/*
 		METHOD: Префиксное дерево
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(m), где m - количество уникальных чисел в массиве
 
 		Метод Trie (префиксное дерево) используется для эффективного хранения и поиска строк.

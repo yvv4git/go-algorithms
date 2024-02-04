@@ -3,7 +3,7 @@ package _3_roman_to_Integer
 func romanToIntV2(s string) int {
 	/*
 		METHOD: Use map.
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	romanMap := map[rune]int{

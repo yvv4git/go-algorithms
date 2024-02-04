@@ -5,7 +5,7 @@ import "fmt"
 func countConsistentStringsV1(allowed string, words []string) int {
 	/*
 		METHOD: Hash
-		Time complexity: O(n log(n))
+		TIME COMPLEXITY: O(n log(n))
 		Space complexity: O(n log(n))
 	*/
 	Hashmap := make(map[byte]int)

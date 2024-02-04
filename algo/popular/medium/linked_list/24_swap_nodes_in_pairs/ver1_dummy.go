@@ -4,7 +4,7 @@ package _4_swap_nodes_in_pairs
 func swapPairsV1(head *ListNode) *ListNode {
 	/*
 		METHOD: Iterative
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 

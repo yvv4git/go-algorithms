@@ -85,7 +85,7 @@ func TestMaxProfitTask2(t *testing.T) {
 
 func maxProfitTask2(prices []int) int {
 	/*
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	var result int // Здесь храним результат.

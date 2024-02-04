@@ -6,7 +6,7 @@ package _400_construct_k_palindrome_strings
 func canConstructV1(s string, k int) bool {
 	/*
 		METHOD: Counting
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Time complexity

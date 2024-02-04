@@ -3,7 +3,7 @@ package calculate_digits_count
 func CalculateDigitsNumberV2(num int) int {
 	/*
 		Method Recursion
-		Time complexity: O(log(n))
+		TIME COMPLEXITY: O(log(n))
 		Space complexity: O(log(n))
 	*/
 	if num/10 == 0 {

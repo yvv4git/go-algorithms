@@ -7,7 +7,7 @@ package _53_find_minimum_in_rotated_sorted_array
 func findMinV2(nums []int) int {
 	/*
 		METHOD: Binary search optimized
-		Time complexity: O(log n)
+		TIME COMPLEXITY: O(log n)
 		Space complexity: O(1)
 	*/
 	// Инициализируем две переменные, которые будут указывать на начало и конец массива.

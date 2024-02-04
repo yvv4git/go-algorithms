@@ -4,7 +4,7 @@ package _09_minimum_size_subarray_sum
 func minSubArrayLenV2(target int, nums []int) int {
 	/*
 		METHOD: Binary search
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(n)
 
 		Time complexity

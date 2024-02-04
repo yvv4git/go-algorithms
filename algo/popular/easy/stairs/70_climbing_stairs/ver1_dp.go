@@ -4,7 +4,7 @@ package main
 func climbStairs(n int) int {
 	/*
 		METHOD: Dynamic programming
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 
 		Time complexity

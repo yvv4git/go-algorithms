@@ -5,7 +5,7 @@ import "fmt"
 func summaryRangesV2(nums []int) []string {
 	/*
 		METHOD: Window
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	if len(nums) == 0 {

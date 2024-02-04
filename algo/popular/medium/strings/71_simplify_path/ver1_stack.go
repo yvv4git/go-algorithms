@@ -9,7 +9,7 @@ import (
 func simplifyPath(path string) string {
 	/*
 		METHOD: Stack
-		Time complexity: O(n), где n - количество символов в пути.
+		TIME COMPLEXITY: O(n), где n - количество символов в пути.
 		Space complexity:  O(n), так как в худшем случае мы можем хранить в стеке все символы пути.
 
 		Method

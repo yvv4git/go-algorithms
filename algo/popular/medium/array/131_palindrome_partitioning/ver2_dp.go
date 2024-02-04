@@ -3,7 +3,7 @@ package _31_palindrome_partitioning
 func partitionV2(s string) [][]string {
 	/*
 		METHOD: Dynamic programming
-		Time complexity: O(n^2)
+		TIME COMPLEXITY: O(n^2)
 		Space complexity: O(n^2)
 
 		Time complexity

@@ -2,7 +2,7 @@ package _875_minimum_size_subarray_in_infinite_array
 
 /*
 	METHOD: Window
-	Time complexity: O(n)
+	TIME COMPLEXITY: O(n)
 	Space complexity: O(1)
 
 	Time complexity

@@ -3,7 +3,7 @@ package _700_number_of_students_unable_to_eat_lunch
 func countStudentsV2(students []int, sandwiches []int) int {
 	/*
 		METHOD: Counting map
-		Time complexity: O(n)
+		TIME COMPLEXITY: O(n)
 		Space complexity: O(1)
 	*/
 	studMap := make(map[int]int)
