@@ -6,7 +6,7 @@ const maskOneBits = 14
 
 func sortByBitsV1(arr []int) []int {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(n * 14 + n)
 		Space complexity: O1) - так как мы просто обновляем значения в массиве
 

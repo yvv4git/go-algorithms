@@ -2,7 +2,7 @@ package longest_palindrome
 
 func longestPalindromeV3(s string) int {
 	/*
-		Method: Use hash map
+		METHOD: Use hash map
 		Time complexity: O(n)
 		Space complexity: O(1) - используем только символы из алфавита, значит константа O(1), так как количество символов в алфавите ограничено
 	*/

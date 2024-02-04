@@ -3,7 +3,7 @@ package main
 // Функция для нахождения середины списка
 func middleNodeV4(head *ListNode) *ListNode {
 	/*
-		Method: Using an Array
+		METHOD: Using an Array
 		Time complexity: O(n)
 		Space complexity: O(n)
 

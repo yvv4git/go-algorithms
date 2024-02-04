@@ -21,7 +21,7 @@ func checkPerfectNumberV1(num int) bool {
 
 	sum := 1  // Здесь 1 потому, что 1 - это делитель любого числа.
 	left := 2 // инициализируется как 2, потому что мы начинаем проверять делители числа num, начиная с самого маленького возможного делителя, который может быть больше 1.
-	for {     // Method: Two pointer.
+	for {     // METHOD: Two pointer.
 		right := num / left
 		if left >= right {
 			break

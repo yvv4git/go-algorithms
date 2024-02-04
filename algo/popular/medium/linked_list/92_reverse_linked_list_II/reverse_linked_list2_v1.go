@@ -2,7 +2,7 @@ package _2_reverse_linked_list_II
 
 func reverseBetweenV1(head *ListNode, left int, right int) *ListNode {
 	/*
-		Method: Two pointers.
+		METHOD: Two pointers.
 		Time complexity: O(n).
 		Space complexity: O(1).
 

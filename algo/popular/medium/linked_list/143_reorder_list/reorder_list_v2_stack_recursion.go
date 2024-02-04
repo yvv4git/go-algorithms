@@ -6,7 +6,7 @@ var current *ListNode
 // Функция для перестановки узлов в списке так, чтобы он стал палиндромом
 func reorderListV2(head *ListNode) {
 	/*
-		Method: Stack || Recursion
+		METHOD: Stack || Recursion
 		Time complexity: O(n)
 		Space complexity: O(n)
 

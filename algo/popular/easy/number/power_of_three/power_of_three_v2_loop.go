@@ -2,7 +2,7 @@ package power_of_three
 
 func isPowerOfThreeV2(n int) bool {
 	/*
-		Method: For loop
+		METHOD: For loop
 		Time complexity: O(1)
 		Space complexity: O(1)
 	*/

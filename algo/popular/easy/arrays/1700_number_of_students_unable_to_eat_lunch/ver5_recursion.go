@@ -5,7 +5,7 @@ package _700_number_of_students_unable_to_eat_lunch
 // Функция возвращает количество студентов, которые не смогли взять сендвич из-за того, что все остальные студенты хотели быть первыми в очереди.
 func countStudentsV5(students []int, sandwiches []int) int {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity: O(n)
 		Space complexity: O(n)
 

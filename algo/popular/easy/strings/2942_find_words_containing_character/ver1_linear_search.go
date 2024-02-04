@@ -4,7 +4,7 @@ import "strings"
 
 func findWordsContaining(words []string, x byte) []int {
 	/*
-		Method: Linear search
+		METHOD: Linear search
 		Time complexity: O(n)
 		Space complexity: O(n)
 

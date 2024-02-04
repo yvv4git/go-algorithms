@@ -2,7 +2,7 @@ package find_difference
 
 func findTheDifferenceV1(s string, t string) byte {
 	/*
-		Method: Hash
+		METHOD: Hash
 		Time complexity: O(n + n + n) = O(3n) = O(n)
 		Space complexity: O(n)
 	*/

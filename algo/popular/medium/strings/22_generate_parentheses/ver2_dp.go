@@ -3,7 +3,7 @@ package main
 // Функция для генерации всех возможных комбинаций скобок.
 func generateParenthesisV2(n int) []string {
 	/*
-		Method: Dynamic programming
+		METHOD: Dynamic programming
 		Time complexity: O(4^n / n^(3/2))
 		Space complexity: O(4^n / n^(3/2))
 

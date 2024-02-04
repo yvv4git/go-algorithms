@@ -4,7 +4,7 @@ package main
 // чтобы сделать строки s1, s2 и s3 одинаковыми. Если это невозможно, возвращает -1.
 func findMinimumOperations(s1, s2, s3 string) int {
 	/*
-		Method: Divide and conquer
+		METHOD: Divide and conquer
 		Time complexity: O(n)
 		Space complexity: O(1) or O(n)
 

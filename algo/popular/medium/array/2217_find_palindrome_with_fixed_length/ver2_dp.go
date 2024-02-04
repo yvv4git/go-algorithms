@@ -2,7 +2,7 @@ package _217_find_palindrome_with_fixed_length
 
 func kthPalindromeV2(queries []int, intLength int) []int64 {
 	/*
-		Method: DP + math
+		METHOD: DP + math
 		Time complexity: O(n)
 		Space complexity: O(1)
 

@@ -2,7 +2,7 @@ package main
 
 func removeNthFromEndV3(head *ListNode, n int) *ListNode {
 	/*
-		Method: Fast and slow pointers
+		METHOD: Fast and slow pointers
 		Time complexity: O(n)
 		Space complexity: O(1)
 

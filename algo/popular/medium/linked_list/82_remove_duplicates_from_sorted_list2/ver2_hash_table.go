@@ -2,7 +2,7 @@ package _2_remove_duplicates_from_sorted_list2
 
 func deleteDuplicatesV2(head *ListNode) *ListNode {
 	/*
-		Method: Hash table, Dictionary
+		METHOD: Hash table, Dictionary
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

@@ -2,7 +2,7 @@ package postorder_traversal
 
 func postorderTraversalV2(root *TreeNode) []int {
 	/*
-		Method: DFS iterative.
+		METHOD: DFS iterative.
 		Time complexity : O(n)
 		Space complexity : O(n) - n used for stack.
 	*/

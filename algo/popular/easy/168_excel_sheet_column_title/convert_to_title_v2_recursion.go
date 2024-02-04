@@ -4,7 +4,7 @@ import "fmt"
 
 func convertToTitleV2(columnNumber int) string {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity: O(log(columnNumber))
 		Space complexity: O(1)
 	*/

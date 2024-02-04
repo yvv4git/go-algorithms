@@ -2,7 +2,7 @@ package main
 
 func majorityElementBruteForce(nums []int) int {
 	/*
-		Method: Brute Force.
+		METHOD: Brute Force.
 		Т.е.:
 		0. Находим majority element value.
 		1. Берем элемент.

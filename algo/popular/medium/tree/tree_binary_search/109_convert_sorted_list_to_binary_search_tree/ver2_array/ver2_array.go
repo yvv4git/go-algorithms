@@ -29,7 +29,7 @@ func sortedListToBST(head *ListNode) *TreeNode {
 // Пространственная сложность: O(log n), так как мы используем дополнительное пространство для стека вызовов рекурсии
 func sortedArrayToBST(arr []int) *TreeNode {
 	/*
-		Method: Array
+		METHOD: Array
 		Time complexity: O(n), так как на каждом уровне рекурсии мы делим массив на пополам, а затем рекурсивно обрабатываем каждую половину
 		Space complexity: O(log n), так как мы используем дополнительное пространство для стека вызовов рекурсии
 

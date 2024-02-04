@@ -4,7 +4,7 @@ import "strconv"
 
 func countAndSayV1(n int) string {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity: O(n*m), где n - входное число, m - длина строки, полученной на предыдущем шаге.
 		Space complexity: O(n), так как мы храним только две строки в памяти: текущую и предыдущую.
 

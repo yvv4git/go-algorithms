@@ -5,7 +5,7 @@ import "unicode"
 // Функция myAtoiV3 преобразует строку в число.
 func myAtoiV3(s string) int {
 	/*
-		Method: Two pointers
+		METHOD: Two pointers
 		Time complexity: O(n)
 		Space complexity: O(1) - в общем случае, в худшем случае, если строка состоит только из цифр, то n записей придется копировать.
 

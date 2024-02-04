@@ -7,7 +7,7 @@ type TrieNode struct {
 // Функция для поиска максимального XOR двух чисел в массиве
 func findMaximumXORV1(nums []int) int {
 	/*
-		Method: Префиксное дерево
+		METHOD: Префиксное дерево
 		Time complexity: O(n)
 		Space complexity: O(m), где m - количество уникальных чисел в массиве
 

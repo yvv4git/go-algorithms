@@ -3,7 +3,7 @@ package main
 // Функция isValidBST проверяет, является ли дерево бинарным деревом поиска.
 func isValidBSTV5(root *TreeNode) bool {
 	/*
-		Method: DFS
+		METHOD: DFS
 		Time complexity: O(n)
 		Space complexity: O(n)
 

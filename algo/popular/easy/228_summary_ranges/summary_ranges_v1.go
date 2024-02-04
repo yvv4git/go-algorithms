@@ -4,7 +4,7 @@ import "strconv"
 
 func summaryRangesV1(nums []int) []string {
 	/*
-		Method: Loop
+		METHOD: Loop
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

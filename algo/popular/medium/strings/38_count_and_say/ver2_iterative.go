@@ -4,7 +4,7 @@ import "strconv"
 
 func countAndSayV2(n int) string {
 	/*
-		Method: Iterative
+		METHOD: Iterative
 		Time complexity: O(n*m), где n - количество чисел в последовательности, а m - средняя длина строки, полученной на предыдущем шаге.
 		Space complexity: O(n*m)
 

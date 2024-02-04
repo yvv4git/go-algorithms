@@ -2,7 +2,7 @@ package power_of_four
 
 func isPowerOfFourV1(n int) bool {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity: ???
 		Space complexity: O(1)
 	*/

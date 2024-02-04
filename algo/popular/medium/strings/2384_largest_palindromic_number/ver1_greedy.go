@@ -3,7 +3,7 @@ package main
 // Функция largestPalindromicV1 создает наибольший палиндром из цифр в строке num.
 func largestPalindromicV1(num string) string {
 	/*
-		Method: Greedy algorithm
+		METHOD: Greedy algorithm
 		Time complexity: O(n)
 		Space complexity: O(n)
 

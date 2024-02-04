@@ -2,7 +2,7 @@ package sum_all_subset_xor_totals
 
 func subsetXORSumV1(nums []int) int {
 	/*
-		Method: Bruteforce with DFS(recursion)
+		METHOD: Bruteforce with DFS(recursion)
 		Time complexity: O(e+v)
 		Space complexity: O(1)
 	*/

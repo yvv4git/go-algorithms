@@ -4,7 +4,7 @@ var pick = 6
 
 func guessNumberV1(n int) int {
 	/*
-		Method: Binary search.
+		METHOD: Binary search.
 		Time Complexity - O(log(n))
 		Space Complexity - O(1)
 	*/

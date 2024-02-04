@@ -2,7 +2,7 @@ package main
 
 func majorityElementHashMap(nums []int) int {
 	/*
-		Method: Hash map.
+		METHOD: Hash map.
 		0. Проходим по входному списку и заполняем хэш количество повторов каждого элемента.
 		1. Затем проходим по хэши и определяем самый часто встречающийся элемент.
 

@@ -2,7 +2,7 @@ package binary_number_alternating_bits
 
 func hasAlternatingBitsV2(n int) bool {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: ???
 		Space complexity: O(1)
 	*/

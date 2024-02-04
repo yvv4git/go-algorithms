@@ -2,7 +2,7 @@ package main
 
 func middleNodeV3(head *ListNode) *ListNode {
 	/*
-		Method: Counting the Nodes
+		METHOD: Counting the Nodes
 		Time complexity: O(n)
 		Space complexity: O(1)
 

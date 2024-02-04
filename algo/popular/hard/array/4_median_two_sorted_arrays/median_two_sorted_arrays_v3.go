@@ -2,7 +2,7 @@ package __median_two_sorted_arrays
 
 func findMedianSortedArraysV3(nums1 []int, nums2 []int) float64 {
 	/*
-		Method: Merge and divide
+		METHOD: Merge and divide
 		Time complexity: 	O(n)
 		Space complexity:	O(1)
 	*/

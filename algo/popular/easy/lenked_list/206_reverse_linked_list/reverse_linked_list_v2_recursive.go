@@ -3,7 +3,7 @@ package main
 // Функция для рекурсивного реверса списка
 func reverseListV2(head *ListNode) *ListNode {
 	/*
-		Method: Recursive
+		METHOD: Recursive
 		Time complexity: O(n)
 		Space complexity: O(n)
 

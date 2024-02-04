@@ -2,7 +2,7 @@ package _323_maximum_69_number
 
 func maximum69NumberV2(num int) int {
 	/*
-		Method: Math
+		METHOD: Math
 		Time complexity: O(1) - because we have not more than 4 operations.
 		Space complexity: O(1) - because there are not additional memory for slices.
 	*/

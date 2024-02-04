@@ -2,7 +2,7 @@ package _470_shuffle_the_array
 
 func shuffleV3(nums []int, n int) []int {
 	/*
-		Method: Iterate
+		METHOD: Iterate
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

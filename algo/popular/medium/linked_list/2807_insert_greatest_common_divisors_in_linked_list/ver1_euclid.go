@@ -3,7 +3,7 @@ package _807_insert_greatest_common_divisors_in_linked_list
 // Функция для вставки НОД между узлами
 func insertGreatestCommonDivisorsV1(head *ListNode) *ListNode {
 	/*
-		Method:
+		METHOD:
 		Time complexity: O(n)
 		Space complexity: O(n)
 

@@ -4,7 +4,7 @@ import "math"
 
 func findNthDigitV2(n int) int {
 	/*
-		Method: Math
+		METHOD: Math
 		Time complexity: O(log n)
 		Space complexity: O(1)
 	*/

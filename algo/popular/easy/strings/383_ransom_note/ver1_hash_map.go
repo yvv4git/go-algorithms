@@ -2,7 +2,7 @@ package _83_ransom_note
 
 func canConstructV1(ransomNote string, magazine string) bool {
 	/*
-		Method: Hash map, Dictionary
+		METHOD: Hash map, Dictionary
 		Time complexity: O(n)
 		Space complexity: O(1)
 

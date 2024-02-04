@@ -2,7 +2,7 @@ package _42_valid_anagram
 
 func isAnagramV3(s string, t string) bool {
 	/*
-		Method: Hashmap
+		METHOD: Hashmap
 		Time complexity : O(n)
 		Space complexity : O(n)
 	*/

@@ -7,7 +7,7 @@ import (
 
 func diffWaysToCompute(expression string) []int {
 	/*
-		Method: Divide and Conquer
+		METHOD: Divide and Conquer
 		Time complexity: O(4^n / sqrt(n)), где n - количество операторов в выражении.
 		Это связано с тем, что для каждого оператора мы делаем 4 рекурсивных вызова (два для левой и правой части выражения),
 		и таких вызовов будет n (количество операторов).

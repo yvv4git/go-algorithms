@@ -4,7 +4,7 @@ import "unicode"
 
 func reverseVowelsV3(s string) string {
 	/*
-		Method: Two pointer / Window.
+		METHOD: Two pointer / Window.
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

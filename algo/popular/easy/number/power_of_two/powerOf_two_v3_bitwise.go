@@ -2,7 +2,7 @@ package power_of_two
 
 func isPowerOfTwoV3(n int) bool {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(1)
 		Space complexity: O(1)
 

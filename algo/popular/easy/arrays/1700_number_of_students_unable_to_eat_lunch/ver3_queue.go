@@ -65,7 +65,7 @@ func (q *IntQueue) Dequeue() int {
 
 func countStudentsV3(students []int, sandwiches []int) int {
 	/*
-		Method: Queue
+		METHOD: Queue
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

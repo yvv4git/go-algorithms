@@ -3,7 +3,7 @@ package main
 // climbStairs возвращает количество способов подняться на лестницу из n ступеней.
 func climbStairs(n int) int {
 	/*
-		Method: Dynamic programming
+		METHOD: Dynamic programming
 		Time complexity: O(n)
 		Space complexity: O(1)
 

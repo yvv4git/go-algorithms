@@ -2,7 +2,7 @@ package main
 
 func twoSumHash(nums []int, target int) []int {
 	/*
-		Method: Hash table.
+		METHOD: Hash table.
 
 		Время работы: O(n)
 		Память: O(n)

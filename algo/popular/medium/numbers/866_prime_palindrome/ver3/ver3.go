@@ -4,7 +4,7 @@ import "math"
 
 func primePalindrome(n int) int {
 	/*
-		Method: Iteration
+		METHOD: Iteration
 		Time complexity: O(n)
 		Space complexity: O(n)
 

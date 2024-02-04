@@ -46,7 +46,7 @@ const eof = rune(0)
 // Функция deserialize декодирует строку, представляющую вложенную структуру, в NestedInteger.
 func deserialize(s string) *NestedInteger {
 	/*
-		Method: Stack
+		METHOD: Stack
 		Time complexity: O(n), где n - длина строки s
 		Space complexity: O(n), используется дополнительная память на хранение stack
 	*/

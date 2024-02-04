@@ -2,7 +2,7 @@ package _33_flood_fill
 
 func floodFillV3(image [][]int, sr int, sc int, color int) [][]int {
 	/*
-		Method: BFS iterative.
+		METHOD: BFS iterative.
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

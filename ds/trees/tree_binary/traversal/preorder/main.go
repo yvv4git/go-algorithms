@@ -40,7 +40,7 @@ type TreeNode struct {
 // Preorder обход
 func preorderTraversal(root *TreeNode) []int {
 	/*
-		Method:
+		METHOD:
 		Time complexity: O(n)
 		Space complexity: O(1) или O(n)
 

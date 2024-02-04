@@ -9,7 +9,7 @@ import (
 // Функция принимает строку num, представляющую большое целое число.
 func largestGoodIntegerV1(num string) string {
 	/*
-		Method: Enumeration / Перебор
+		METHOD: Enumeration / Перебор
 		Time complexity: O(n)
 		Space complexity: O(1)
 

@@ -4,7 +4,7 @@ import "strings"
 
 func repeatedSubstringPatternV2(s string) bool {
 	/*
-		Method:
+		METHOD:
 	*/
 	// Создаем подстроку, которая начинается со второго символа исходной строки
 	sub := s[1:]

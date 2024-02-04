@@ -4,7 +4,7 @@ import "container/heap"
 
 func mergeKListsV1(lists []*ListNode) *ListNode {
 	/*
-		Method: Priority Queue
+		METHOD: Priority Queue
 		Time complexity: O(N log k), N - общее количество узлов во всех списках, k - количество списков
 		Space complexity: O(k), k - количество списков
 

@@ -5,7 +5,7 @@ package _400_construct_k_palindrome_strings
 // Выходные данные: true, если можно составить ровно k палиндромов, false в противном случае.
 func canConstructV1(s string, k int) bool {
 	/*
-		Method: Counting
+		METHOD: Counting
 		Time complexity: O(n)
 		Space complexity: O(1)
 

@@ -4,7 +4,7 @@ import "strings"
 
 func convertV3(s string, numRows int) string {
 	/*
-		Method: Simple loop
+		METHOD: Simple loop
 		Time complexity: O(n)
 		Space complexity: O(n)
 

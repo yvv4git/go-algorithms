@@ -2,7 +2,7 @@ package sort_colors
 
 func sortColorsV2(nums []int) {
 	/*
-		Method: Counting sort.
+		METHOD: Counting sort.
 		Time complexity: O(n+k), where n - length of nums, k - max number in nums (its at worst 2, so the complexity is basically can be considered O(n)).
 		Space complexity: O(n+k) - same logic here.
 	*/

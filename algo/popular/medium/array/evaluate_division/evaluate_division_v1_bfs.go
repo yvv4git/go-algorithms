@@ -7,7 +7,7 @@ type Pair struct {
 
 func calcEquationV1(equations [][]string, values []float64, queries [][]string) []float64 {
 	/*
-		Method: BFS (Breadth-First Search)
+		METHOD: BFS (Breadth-First Search)
 		Time complexity: O(n^2)
 		Space complexity: O(n)
 	*/

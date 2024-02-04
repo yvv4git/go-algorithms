@@ -3,7 +3,7 @@ package _62_find_peak_element
 // Функция для поиска пикал в массиве
 func findPeakElementV1(nums []int) int {
 	/*
-		Method: Binary search
+		METHOD: Binary search
 		Time complexity: O(logN), так как мы каждый раз делим половину массива, где N - размер входного массива.
 		Space complexity: O(1), так как мы используем только несколько переменных, которые не зависят от размера входных данных.
 	*/

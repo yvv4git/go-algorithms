@@ -3,7 +3,7 @@ package _16_longest_palindromic_subsequence
 // Функция longestPalindromeSubseqV3 находит длину наибольшей палиндромной подпоследовательности в строке s
 func longestPalindromeSubseqV3(s string) int {
 	/*
-		Method: Dynamic programming + Recursion
+		METHOD: Dynamic programming + Recursion
 		Time complexity: O(n^2)
 		Space complexity: O(n^2)
 

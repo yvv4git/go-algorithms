@@ -4,7 +4,7 @@ import "sort"
 
 func divideArrayV1(nums []int) bool {
 	/*
-		Method: Use lib sort.
+		METHOD: Use lib sort.
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

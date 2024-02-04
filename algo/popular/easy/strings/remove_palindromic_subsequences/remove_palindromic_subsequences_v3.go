@@ -2,7 +2,7 @@ package remove_palindromic_subsequences
 
 func removePalindromeSubV3(s string) int {
 	/*
-		Method: Iterate
+		METHOD: Iterate
 		Time complexity: O(n)
 		Space complexity: O(1)
 

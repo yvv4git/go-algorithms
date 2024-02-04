@@ -6,7 +6,7 @@ import "sort"
 // Она использует сортировку для этого.
 func containsDuplicateV2(nums []int) bool {
 	/*
-		Method: Sort
+		METHOD: Sort
 		Time complexity: O(n log n)
 		Space complexity: O(1)
 

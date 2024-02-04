@@ -2,7 +2,7 @@ package _07_perfect_number
 
 func checkPerfectNumberV4(num int) bool {
 	/*
-		Method: Bruteforce
+		METHOD: Bruteforce
 		Time complexity: O(n)
 		Space complexity: O(1)
 

@@ -2,7 +2,7 @@ package main
 
 func twoSumWindow(nums []int, target int) []int {
 	/*
-		Method: Window
+		METHOD: Window
 		Алгоритм простой и в тоже время эффективный.
 
 

@@ -2,7 +2,7 @@ package _18_pascal_triangle
 
 func generateV3(numRows int) [][]int {
 	/*
-		Method: Iterative
+		METHOD: Iterative
 		Time complexity : O(n)
 		Space complexity : O(n)
 	*/

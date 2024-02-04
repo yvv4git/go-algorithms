@@ -3,7 +3,7 @@ package main
 // Функция amountOfTimeV4 находит время, необходимое для инфицирования всего дерева, начиная с узла start.
 func amountOfTimeV4(root *TreeNode, start int) int {
 	/*
-		Method: BFS
+		METHOD: BFS
 		Time complexity: O(n)
 		Space complexity: O(n)
 

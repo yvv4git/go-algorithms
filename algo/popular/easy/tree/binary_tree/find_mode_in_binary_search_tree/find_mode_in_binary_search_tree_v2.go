@@ -6,7 +6,7 @@ import (
 
 func findModeV2(root *TreeNode) []int {
 	/*
-		Method: DFS + Recursion.
+		METHOD: DFS + Recursion.
 
 		Time: O(n), where n is the size of the given tree.
 		Space: O(n), where n is the size of the stack during the DFS.

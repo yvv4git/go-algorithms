@@ -2,7 +2,7 @@ package longest_palindrome
 
 func longestPalindromeV2(s string) int {
 	/*
-		Method: Use bool array
+		METHOD: Use bool array
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

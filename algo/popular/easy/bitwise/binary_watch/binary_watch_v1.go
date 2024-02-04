@@ -7,7 +7,7 @@ import (
 
 func readBinaryWatchV1(num int) []string {
 	/*
-		Method: Backtrace
+		METHOD: Backtrace
 		Time complexity: ???
 		Space complexity: ???
 	*/

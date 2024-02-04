@@ -2,7 +2,7 @@ package sort_colors
 
 func sortColorsV1(nums []int) {
 	/*
-		Method: Two pointers.
+		METHOD: Two pointers.
 		Time complexity : O(n)
 		Space complexity : O(1)
 	*/

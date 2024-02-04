@@ -4,7 +4,7 @@ import "unicode"
 
 func longestNiceSubstringV4(s string) string {
 	/*
-		Method: Divide And Conquer
+		METHOD: Divide And Conquer
 		Time complexity: O(n)
 		Space complexity: O(n)
 

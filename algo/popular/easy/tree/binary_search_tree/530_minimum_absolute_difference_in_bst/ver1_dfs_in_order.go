@@ -5,7 +5,7 @@ import "math"
 // Функция getMinimumDifference находит минимальную разницу между значениями узлов в бинарном дереве.
 func getMinimumDifference(root *TreeNode) int {
 	/*
-		Method: DFS in-order
+		METHOD: DFS in-order
 		Time complexity: O(n), так как в худшем случае функция может хранить все значения узлов в дереве в срезе.
 		Space complexity: O(n), так как в худшем случае функция может хранить все значения узлов в дереве в срезе.
 

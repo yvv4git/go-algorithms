@@ -7,7 +7,7 @@ import (
 
 func maxEventsV1(events [][]int) int {
 	/*
-		Method: Heap
+		METHOD: Heap
 		Time complexity: ???
 		Space complexity: ???
 	*/

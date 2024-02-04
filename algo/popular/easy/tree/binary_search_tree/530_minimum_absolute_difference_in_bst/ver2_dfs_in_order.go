@@ -4,7 +4,7 @@ import "math"
 
 func getMinimumDifferenceV2(root *TreeNode) int {
 	/*
-		Method: DFS in-order
+		METHOD: DFS in-order
 		Time complexity: O(n)
 		Space complexity: O(n)
 

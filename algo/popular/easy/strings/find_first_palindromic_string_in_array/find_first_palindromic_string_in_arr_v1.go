@@ -2,7 +2,7 @@ package find_first_palindromic_string_in_array
 
 func firstPalindromeV1(words []string) string {
 	/*
-		Method: Iterate
+		METHOD: Iterate
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

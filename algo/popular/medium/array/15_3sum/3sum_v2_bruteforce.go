@@ -4,7 +4,7 @@ import "sort"
 
 func threeSumV2(nums []int) [][]int {
 	/*
-		Method: Bruteforce.
+		METHOD: Bruteforce.
 		Time complexity: O(n^2)
 		Space complexity: O(1)
 	*/

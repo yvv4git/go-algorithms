@@ -4,7 +4,7 @@ import "strings"
 
 func reverseVowelsV2(s string) string {
 	/*
-		Method: Window loop.
+		METHOD: Window loop.
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

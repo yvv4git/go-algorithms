@@ -2,7 +2,7 @@ package main
 
 func twoSumBinarySearch(nums []int, target int) []int {
 	/*
-		Method: Binary search.
+		METHOD: Binary search.
 		Используем знаменитый бинарный поиск для решения задачи.
 
 		Есть одно но - массив должен быть отсортирован!

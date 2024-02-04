@@ -4,7 +4,7 @@ import "strings"
 
 func removeDuplicateLettersV3(s string) string {
 	/*
-		Method: Queue
+		METHOD: Queue
 		Time complexity: O(n)
 		Space complexity: O(n)
 

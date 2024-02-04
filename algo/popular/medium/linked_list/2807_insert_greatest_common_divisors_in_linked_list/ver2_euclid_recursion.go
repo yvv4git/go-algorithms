@@ -2,7 +2,7 @@ package _807_insert_greatest_common_divisors_in_linked_list
 
 func insertGreatestCommonDivisorsV2(head *ListNode) *ListNode {
 	/*
-		Method: Euclid + recursion
+		METHOD: Euclid + recursion
 		Time complexity: O(n)
 		Space complexity:  O(n)
 

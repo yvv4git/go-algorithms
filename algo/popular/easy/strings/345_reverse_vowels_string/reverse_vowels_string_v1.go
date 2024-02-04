@@ -4,7 +4,7 @@ import "unicode"
 
 func isVowel(c rune) bool {
 	/*
-		Method: Window loop.
+		METHOD: Window loop.
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

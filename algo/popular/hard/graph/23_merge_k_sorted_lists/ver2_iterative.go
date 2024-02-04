@@ -6,7 +6,7 @@ package _3_merge_k_sorted_lists
 // Пространственная сложность: O(1), так как дополнительной памяти не используется.
 func mergeKListsV2(lists []*ListNode) *ListNode {
 	/*
-		Method: Iterative
+		METHOD: Iterative
 		Time complexity: O(N*M), где N - общее количество узлов, M - количество списков
 		Space complexity: O(1), так как дополнительной памяти не используется
 	*/

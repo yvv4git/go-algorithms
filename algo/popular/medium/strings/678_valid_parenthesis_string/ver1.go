@@ -2,7 +2,7 @@ package _78_valid_parenthesis_string
 
 func checkValidStringV1(s string) bool {
 	/*
-		Method: Reverse and check.
+		METHOD: Reverse and check.
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

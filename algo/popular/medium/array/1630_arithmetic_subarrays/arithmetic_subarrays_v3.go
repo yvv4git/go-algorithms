@@ -2,7 +2,7 @@ package _630_arithmetic_subarrays
 
 func checkArithmeticSubArraysV3(nums []int, l []int, r []int) []bool {
 	/*
-		Method: ???
+		METHOD: ???
 		Time complexity: O(mn log(n))
 		Space complexity: O(n)
 	*/

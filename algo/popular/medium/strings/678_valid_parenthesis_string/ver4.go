@@ -2,7 +2,7 @@ package _78_valid_parenthesis_string
 
 func checkValidStringV4(s string) bool {
 	/*
-		Method: Greedy solution
+		METHOD: Greedy solution
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

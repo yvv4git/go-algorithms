@@ -3,7 +3,7 @@ package _4_swap_nodes_in_pairs
 // Функция для перестановки узлов в парах
 func swapPairsV1(head *ListNode) *ListNode {
 	/*
-		Method: Iterative
+		METHOD: Iterative
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

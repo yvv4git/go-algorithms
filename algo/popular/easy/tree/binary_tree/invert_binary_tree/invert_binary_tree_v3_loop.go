@@ -2,7 +2,7 @@ package invert_binary_tree
 
 func invertTree(root *TreeNode) *TreeNode {
 	/*
-		Method: Loop by Stack
+		METHOD: Loop by Stack
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

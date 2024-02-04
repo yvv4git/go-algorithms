@@ -4,7 +4,7 @@ import "strconv"
 
 func largestPalindromeV2(num string) string {
 	/*
-		Method: Greedy algorithm
+		METHOD: Greedy algorithm
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

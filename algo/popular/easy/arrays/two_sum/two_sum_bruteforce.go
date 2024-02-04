@@ -3,7 +3,7 @@ package main
 
 func twoSumBruteforce(nums []int, target int) []int {
 	/*
-		Method: Bruteforce.
+		METHOD: Bruteforce.
 		Смысл данного метода в том, что мы просто перебираем все комбинации.
 
 		Время работы: O(n^2)

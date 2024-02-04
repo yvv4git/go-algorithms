@@ -2,7 +2,7 @@ package intersection_two
 
 func getIntersectionNodeV1(headA, headB *ListNode) *ListNode {
 	/*
-		Method: Using map.
+		METHOD: Using map.
 		Time complexity: O(n + m)
 		Space complexity: O(n)
 	*/

@@ -2,7 +2,7 @@ package _18_pascal_triangle
 
 func generateV4(numRows int) [][]int {
 	/*
-		Method: Dynamic programming
+		METHOD: Dynamic programming
 		Time complexity : O(n)
 		Space complexity : O(n)
 	*/

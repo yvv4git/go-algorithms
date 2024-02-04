@@ -2,7 +2,7 @@ package _42_valid_anagram
 
 func isAnagramV4(s string, t string) bool {
 	/*
-		Method: Array
+		METHOD: Array
 		Time complexity : O(n+m)
 		Space complexity : O(1), в примере пишут, что O(1), но мне видеться как O(n), так как надо в буфер добавить n элементов.
 	*/

@@ -3,7 +3,7 @@ package _09_minimum_size_subarray_sum
 // Функция minSubArrayLen находит минимальный подмассив, сумма элементов которого не меньше target
 func minSubArrayLenV2(target int, nums []int) int {
 	/*
-		Method: Binary search
+		METHOD: Binary search
 		Time complexity: O(n)
 		Space complexity: O(n)
 

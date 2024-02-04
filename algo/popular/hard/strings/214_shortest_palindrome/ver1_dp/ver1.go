@@ -3,7 +3,7 @@ package ver1_dp
 // Функция, которая находит самое короткое палиндромное расширение
 func shortestPalindrome(s string) string {
 	/*
-		Method: Dynamic programming
+		METHOD: Dynamic programming
 		Time complexity: O(n)
 		Space complexity: O(n)
 

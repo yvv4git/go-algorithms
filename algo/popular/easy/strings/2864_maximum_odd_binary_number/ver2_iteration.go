@@ -2,7 +2,7 @@ package main
 
 func maximumOddBinaryNumberV2(s string) string {
 	/*
-		Method: Iteration
+		METHOD: Iteration
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

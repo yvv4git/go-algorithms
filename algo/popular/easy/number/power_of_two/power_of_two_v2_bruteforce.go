@@ -2,7 +2,7 @@ package power_of_two
 
 func isPowerOfTwoV2(n int) bool {
 	/*
-		Method: Bruteforce
+		METHOD: Bruteforce
 		Time complexity: O(log n) - последовательность на каждом шаге будет уменьшаться в 2 раза.
 		Space complexity: O(1)
 	*/

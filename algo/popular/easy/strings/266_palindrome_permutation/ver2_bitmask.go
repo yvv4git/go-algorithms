@@ -2,7 +2,7 @@ package _66_palindrome_permutation
 
 func canPermutePalindromeV2(s string) bool {
 	/*
-		Method: Bitmask, Bitwise
+		METHOD: Bitmask, Bitwise
 		Time complexity: O(n), где n - длина строки, поскольку мы проходим по всем символам строки.
 		Space complexity: O(1), поскольку мы используем фиксированное количество переменных, независимо от размера входных данных.
 

@@ -3,7 +3,7 @@ package __longest_substring_without_repeating_characters
 // Функция для поиска самой длинной подстроки без повторяющихся символов
 func lengthOfLongestSubstringV2(s string) int {
 	/*
-		Method: Optimize map
+		METHOD: Optimize map
 		Time complexity: O(n)
 		Space complexity:  O(min(n, m)), где m - размер алфавита, а n - количество символов в окне.
 	*/

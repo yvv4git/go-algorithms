@@ -3,7 +3,7 @@ package main
 // mergeTwoLists - функция для объединения двух отсортированных списков
 func mergeTwoListsV2(l1 *ListNode, l2 *ListNode) *ListNode {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity: O(n)
 		Space complexity: O(n)
 

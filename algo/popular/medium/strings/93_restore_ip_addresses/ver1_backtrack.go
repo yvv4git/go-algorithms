@@ -7,7 +7,7 @@ import (
 
 func restoreIpAddresses(s string) []string {
 	/*
-		Method: Backtrack
+		METHOD: Backtrack
 		Time complexity: O(1) - O(3^4) в худшем случае, когда мы должны проверить все возможные комбинации разбиения строки на четыре части.
 		Space complexity:  O(1) в лучшем и худшем случае, так как мы используем фиксированное количество переменных, не зависящих от размера входных данных.
 	*/

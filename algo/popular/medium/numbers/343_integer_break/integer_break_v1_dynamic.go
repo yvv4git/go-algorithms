@@ -3,7 +3,7 @@ package _43_integer_break
 // Функция integerBreak принимает на вход целое число n и возвращает максимальное произведение, которое можно получить, разбив n на сумму k положительных целых чисел, где k >= 2.
 func integerBreakV1(n int) int {
 	/*
-		Method: Dynamic programming
+		METHOD: Dynamic programming
 		Time complexity: O(n)
 		Space complexity: O(1)
 

@@ -2,7 +2,7 @@ package main
 
 func halvesAreAlikeV3(s string) bool {
 	/*
-		Method: Two pointers
+		METHOD: Two pointers
 		Time complexity: O(n), где n - длина строки, потому что мы проходим по каждому символу строки ровно один раз.
 		Space complexity: O(1), потому что мы используем фиксированное количество дополнительной памяти, независимо от размера входных данных.
 	*/

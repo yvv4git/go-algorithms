@@ -2,7 +2,7 @@ package _33_flood_fill
 
 func floodFillV5(image [][]int, sr int, sc int, color int) [][]int {
 	/*
-		Method: Union-Find.
+		METHOD: Union-Find.
 		Time complexity: O(m*n)
 		Space complexity: O(1)
 

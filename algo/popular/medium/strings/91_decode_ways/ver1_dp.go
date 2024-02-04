@@ -7,7 +7,7 @@ import (
 
 func numDecodings(s string) int {
 	/*
-		Method: Dynamic programming
+		METHOD: Dynamic programming
 		Time complexity: O(n), где n - длина входной строки s. Это обусловлено тем, что мы проходим по строке только один раз, и для каждого символа выполняем постоянное количество операций.
 		Space complexity: O(n), так как мы используем дополнительный массив dp размером n+1 для хранения промежуточных результатов.
 

@@ -2,7 +2,7 @@ package _3_roman_to_Integer
 
 func romanToIntV1(s string) int {
 	/*
-		Method: Use map.
+		METHOD: Use map.
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

@@ -8,7 +8,7 @@ import (
 // и возвращает упрощенный путь.
 func simplifyPathV2(path string) string {
 	/*
-		Method: Switch
+		METHOD: Switch
 		Time complexity: O(n), где n - количество элементов в пути. Это означает, что временная сложность составляет O(n).
 		Space complexity: O(n), где n - количество элементов в пути.
 

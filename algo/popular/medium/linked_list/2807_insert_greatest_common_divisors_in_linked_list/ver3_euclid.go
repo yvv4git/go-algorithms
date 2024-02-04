@@ -2,7 +2,7 @@ package _807_insert_greatest_common_divisors_in_linked_list
 
 func insertGreatestCommonDivisorsV3(head *ListNode) *ListNode {
 	/*
-		Method:
+		METHOD:
 		Time complexity: O(n)
 		Space complexity:	O(1)
 

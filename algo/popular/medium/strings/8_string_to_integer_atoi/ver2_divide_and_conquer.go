@@ -3,7 +3,7 @@ package main
 // Функция myAtoiV2 преобразует строку в число.
 func myAtoiV2(s string) int {
 	/*
-		Method: Divide and conquer
+		METHOD: Divide and conquer
 		Time complexity: O(n)
 		Space complexity: O(1)
 

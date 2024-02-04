@@ -2,7 +2,7 @@ package longest_palindrome
 
 func longestPalindromeV1(s string) int {
 	/*
-		Method: Map
+		METHOD: Map
 		Time complexity: O(n), n - length of string
 		Space complexity: O(n), if all characters are different in string
 	*/

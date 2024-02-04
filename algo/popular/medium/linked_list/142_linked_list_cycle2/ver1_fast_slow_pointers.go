@@ -4,7 +4,7 @@ package _42_linked_list_cycle2
 // Если цикла нет, то возвращается nil.
 func detectCycleV1(head *ListNode) *ListNode {
 	/*
-		Method: Floyd's Tortoise and Hare / Fast and slow pointers
+		METHOD: Floyd's Tortoise and Hare / Fast and slow pointers
 		Time complexity: O(n)
 		Space complexity: O(1)
 

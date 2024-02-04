@@ -4,7 +4,7 @@ package main
 // можно ли разбить строку на слова из словаря.
 func wordBreakV2(s string, wordDict []string) bool {
 	/*
-		Method: Dynamic programming & Memoization
+		METHOD: Dynamic programming & Memoization
 		Time complexity: O(n^2), где n - длина строки s. Это связано с двумя вложенными циклами, которые проходят по всем подстрокам строки s.
 		Space complexity: O(n), так как мы используем дополнительный массив dp для хранения результатов подзадач.
 	*/

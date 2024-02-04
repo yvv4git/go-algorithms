@@ -2,7 +2,7 @@ package _492_the_kth_factor_of_n
 
 func kthFactorV1(n int, k int) int {
 	/*
-		Method: Math
+		METHOD: Math
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

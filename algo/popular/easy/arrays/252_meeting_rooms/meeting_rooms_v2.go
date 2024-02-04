@@ -7,7 +7,7 @@ package _252_meeting_rooms
 
 func canAttendMeetingsV2(intervals []Interval) bool {
 	/*
-		Method: Loop after sort.
+		METHOD: Loop after sort.
 		Time complexity: O(n log n)
 		Space complexity: O(1)
 

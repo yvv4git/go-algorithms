@@ -7,7 +7,7 @@ import (
 
 func myAtoiV4(s string) int {
 	/*
-		Method: Iteration
+		METHOD: Iteration
 		Time complexity: O(n)
 		Space complexity: O(1) - в общем случае, в худшем случае, если строка состоит только из цифр, то n записей придется копировать.
 	*/

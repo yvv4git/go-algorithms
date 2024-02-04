@@ -4,7 +4,7 @@ import "sort"
 
 func checkArithmeticSubArraysV1(nums []int, l []int, r []int) []bool {
 	/*
-		Method: ???
+		METHOD: ???
 		Time complexity: O(mn log(n))
 		Space complexity: O(n)
 	*/

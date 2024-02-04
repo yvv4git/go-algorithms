@@ -2,7 +2,7 @@ package _700_number_of_students_unable_to_eat_lunch
 
 func countStudentsV1(students []int, sandwiches []int) int {
 	/*
-		Method: Counting slice
+		METHOD: Counting slice
 		Time complexity: O(n)
 		Space complexity: O(1)
 

@@ -2,7 +2,7 @@ package _09_fibonacci_number
 
 func fibonacciNumberRecursionMemorization(n int) int {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity : O(n)
 		Space complexity : O(n)
 	*/

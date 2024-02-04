@@ -2,7 +2,7 @@ package first_unique_character_in_string
 
 func firstUniqCharV1(s string) int {
 	/*
-		Method: Hash.
+		METHOD: Hash.
 		Time complexity : O(n)
 		Space complexity : O(1) - так как allocated константное количество данных.
 	*/

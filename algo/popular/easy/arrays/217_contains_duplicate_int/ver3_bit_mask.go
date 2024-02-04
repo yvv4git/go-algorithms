@@ -3,7 +3,7 @@ package main
 // Функция containsDuplicateV3 проверяет, содержит ли массив дубликаты.
 func containsDuplicateV3(nums []int) bool {
 	/*
-		Method: Bit mask
+		METHOD: Bit mask
 		Time complexity: O(n) - проходим по всем элементам массива.
 		Space complexity: O(1) - используем фиксированное количество памяти.
 		Предполагается, что числа в массиве находятся в диапазоне от 0 до 31.

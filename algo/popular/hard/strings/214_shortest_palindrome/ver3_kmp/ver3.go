@@ -4,7 +4,7 @@ import "strings"
 
 func shortestPalindrome(s string) string {
 	/*
-		Method: KMP(Knuth-Morris-Pratt)
+		METHOD: KMP(Knuth-Morris-Pratt)
 		Time complexity: O(m + n), где m - длина подстроки, n - длина строки
 		Space complexity: O(m)
 

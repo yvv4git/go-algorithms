@@ -5,7 +5,7 @@ import "math"
 // Функция minDiffInBSTV2 находит минимальную разницу между узлами в бинарном дереве поиска.
 func minDiffInBSTV2(root *TreeNode) int {
 	/*
-		Method: BFS
+		METHOD: BFS
 		Time complexity: O(n^2)
 		Space complexity: O(n)
 

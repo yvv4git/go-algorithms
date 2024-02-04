@@ -3,7 +3,7 @@ package _1_rotate_list
 // RotateRight поворачивает список вправо на k позиций.
 func rotateRightV1(head *ListNode, k int) *ListNode {
 	/*
-		Method: Two-Pointer
+		METHOD: Two-Pointer
 		Time complexity: O(n), где n - количество узлов в списке.
 		Space complexity: O(1).
 	*/

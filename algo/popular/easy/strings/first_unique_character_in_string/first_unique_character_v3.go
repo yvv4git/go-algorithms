@@ -2,7 +2,7 @@ package first_unique_character_in_string
 
 func firstUniqCharV3(s string) int {
 	/*
-		Method: Bruteforce.
+		METHOD: Bruteforce.
 		Time complexity : O(n^2)
 		Space complexity : O(1)
 	*/

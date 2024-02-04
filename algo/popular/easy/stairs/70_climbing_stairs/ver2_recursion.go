@@ -2,7 +2,7 @@ package main
 
 func climbStairsV2(n int) int {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity: O(n^2)
 		Space complexity: O(1)
 	*/

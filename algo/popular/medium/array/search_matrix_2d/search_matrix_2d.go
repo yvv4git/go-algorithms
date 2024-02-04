@@ -2,7 +2,7 @@ package search_matrix_2d
 
 func searchMatrix(matrix [][]int, target int) bool {
 	/*
-		Method: Binary search.
+		METHOD: Binary search.
 
 		Time complexity : O(log(n*m))
 		Space complexity : O(1)

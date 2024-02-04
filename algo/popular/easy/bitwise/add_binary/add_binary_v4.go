@@ -7,7 +7,7 @@ import (
 
 func addBinaryV4(a string, b string) string {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

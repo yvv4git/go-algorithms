@@ -2,7 +2,7 @@ package _05_convert_number_to_hex
 
 func toHexV1(num int) string {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(1)
 		Space complexity: O(1)
 	*/

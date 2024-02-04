@@ -10,7 +10,7 @@ type stackItem struct {
 // GenerateParenthesisV3 генерирует все правильные скобочные последовательности заданной длины.
 func generateParenthesisV3(n int) []string {
 	/*
-		Method: Iterative
+		METHOD: Iterative
 		Time complexity: O(4^n / sqrt(n))
 		Space complexity: O(4^n / sqrt(n))
 	*/

@@ -2,7 +2,7 @@ package main
 
 func findTargetV2(root *TreeNode, k int) bool {
 	/*
-		Method: BFS
+		METHOD: BFS
 		Time complexity: O(n)
 		Space complexity: O(n)
 

@@ -4,7 +4,7 @@ import "math/rand"
 
 func majorityElementRandomChoice(nums []int) int {
 	/*
-		Method: Random choice
+		METHOD: Random choice
 		Time complexity : O(∞) - тут может быть по разному.
 		Space complexity : O(1)
 	*/

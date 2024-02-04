@@ -2,7 +2,7 @@ package _22_count_complete_tree_nodes
 
 func countNodesV6(root *TreeNode) int {
 	/*
-		Method: DFS InorderTraversal.
+		METHOD: DFS InorderTraversal.
 		Time complexity : O(n)
 		Space complexity : O(1).
 	*/

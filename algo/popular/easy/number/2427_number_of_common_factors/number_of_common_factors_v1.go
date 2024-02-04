@@ -2,7 +2,7 @@ package _427_number_of_common_factors
 
 func commonFactorsV1(a int, b int) int {
 	/*
-		Method: Math
+		METHOD: Math
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

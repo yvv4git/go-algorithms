@@ -3,7 +3,7 @@ package main
 // Функция поиска в BST
 func searchBST(root *TreeNode, val int) *TreeNode {
 	/*
-		Method: BST
+		METHOD: BST
 		Time complexity: O(n), где n - количество узлов в дереве. Это
 		Space complexity: O(1)
 

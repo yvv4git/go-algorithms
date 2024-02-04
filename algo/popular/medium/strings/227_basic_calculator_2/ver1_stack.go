@@ -6,7 +6,7 @@ import (
 
 func calculate(s string) int {
 	/*
-		Method: Stack
+		METHOD: Stack
 		Time complexity: O(n)
 		Space complexity: O(n)
 

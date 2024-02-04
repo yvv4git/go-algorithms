@@ -5,7 +5,7 @@ import "fmt"
 // Функция для генерации всех возможных комбинаций скобок.
 func generateParenthesis(n int) []string {
 	/*
-		Method: Backtracking & Recursion
+		METHOD: Backtracking & Recursion
 		Time complexity: O(4^n / sqrt(n))
 		Space complexity: O(4^n / sqrt(n))
 

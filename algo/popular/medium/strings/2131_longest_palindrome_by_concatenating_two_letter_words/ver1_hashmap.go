@@ -2,7 +2,7 @@ package main
 
 func longestPalindromeV1(words []string) int {
 	/*
-		Method: Hashmap
+		METHOD: Hashmap
 		Time complexity: O(n), это связано с тем, что мы проходим по всем словам в массиве ровно один раз.
 		Space complexity: O(n), это связано с тем, что в хэш-таблице мы храним все слова из массива.
 

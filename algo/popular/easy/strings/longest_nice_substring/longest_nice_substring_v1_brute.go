@@ -2,7 +2,7 @@ package longest_nice_substring
 
 func longestNiceSubstringV1(s string) string {
 	/*
-		Method: Bruteforce
+		METHOD: Bruteforce
 		Time complexity: O(n^2)
 		Space complexity: O(1)
 	*/

@@ -2,7 +2,7 @@ package _328_break_a_palindrome
 
 func breakPalindromeV1(palindrome string) string {
 	/*
-		Method: Iterative
+		METHOD: Iterative
 		Time complexity: O(n), где n - длина строки. Это связано с тем, что мы проходим по строке только один раз.
 		Space complexity: O(1), так как мы не используем дополнительное пространство, кроме входных данных.
 

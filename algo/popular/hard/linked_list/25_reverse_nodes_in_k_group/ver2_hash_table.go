@@ -2,7 +2,7 @@ package _5_reverse_nodes_in_k_group
 
 func reverseKGroupV2(head *ListNode, k int) *ListNode {
 	/*
-		Method: Hash table, Dictionary
+		METHOD: Hash table, Dictionary
 		Time complexity: O(n)
 		Space complexity: O(1)
 

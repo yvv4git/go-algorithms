@@ -7,7 +7,7 @@ import (
 
 func binaryGapV1(n int) int {
 	/*
-		Method: NoBitwise
+		METHOD: NoBitwise
 		Time complexity: O(n + (n Log(n))) = O(n)
 		Space complexity: O(n)
 	*/

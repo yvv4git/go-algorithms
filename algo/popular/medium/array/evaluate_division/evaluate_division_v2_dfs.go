@@ -2,7 +2,7 @@ package evaluate_division
 
 func calcEquationV2(equations [][]string, values []float64, queries [][]string) []float64 {
 	/*
-		Method: DFS (Depth-First Search)
+		METHOD: DFS (Depth-First Search)
 		Time complexity: O(n^2)
 		Space complexity: O(n)
 	*/

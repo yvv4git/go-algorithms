@@ -3,7 +3,7 @@ package _16_remove_duplicate_letters
 // Функция для удаления дубликатов букв
 func removeDuplicateLettersV1(s string) string {
 	/*
-		Method: Stack
+		METHOD: Stack
 		Time complexity: O(n)
 		Space complexity: O(1)
 

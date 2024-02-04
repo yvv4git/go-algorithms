@@ -2,7 +2,7 @@ package _07_sum_of_subarray_minimums
 
 func sumSubarrayMinsV2(A []int) int {
 	/*
-		Method: Dynamic programming
+		METHOD: Dynamic programming
 		Time complexity: O(n^2), где n - размер входного массива. Это связано с двумя вложенными циклами, которые проходят по всем элементам массива.
 		Space complexity: O(n^2), так как мы создаем матрицу размера n x n для хранения минимальных элементов подмассивов.
 	*/

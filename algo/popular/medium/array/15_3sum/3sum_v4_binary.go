@@ -4,7 +4,7 @@ import "sort"
 
 func threeSumV4(nums []int) [][]int {
 	/*
-		Method: Sort & two pointer.
+		METHOD: Sort & two pointer.
 		Time complexity: O(n^2) ??? Я думаю, что O(n log n)
 		Space complexity: O(1)
 

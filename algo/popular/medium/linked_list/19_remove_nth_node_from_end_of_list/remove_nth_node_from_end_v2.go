@@ -2,7 +2,7 @@ package main
 
 func removeNthFromEndV2(head *ListNode, n int) *ListNode {
 	/*
-		Method: Dummy node
+		METHOD: Dummy node
 		Time complexity: O(N)
 		Space complexity: O(1)
 

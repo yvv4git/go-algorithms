@@ -5,7 +5,7 @@ import "sort"
 // 423775 | 2577 ns/op | 472 B/op | 3 allocs/op
 func sortByBitsV4(arr []int) []int {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

@@ -7,7 +7,7 @@ import (
 
 func addStrings(num1 string, num2 string) string {
 	/*
-		Method: Math
+		METHOD: Math
 		Time complexity: O(n), где n - максимальная длина между двумя числами.
 		Это обусловлено тем, что мы проходим по каждому символу в обоих числах ровно один раз.
 		Space complexity: O(n), где n - максимальная длина между двумя числами.

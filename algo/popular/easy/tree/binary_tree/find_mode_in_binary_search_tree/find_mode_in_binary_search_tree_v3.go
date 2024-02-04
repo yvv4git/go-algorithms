@@ -2,7 +2,7 @@ package find_mode_in_binary_search_tree
 
 func findModeV3(root *TreeNode) []int {
 	/*
-		Method: BFS + map of records.
+		METHOD: BFS + map of records.
 
 		Time complexity : O(n) - поиск в ширину с помощью BFS.
 		Space complexity : O(n) - нужно будет хранить n элементов в памяти.

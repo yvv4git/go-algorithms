@@ -5,7 +5,7 @@ package main
 // Выходные данные: указатель на начало объединенного списка.
 func mergeTwoListsV1(l1 *ListNode, l2 *ListNode) *ListNode {
 	/*
-		Method: Dummy node
+		METHOD: Dummy node
 		Time complexity: O(n)
 		Space complexity: O(1)
 

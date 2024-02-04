@@ -5,7 +5,7 @@ import "strconv"
 // Функция countAndSay генерирует n-е число в последовательности "Count and Say"
 func countAndSayV3(n int) string {
 	/*
-		Method: Matrix
+		METHOD: Matrix
 		Time complexity: O(n*m), где n - количество чисел в последовательности, а m - средняя длина строки, полученной на предыдущем шаге.
 		Space complexity: O(n*m), так как в худшем случае мы можем хранить все строки, которые мы получаем на каждом шаге.
 	*/

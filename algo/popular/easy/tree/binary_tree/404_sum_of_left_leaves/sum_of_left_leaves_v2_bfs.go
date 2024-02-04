@@ -2,7 +2,7 @@ package _04_sum_of_left_leaves
 
 func sumOfLeftLeavesV2(root *TreeNode) int {
 	/*
-		Method: BFS with queue.
+		METHOD: BFS with queue.
 		Time complexity: O(n), O(n log n).
 		Space complexity: O(n).
 

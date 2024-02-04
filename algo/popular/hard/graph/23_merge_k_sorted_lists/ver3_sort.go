@@ -6,7 +6,7 @@ import "sort"
 // Пространственная сложность: O(n)
 func mergeKListsV3(lists []*ListNode) *ListNode {
 	/*
-		Method: Sort
+		METHOD: Sort
 		Time complexity: O(n log n)
 		Space complexity: O(n)
 

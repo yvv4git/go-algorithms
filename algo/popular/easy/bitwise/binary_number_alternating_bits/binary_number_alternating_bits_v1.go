@@ -41,7 +41,7 @@ var arr = []int{
 
 func hasAlternatingBitsV1(n int) bool {
 	/*
-		Method: Use constants
+		METHOD: Use constants
 		Time complexity: O(1)
 		Space complexity: O(1)
 	*/

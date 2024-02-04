@@ -3,7 +3,7 @@ package _5_reverse_nodes_in_k_group
 // Функция для переворачивания группы узлов в связном списке
 func reverseKGroupV1(head *ListNode, k int) *ListNode {
 	/*
-		Method: Iterative
+		METHOD: Iterative
 		Time complexity: O(n)
 		Space complexity: O(1)
 

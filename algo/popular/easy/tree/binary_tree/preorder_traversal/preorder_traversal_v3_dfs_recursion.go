@@ -2,7 +2,7 @@ package preorder_traversal
 
 func preorderTraversalV3(root *TreeNode) []int {
 	/*
-		Method: DFS recursion.
+		METHOD: DFS recursion.
 		Time complexity : O(n)
 		Space complexity : O(1)
 	*/

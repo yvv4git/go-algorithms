@@ -7,7 +7,7 @@ import "math"
 // intLength - какой длины должны быть палиндромы
 func kthPalindromeV1(queries []int, intLength int) []int64 {
 	/*
-		Method: Math + DP
+		METHOD: Math + DP
 		Time complexity: O(n), это происходит потому, что функция проходит по каждому элементу массива queries и выполняет некоторые операции.
 		Space complexity: O(n), это происходит потому, что функция создает новый массив result, размер которого равен размеру входного массива
 	*/

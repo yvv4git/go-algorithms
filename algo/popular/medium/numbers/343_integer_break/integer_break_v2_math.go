@@ -2,7 +2,7 @@ package _43_integer_break
 
 func integerBreakV2(n int) int {
 	/*
-		Method: Math
+		METHOD: Math
 		Time complexity: O(1)
 		Space complexity: O(1)
 

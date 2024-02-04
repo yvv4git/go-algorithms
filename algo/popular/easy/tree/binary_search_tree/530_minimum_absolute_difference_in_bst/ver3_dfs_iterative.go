@@ -5,7 +5,7 @@ import "math"
 // Функция для обхода дерева в глубину без рекурсии
 func getMinimumDifferenceV3(root *TreeNode) int {
 	/*
-		Method: DFS iterative
+		METHOD: DFS iterative
 		Time complexity: O(n), где n - количество узлов в дереве, поскольку мы посещаем каждый узел ровно один раз.
 		Space complexity: O(n), так как в худшем случае мы можем поместить все узлы в стек.
 	*/

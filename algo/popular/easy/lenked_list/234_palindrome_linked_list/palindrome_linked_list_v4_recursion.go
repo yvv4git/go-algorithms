@@ -2,7 +2,7 @@ package main
 
 func isPalindromeV4(head *ListNode) bool {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity: O(n)
 		Space complexity: O(n)
 

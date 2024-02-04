@@ -2,7 +2,7 @@ package _67_two_sum_2_Input_array_Is_sorted
 
 func twoSumV2(numbers []int, target int) []int {
 	/*
-		Method: Binary search
+		METHOD: Binary search
 		Time complexity: O(n log n), где n - количество элементов в массиве.
 		Space complexity: O(1), поскольку мы не используем дополнительное пространство, которое зависит от размера входных данных.
 	*/

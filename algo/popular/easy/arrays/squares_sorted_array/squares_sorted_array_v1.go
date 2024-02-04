@@ -4,7 +4,7 @@ import "sort"
 
 func sortedSquaresV1(nums []int) []int {
 	/*
-		Method: Use default go sort.
+		METHOD: Use default go sort.
 		Time complexity: O(n log n)
 		Space complexity: ???
 	*/

@@ -2,7 +2,7 @@ package v3
 
 func intersection(nums1 []int, nums2 []int) []int {
 	/*
-		Method: Hash
+		METHOD: Hash
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

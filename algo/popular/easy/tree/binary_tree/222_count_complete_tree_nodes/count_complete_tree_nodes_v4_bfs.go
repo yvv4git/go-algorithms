@@ -2,7 +2,7 @@ package _22_count_complete_tree_nodes
 
 func countNodesV4(root *TreeNode) int {
 	/*
-		Method: BFS
+		METHOD: BFS
 		Time complexity : O(V+E)
 		Space complexity : O(1)
 

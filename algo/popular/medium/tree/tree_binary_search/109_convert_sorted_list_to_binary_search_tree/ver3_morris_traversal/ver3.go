@@ -45,7 +45,7 @@ func sortedListToBSTRec(n int) *TreeNode {
 
 func sortedListToBST(head *ListNode) *TreeNode {
 	/*
-		Method: Morris Traversal
+		METHOD: Morris Traversal
 		Time complexity: O(n log n)
 		Space complexity: O(1)
 

@@ -2,7 +2,7 @@ package number_of_even_and_odd
 
 func evenOddBitV3(n int) []int {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(log(n))
 		Space complexity: O(1)
 	*/

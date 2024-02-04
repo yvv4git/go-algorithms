@@ -7,7 +7,7 @@ import "math"
 // все узлы в левом поддереве меньше значения узла, а все узлы в правом поддереве больше значения узла.
 func isValidBSTV4(root *TreeNode) bool {
 	/*
-		Method: DFS
+		METHOD: DFS
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

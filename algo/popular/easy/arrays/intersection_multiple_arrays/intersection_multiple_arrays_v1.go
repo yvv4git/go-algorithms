@@ -2,7 +2,7 @@ package intersection_multiple_arrays
 
 func intersectionV1(nums [][]int) []int {
 	/*
-		Method: Hash
+		METHOD: Hash
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

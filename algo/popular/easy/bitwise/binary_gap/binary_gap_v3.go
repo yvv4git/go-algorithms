@@ -4,7 +4,7 @@ import "math"
 
 func binaryGapV3(n int) int {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

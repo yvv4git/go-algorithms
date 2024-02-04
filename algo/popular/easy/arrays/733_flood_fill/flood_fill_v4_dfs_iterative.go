@@ -2,7 +2,7 @@ package _33_flood_fill
 
 func floodFillV4(image [][]int, sr int, sc int, color int) [][]int {
 	/*
-		Method: DFS iterative.
+		METHOD: DFS iterative.
 		Time complexity: O(n)
 		Space complexity: O(1)
 

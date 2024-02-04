@@ -4,7 +4,7 @@ import "strconv"
 
 func isStrictlyPalindromicV2(n int) bool {
 	/*
-		Method: Iterate
+		METHOD: Iterate
 		Time complexity: O(n^2), так как цикла в цикле
 		Space complexity: O(1)
 	*/

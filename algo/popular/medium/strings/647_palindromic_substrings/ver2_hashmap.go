@@ -2,7 +2,7 @@ package _47_palindromic_substrings
 
 func countSubstringsV2(s string) int {
 	/*
-		Method: Hashmap
+		METHOD: Hashmap
 		Time complexity: O(n^2)
 		Space complexity: O(n)
 

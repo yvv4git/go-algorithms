@@ -2,7 +2,7 @@ package set_mismatch
 
 func findErrorNums(nums []int) []int {
 	/*
-		Method: XOR
+		METHOD: XOR
 		Time complexity: O(n)
 		Space complexity: O(n)
 

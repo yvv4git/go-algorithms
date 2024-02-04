@@ -3,7 +3,7 @@ package _00_nth_digit
 // findNthDigitV1 находит n-ю цифру в последовательности 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ...
 func findNthDigitV1(n int) int {
 	/*
-		Method: Binary search
+		METHOD: Binary search
 		Time complexity: O(log n), так как мы делим пространство поиска пополам в цикле
 		Space complexity: O(1), так как мы используем небольшое количество переменных, которые не зависят от размера входных данных
 	*/

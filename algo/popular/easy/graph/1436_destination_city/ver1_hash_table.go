@@ -3,7 +3,7 @@ package _436_destination_city
 // Функция для нахождения города назначения
 func destCityV1(paths [][]string) string {
 	/*
-		Method: Adjacency List(список смежности) on hash table
+		METHOD: Adjacency List(список смежности) on hash table
 		Time complexity: O(n) - где n есть количество путей
 		Space complexity: O(n) - храним все пути в хеш-таблице
 	*/

@@ -7,7 +7,7 @@ import (
 
 func Test_calcEquationV1(t *testing.T) {
 	/*
-		Method: BFS(Breadth-First Search)
+		METHOD: BFS(Breadth-First Search)
 		Time complexity: O(n^2)
 		Space complexity: O(n)
 	*/

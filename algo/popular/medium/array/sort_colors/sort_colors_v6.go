@@ -2,7 +2,7 @@ package sort_colors
 
 func sortColorsV6(nums []int) {
 	/*
-		Method: snowball algorithm.
+		METHOD: snowball algorithm.
 		Time: O(n+n) = O(2n) = O(n)
 		Space: O(1)
 	*/

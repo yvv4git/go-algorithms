@@ -2,7 +2,7 @@ package sort_colors
 
 func sortColorsV4(nums []int) {
 	/*
-		Method: a+b+c = n
+		METHOD: a+b+c = n
 		Time: O(n) + O(a+b+c) = O(n) + O(n) = O(2n) = O(n)
 		Space: O(1)
 	*/

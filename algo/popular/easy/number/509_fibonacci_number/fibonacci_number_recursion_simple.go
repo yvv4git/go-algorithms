@@ -2,7 +2,7 @@ package _09_fibonacci_number
 
 func fibonacciNumberRecursion(n int) (res int) {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity : O(n)
 		Space complexity : O(1)
 	*/

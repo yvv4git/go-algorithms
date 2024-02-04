@@ -10,7 +10,7 @@ package _7_letter_combinations_of_a_phone_number
 //	[]string - массив строк, представляющих все возможные комбинации букв.
 func letterCombinationsV1(digits string) []string {
 	/*
-		Method: Iterate
+		METHOD: Iterate
 		Time complexity: O(4^n)
 		Space complexity: O(4^n)
 

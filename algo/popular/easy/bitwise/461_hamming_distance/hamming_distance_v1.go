@@ -2,7 +2,7 @@ package _61_hamming_distance
 
 func hammingDistanceV1(x int, y int) int {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(n) - где n, это количество бит в наибольшем из чисел. Внутри цикла выполняется побитовый сдвиг.
 		Space complexity: O(1) - используется фиксированного количество переменных, не зависимо от данных.
 

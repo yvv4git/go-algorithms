@@ -4,7 +4,7 @@ import "strings"
 
 func findTheDifferenceV3(s string, t string) byte {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

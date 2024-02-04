@@ -6,7 +6,7 @@ import (
 
 func maximumOddBinaryNumber(s string) string {
 	/*
-		Method: Iteration
+		METHOD: Iteration
 		Time complexity: O(n), т.к. надо пройтись по строке
 		Space complexity: O(1), т.к. не используем доп. памяти, которая зависит от n
 

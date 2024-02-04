@@ -2,7 +2,7 @@ package _22_count_complete_tree_nodes
 
 func countNodesV5(root *TreeNode) int {
 	/*
-		Method: Binary search.
+		METHOD: Binary search.
 		Time complexity: O(logN * logN)
 		Space complexity: O(1)
 	*/

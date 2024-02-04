@@ -4,7 +4,7 @@ package _42_linked_list_cycle2
 // Если цикла нет, то возвращается nil.
 func detectCycleV3(head *ListNode) *ListNode {
 	/*
-		Method: Stack
+		METHOD: Stack
 		Time complexity: O(n^2)
 		Space complexity: O(n)
 

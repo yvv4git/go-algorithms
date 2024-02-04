@@ -3,7 +3,7 @@ package _971_find_if_path_exists_in_graph
 // Функция для проверки существования пути между двумя вершинами в графе
 func validPathV1(n int, edges [][]int, start int, end int) bool {
 	/*
-		Method: DFS
+		METHOD: DFS
 		Time complexity: O(n + m), где n - количество вершин, m - количество ребер
 		Space complexity: O(n + m), где n - количество вершин, m - количество ребер
 

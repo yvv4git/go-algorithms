@@ -2,7 +2,7 @@ package binary_gap
 
 func BinaryGapV2(N int) int {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(n)
 		Space complexity: O(1)
 

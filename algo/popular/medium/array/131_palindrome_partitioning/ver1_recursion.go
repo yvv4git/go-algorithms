@@ -3,7 +3,7 @@ package _31_palindrome_partitioning
 // Функция partitionV1 разбивает строку на палиндромы
 func partitionV1(s string) [][]string {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity: O(n * 2^n)
 		Space complexity: O(n * 2^n)
 

@@ -3,7 +3,7 @@ package main
 // Функция для разбора логического выражения
 func parseBoolExprV2(expression string) bool {
 	/*
-		Method: Stack & Recursion
+		METHOD: Stack & Recursion
 		Time complexity: O(n)
 		Space complexity: O(n)
 

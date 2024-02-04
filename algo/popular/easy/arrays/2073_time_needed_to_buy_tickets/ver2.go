@@ -5,7 +5,7 @@ package _073_time_needed_to_buy_tickets
 // k - индекс человека, который стоит в начале очереди.
 func timeRequiredToBuyV2(tickets []int, k int) (res int) {
 	/*
-		Method: Loop
+		METHOD: Loop
 		Time complexity: O(n)
 		Space complexity: O(1)
 

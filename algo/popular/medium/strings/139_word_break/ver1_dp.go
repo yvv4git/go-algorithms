@@ -2,7 +2,7 @@ package main
 
 func wordBreak(s string, wordDict []string) bool {
 	/*
-		Method: Dynamic programming
+		METHOD: Dynamic programming
 		Time complexity: O(n^2), где n - длина строки s. Это связано с двумя вложенными циклами, которые проходят по всем подстрокам строки s.
 		Space complexity: O(n), так как мы используем дополнительный массив dp для хранения результатов подзадач.
 

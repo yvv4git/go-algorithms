@@ -2,7 +2,7 @@ package main
 
 func reverseListV1(head *ListNode) *ListNode {
 	/*
-		Method: Iterative Reversal
+		METHOD: Iterative Reversal
 		Time complexity: O(n)
 		Space complexity: O(1)
 

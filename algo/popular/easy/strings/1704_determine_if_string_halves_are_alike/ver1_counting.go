@@ -4,7 +4,7 @@ import "strings"
 
 func halvesAreAlikeV1(s string) bool {
 	/*
-		Method: Count
+		METHOD: Count
 		Time complexity: O(n), где n - длина строки, потому что мы проходим по каждому символу строки ровно один раз.
 		Space complexity: O(1), потому что мы используем фиксированное количество дополнительной памяти, независимо от размера входных данных.
 

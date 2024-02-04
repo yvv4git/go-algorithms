@@ -6,7 +6,7 @@ package _53_find_minimum_in_rotated_sorted_array
 // которое зависит от размера входных данных.
 func findMinV2(nums []int) int {
 	/*
-		Method: Binary search optimized
+		METHOD: Binary search optimized
 		Time complexity: O(log n)
 		Space complexity: O(1)
 	*/

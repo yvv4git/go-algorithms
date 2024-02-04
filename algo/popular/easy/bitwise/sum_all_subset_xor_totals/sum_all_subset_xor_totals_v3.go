@@ -2,7 +2,7 @@ package sum_all_subset_xor_totals
 
 func subsetXORSumV3(nums []int) int {
 	/*
-		Method: Backtrack + recursion
+		METHOD: Backtrack + recursion
 		Time complexity: ???
 		Space complexity: O(1)
 	*/

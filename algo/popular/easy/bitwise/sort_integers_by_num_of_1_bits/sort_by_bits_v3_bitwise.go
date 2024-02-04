@@ -8,7 +8,7 @@ import (
 // 562573 | 1948 ns/op | 472 B/op | 3 allocs/op
 func sortByBitsV3(arr []int) []int {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

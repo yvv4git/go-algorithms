@@ -2,7 +2,7 @@ package kth_largest_element_in_array
 
 func findKthLargestV4(nums []int, k int) int {
 	/*
-		Method: Hash, memory
+		METHOD: Hash, memory
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

@@ -2,7 +2,7 @@ package __longest_substring_without_repeating_characters
 
 func lengthOfLongestSubstringV4(s string) int {
 	/*
-		Method: Dynamic programming
+		METHOD: Dynamic programming
 		Time complexity: O(n)
 		Space complexity: O(1) or O(m), где m - длина алфавита
 	*/

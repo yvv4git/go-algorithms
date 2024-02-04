@@ -2,7 +2,7 @@ package main
 
 func isPalindromeV3(head *ListNode) bool {
 	/*
-		Method: Queue
+		METHOD: Queue
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

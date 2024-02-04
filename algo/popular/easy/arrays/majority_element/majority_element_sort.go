@@ -6,7 +6,7 @@ import (
 
 func majorityElementSort(nums []int) int {
 	/*
-		Method: Sorting
+		METHOD: Sorting
 		Идея состоит в том, что если отсортировать элементы, то тот самый majority элемент будет посередине.
 
 		Time complexity : O(nlgn)

@@ -2,7 +2,7 @@ package __longest_substring_without_repeating_characters
 
 func lengthOfLongestSubstringV3(s string) int {
 	/*
-		Method: Sliding window
+		METHOD: Sliding window
 		Time complexity: O(n)
 		Space complexity: O(min(n, m)), где m - размер алфавита, а n - количество символов в окне.
 

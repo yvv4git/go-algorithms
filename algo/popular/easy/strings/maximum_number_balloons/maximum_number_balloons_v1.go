@@ -2,7 +2,7 @@ package maximum_number_balloons
 
 func maxNumberOfBalloonsV1(text string) int {
 	/*
-		Method: Hashing
+		METHOD: Hashing
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

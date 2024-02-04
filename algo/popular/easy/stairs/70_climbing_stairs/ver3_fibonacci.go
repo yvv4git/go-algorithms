@@ -2,7 +2,7 @@ package main
 
 func climbStairsV3(n int) int {
 	/*
-		Method: Fibonacci
+		METHOD: Fibonacci
 		Time complexity: O(n)
 		Space complexity: O(1)
 

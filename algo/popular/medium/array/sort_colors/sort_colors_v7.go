@@ -2,7 +2,7 @@ package sort_colors
 
 func sortColorsV7(nums []int) {
 	/*
-		Method: One-Pass Three-Pointers
+		METHOD: One-Pass Three-Pointers
 		Time: O(n)
 		Space: O(1)
 	*/

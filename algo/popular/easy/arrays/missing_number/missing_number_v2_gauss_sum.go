@@ -2,7 +2,7 @@ package missingnumber
 
 func missingNumberV2(nums []int) int {
 	/*
-		Method: Gauss sum
+		METHOD: Gauss sum
 		Time complexity: O(n)
 		Worst time complexity: O(n)
 		Space complexity: O(1)

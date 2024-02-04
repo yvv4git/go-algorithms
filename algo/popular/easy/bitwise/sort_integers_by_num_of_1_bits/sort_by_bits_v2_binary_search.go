@@ -2,7 +2,7 @@ package sort_integers_by_num_of_1_bits
 
 func sortByBitsV2(arr []int) []int {
 	/*
-		Method: Binary search
+		METHOD: Binary search
 		Time complexity: O(log(n))
 		Space complexity: O(n)
 	*/

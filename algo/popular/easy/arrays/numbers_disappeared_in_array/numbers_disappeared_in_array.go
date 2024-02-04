@@ -2,7 +2,7 @@ package numbersdisappearedinarray
 
 func findDisappearedNumbers(nums []int) []int {
 	/*
-		Method: Arithmetic
+		METHOD: Arithmetic
 		Time complexity: O(n)
 		Space complexity: O(n) - из-за того, что используем дополнительный массив result, где хранится ответ
 	*/

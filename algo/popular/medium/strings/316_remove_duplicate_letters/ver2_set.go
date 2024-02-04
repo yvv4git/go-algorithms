@@ -4,7 +4,7 @@ import "strings"
 
 func removeDuplicateLettersV2(s string) string {
 	/*
-		Method: Set
+		METHOD: Set
 		Time complexity: O(n)
 		Space complexity: O(1)
 

@@ -2,7 +2,7 @@ package sort_colors
 
 func sortColorsV3(nums []int) {
 	/*
-		Method: Selection sort.
+		METHOD: Selection sort.
 		Time complexity : O(n^2)
 		Space complexity : O(1)
 	*/

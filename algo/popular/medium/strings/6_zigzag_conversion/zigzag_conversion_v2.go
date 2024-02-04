@@ -2,7 +2,7 @@ package __zigzag_conversion
 
 func convertV2(s string, numRows int) string {
 	/*
-		Method: Matrix
+		METHOD: Matrix
 		Time complexity: O(n)
 		Space complexity: O(n)
 

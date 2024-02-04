@@ -4,7 +4,7 @@ import "container/list"
 
 func validPathV2(n int, edges [][]int, start int, end int) bool {
 	/*
-		Method: BFS
+		METHOD: BFS
 		Time complexity: O(n + m), где n - количество вершин, m - количество ребер
 		Space complexity: O(n + m), где n - количество вершин, m - количество ребер
 

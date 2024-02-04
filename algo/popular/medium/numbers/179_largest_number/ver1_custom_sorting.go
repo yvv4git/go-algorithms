@@ -8,7 +8,7 @@ import (
 
 func largestNumber(nums []int) string {
 	/*
-		Method: Custom sorting
+		METHOD: Custom sorting
 		Time complexity: O(n log n), где n - количество чисел в массиве
 		Space complexity: O(n), так как для сортировки требуется дополнительное пространство для хранения временного массива.
 	*/

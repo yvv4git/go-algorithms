@@ -6,7 +6,7 @@ type resultHelper struct {
 
 func calcEquationV3(equations [][]string, values []float64, queries [][]string) []float64 {
 	/*
-		Method: Arithmetic
+		METHOD: Arithmetic
 
 		FormulaA
 		A/B = X

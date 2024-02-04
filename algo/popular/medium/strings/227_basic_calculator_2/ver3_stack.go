@@ -23,7 +23,7 @@ func (s stackNums) isEmpty() bool {
 
 func calculateV3(s string) int {
 	/*
-		Method: Stack
+		METHOD: Stack
 		Time complexity: O(n)
 		Space complexity: O(1), используем фиксированное количество памяти
 	*/

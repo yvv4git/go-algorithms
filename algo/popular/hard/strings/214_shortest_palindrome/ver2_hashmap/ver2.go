@@ -4,7 +4,7 @@ import "fmt"
 
 func shortestPalindrome(s string) string {
 	/*
-		Method: HashMap
+		METHOD: HashMap
 		Time complexity: O(n^2), где n - длина входной строки.
 		Space complexity: O(n), где n - длина входной строки.
 	*/

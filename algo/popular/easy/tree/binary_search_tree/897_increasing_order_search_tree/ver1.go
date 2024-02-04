@@ -2,7 +2,7 @@ package main
 
 func increasingBST(root *TreeNode) *TreeNode {
 	/*
-		Method: Dummy node
+		METHOD: Dummy node
 		Time complexity: O(n), где n - количество узлов в дереве. Это связано с тем, что мы посещаем каждый узел только один раз.
 		Space complexity: O(1), так как мы не используем дополнительное пространство, кроме необходимого для рекурсивных вызовов.
 

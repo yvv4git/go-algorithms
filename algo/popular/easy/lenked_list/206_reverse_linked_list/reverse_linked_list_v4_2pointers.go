@@ -3,7 +3,7 @@ package main
 // Функция для реверса списка с использованием двух указателей
 func reverseListV4(head *ListNode) *ListNode {
 	/*
-		Method: Two pointers
+		METHOD: Two pointers
 		Time complexity: O(n)
 		Space complexity: O(1)
 

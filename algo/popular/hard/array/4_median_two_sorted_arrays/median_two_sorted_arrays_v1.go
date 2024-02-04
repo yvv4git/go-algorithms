@@ -4,7 +4,7 @@ import "math"
 
 func findMedianSortedArraysV1(a []int, b []int) float64 {
 	/*
-		Method: Binary search
+		METHOD: Binary search
 		Time complexity: O(log(n))
 		Space complexity: O(n)
 	*/

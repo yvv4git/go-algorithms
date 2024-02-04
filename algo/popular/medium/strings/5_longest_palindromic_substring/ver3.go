@@ -2,7 +2,7 @@ package __longest_palindromic_substring
 
 func longestPalindromeV3(s string) string {
 	/*
-		Method: Algorithm Manacher's
+		METHOD: Algorithm Manacher's
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

@@ -2,7 +2,7 @@ package missingnumber
 
 func missingNumberV1(nums []int) int {
 	/*
-		Method: Arithmetic
+		METHOD: Arithmetic
 		Time complexity: O(n)
 		Space complexity: O(1)
 

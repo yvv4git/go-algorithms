@@ -3,7 +3,7 @@ package main
 // Функция для удаления n-го узла с конца списка
 func removeNthFromEndV4(head *ListNode, n int) *ListNode {
 	/*
-		Method: Two pointer and dummy
+		METHOD: Two pointer and dummy
 		Time complexity: O(n)
 		Space complexity:	O(1)
 

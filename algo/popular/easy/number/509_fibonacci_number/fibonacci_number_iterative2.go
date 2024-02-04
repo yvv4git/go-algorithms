@@ -2,7 +2,7 @@ package _09_fibonacci_number
 
 func fibonacciNumberIterative2(n int) int {
 	/*
-		Method: DP iterative
+		METHOD: DP iterative
 		Time complexity : O(n)
 		Space complexity : O(1)
 	*/

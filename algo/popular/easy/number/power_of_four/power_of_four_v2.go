@@ -2,7 +2,7 @@ package power_of_four
 
 func isPowerOfFourV2(n int) bool {
 	/*
-		Method: Bitwise
+		METHOD: Bitwise
 		Time complexity: O(1)
 		Space complexity: O(1)
 	*/

@@ -2,7 +2,7 @@ package _816_double_number_represented_as_linked_list
 
 func doubleItV1(head *ListNode) *ListNode {
 	/*
-		Method:
+		METHOD:
 		Time complexity: O(n)
 		Space complexity: O(1)
 

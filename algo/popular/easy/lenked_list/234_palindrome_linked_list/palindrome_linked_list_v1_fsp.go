@@ -3,7 +3,7 @@ package main
 // Функция для проверки, является ли связный список палиндромом
 func isPalindromeV1(head *ListNode) bool {
 	/*
-		Method: Fast and slow pointers
+		METHOD: Fast and slow pointers
 		Time complexity: O(n)
 		Space complexity: O(1)
 

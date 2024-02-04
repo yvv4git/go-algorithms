@@ -8,7 +8,7 @@ import "sort"
 // Пространственная сложность: O(n), так как используется дополнительная память для хранения отсортированной строки.
 func largestGoodInteger(num string) string {
 	/*
-		Method:
+		METHOD:
 		Time complexity: O(n log n)
 		Space complexity: O(n)
 	*/

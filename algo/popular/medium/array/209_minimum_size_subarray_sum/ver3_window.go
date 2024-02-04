@@ -2,7 +2,7 @@ package _09_minimum_size_subarray_sum
 
 func minSubArrayLenV3(target int, nums []int) int {
 	/*
-		Method: Window
+		METHOD: Window
 		Time complexity: O(n)
 		Space complexity: O(1)
 

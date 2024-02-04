@@ -8,7 +8,7 @@ var memo map[int]int
 
 func numDecodingsV2(s string) int {
 	/*
-		Method: Memoization
+		METHOD: Memoization
 		Time complexity: O(n), где n - длина входной строки s.
 		Это обусловлено тем, что мы проходим по строке только один раз, и для каждого символа выполняем постоянное количество операций.
 		Space complexity: O(n) в худшем случае, когда мы не можем использовать никакие из ранее вычисленных значений

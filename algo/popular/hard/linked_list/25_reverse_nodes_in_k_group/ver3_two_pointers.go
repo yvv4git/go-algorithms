@@ -6,7 +6,7 @@ package _5_reverse_nodes_in_k_group
 // Пространственная сложность: O(1).
 func reverseKGroupV3(head *ListNode, k int) *ListNode {
 	/*
-		Method: Two pointer
+		METHOD: Two pointer
 		Time complexity: O(n)
 		Space complexity: O(1)
 

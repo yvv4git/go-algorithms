@@ -5,7 +5,7 @@ package _09_minimum_size_subarray_sum
 // Если такого подмассива не найдено, функция возвращает 0.
 func minSubArrayLenV1(target int, nums []int) int {
 	/*
-		Method: Two pointers
+		METHOD: Two pointers
 		Time complexity: O(n)
 		Space complexity: O(1)
 

@@ -6,7 +6,7 @@ type Res struct {
 
 func preorderTraversalV1(root *TreeNode) []int {
 	/*
-		Method: Recursion.
+		METHOD: Recursion.
 		Time complexity : O(n)
 		Space complexity : O(1)
 	*/

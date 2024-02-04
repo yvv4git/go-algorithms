@@ -2,7 +2,7 @@ package divide_array_into_equal_pairs
 
 func divideArrayV2(nums []int) bool {
 	/*
-		Method: Hash
+		METHOD: Hash
 		Time complexity: O(n)
 		Space complexity: O(n)
 	*/

@@ -6,7 +6,7 @@ import (
 
 func convertToTitle(columnNumber int) string {
 	/*
-		Method: Loop
+		METHOD: Loop
 		Time complexity: O(log(columnNumber))
 		Space complexity: O(1)
 	*/

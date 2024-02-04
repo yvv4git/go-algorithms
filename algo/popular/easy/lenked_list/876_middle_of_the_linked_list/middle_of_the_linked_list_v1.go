@@ -3,7 +3,7 @@ package main
 // Функция для нахождения середины связного списка
 func middleNodeV1(head *ListNode) *ListNode {
 	/*
-		Method: Fast and slow pointers
+		METHOD: Fast and slow pointers
 		Time complexity: O(n)
 		Space complexity: O(1)
 

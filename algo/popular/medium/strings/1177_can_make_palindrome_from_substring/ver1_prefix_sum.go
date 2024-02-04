@@ -14,7 +14,7 @@ func countChars(s string, left, right int) [26]int {
 // Пространственная сложность: O(1), так как в худшем случае мы можем хранить 26 символов (букв английского алфавита)
 func canMakePaliQueriesV1(s string, queries [][]int) []bool {
 	/*
-		Method: Prefix sums
+		METHOD: Prefix sums
 		Time complexity: O(n)
 		Space complexity: O(1)
 

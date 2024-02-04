@@ -2,7 +2,7 @@ package main
 
 func isInterleave(s1 string, s2 string, s3 string) bool {
 	/*
-		Method: Dynamic programming
+		METHOD: Dynamic programming
 		Time complexity: O(m * n), где m и n - длины строк s1 и s2 соответственно.
 		Space complexity: O(m * n), так как мы используем дополнительный двумерный массив dp размером (m + 1) * (n + 1).
 	*/

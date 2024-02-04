@@ -3,7 +3,7 @@ package main
 // Функция для проверки, можно ли сделать из двух строк палиндром
 func checkPalindromeFormationV1(a string, b string) bool {
 	/*
-		Method: Two pointers
+		METHOD: Two pointers
 		Time complexity: O(n)
 		Space complexity: O(1)
 

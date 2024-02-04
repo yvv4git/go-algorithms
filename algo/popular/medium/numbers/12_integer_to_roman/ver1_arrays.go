@@ -4,7 +4,7 @@ import "fmt"
 
 func intToRoman(num int) string {
 	/*
-		Method: Use arrays & math
+		METHOD: Use arrays & math
 		Time complexity: O(1), так как независимо от входного числа мы всегда выполняем ограниченное
 		Space complexity: O(1), так как мы используем фиксированное количество памяти для хранения массивов.
 	*/

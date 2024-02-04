@@ -3,7 +3,7 @@ package main
 // Функция для проверки, можно ли сделать из двух строк палиндром
 func checkPalindromeFormationV3(a string, b string) bool {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity: O(n)
 		Space complexity: O(1) or O(n) - это связано с тем, что функция recursiveCheckPalindromeFormation использует стек вызовов, который может достигать глубину n в худшем случае.
 	*/

@@ -2,7 +2,7 @@ package _21_maximum_xor_of_two_numbers_in_an_array
 
 func findMaximumXORV2(nums []int) int {
 	/*
-		Method: Map
+		METHOD: Map
 		Time complexity: O(n) - так как для каждого бита мы проходим по всем числам.
 		Space complexity: O(n) - так как в хэш-таблице мы храним все числа из массива
 

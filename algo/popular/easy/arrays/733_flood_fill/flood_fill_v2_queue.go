@@ -2,7 +2,7 @@ package _33_flood_fill
 
 func floodFillV2(image [][]int, sr int, sc int, color int) [][]int {
 	/*
-		Method: Queue
+		METHOD: Queue
 		Time complexity: O(n)
 		Space complexity: O(1)
 

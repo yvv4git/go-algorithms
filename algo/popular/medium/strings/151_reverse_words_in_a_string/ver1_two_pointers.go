@@ -7,7 +7,7 @@ import (
 
 func reverseWords(s string) string {
 	/*
-		Method: Iterative & Two pointers
+		METHOD: Iterative & Two pointers
 		Time complexity: O(n), где n - количество слов в строке. Это связано с тем, что мы проходим по каждому слову в строке один раз.
 		Space complexity: O(n), так как мы создаем новый массив для хранения слов в строке. В худшем случае это будет n, если каждое слово в строке односимвольное.
 	*/

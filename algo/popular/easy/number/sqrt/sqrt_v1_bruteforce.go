@@ -2,7 +2,7 @@ package sqrt
 
 func mySqrtV1(x int) int {
 	/*
-		Method: Bruteforce.
+		METHOD: Bruteforce.
 		Time complexity : O(n)
 		Space complexity : O(1)
 	*/

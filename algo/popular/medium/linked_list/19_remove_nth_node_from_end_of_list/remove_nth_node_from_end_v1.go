@@ -2,7 +2,7 @@ package main
 
 func removeNthFromEndV1(head *ListNode, n int) *ListNode {
 	/*
-		Method: Two pointer / "Два прохода"
+		METHOD: Two pointer / "Два прохода"
 		Time complexity: O(n), где n - число узлов
 		Space complexity: O(1)
 

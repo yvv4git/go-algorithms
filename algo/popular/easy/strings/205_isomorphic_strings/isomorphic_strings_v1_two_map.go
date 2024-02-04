@@ -2,7 +2,7 @@ package _05_isomorphic_strings
 
 func isIsomorphicV1(s string, t string) bool {
 	/*
-		Method: Loop
+		METHOD: Loop
 		Time complexity: O(n)
 		Space complexity: O(1), количество символов ограничено
 	*/

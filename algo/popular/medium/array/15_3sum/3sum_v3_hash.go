@@ -4,7 +4,7 @@ import "sort"
 
 func threeSumV3(nums []int) [][]int {
 	/*
-		Method: Hash.
+		METHOD: Hash.
 		Time complexity: O(n^2)
 		Space complexity: O(n)
 	*/

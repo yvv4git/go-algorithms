@@ -2,7 +2,7 @@ package preorder_traversal
 
 func preorderTraversalV2(root *TreeNode) []int {
 	/*
-		Method: BFS.
+		METHOD: BFS.
 		Time complexity : O(n)
 		Space complexity : O(1)
 	*/

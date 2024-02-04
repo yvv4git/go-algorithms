@@ -2,7 +2,7 @@ package _33_flood_fill
 
 func floodFillV1(image [][]int, sr int, sc int, color int) [][]int {
 	/*
-		Method: DFS recursive
+		METHOD: DFS recursive
 		Time complexity: O(n)
 		Space complexity: O(1)
 

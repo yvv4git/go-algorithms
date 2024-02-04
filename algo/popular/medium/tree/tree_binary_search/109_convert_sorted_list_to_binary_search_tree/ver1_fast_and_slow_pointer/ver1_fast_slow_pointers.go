@@ -30,7 +30,7 @@ func findMiddle(head *ListNode) *ListNode {
 // Пространственная сложность: O(log n), так как мы используем дополнительное пространство для стека вызовов рекурсии
 func sortedListToBST(head *ListNode) *TreeNode {
 	/*
-		Method: Fast and slow pointers
+		METHOD: Fast and slow pointers
 		Time complexity: O(n log n), так как на каждом уровне рекурсии мы делим список на пополам, а затем рекурсивно обрабатываем каждую половину
 		Space complexity: O(log n), так как мы используем дополнительное пространство для стека вызовов рекурсии
 	*/

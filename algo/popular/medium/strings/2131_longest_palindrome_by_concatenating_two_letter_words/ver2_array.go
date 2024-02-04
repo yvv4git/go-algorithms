@@ -2,7 +2,7 @@ package main
 
 func longestPalindromeV2(words []string) int {
 	/*
-		Method: 2D array
+		METHOD: 2D array
 		Time complexity: O(n), это связано с тем, что мы проходимся по всем словам в массиве words только один раз.
 		Space complexity: O(1), так как в худшем случае (когда все слова уникальны) мы будем хранить все слова в массиве words.
 

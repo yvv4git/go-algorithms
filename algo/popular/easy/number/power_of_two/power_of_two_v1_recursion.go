@@ -2,7 +2,7 @@ package power_of_two
 
 func isPowerOfTwoV1(n int) bool {
 	/*
-		Method: Recursion
+		METHOD: Recursion
 		Time complexity: O(1)
 		Space complexity: O(1)
 	*/

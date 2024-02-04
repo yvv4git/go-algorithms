@@ -4,7 +4,7 @@ import "sort"
 
 func sortIntervals(intervals [][]int) {
 	/*
-		Method: Default sort.
+		METHOD: Default sort.
 		Time complexity: O(n*log(n))
 		Space complexity: O(1)
 	*/

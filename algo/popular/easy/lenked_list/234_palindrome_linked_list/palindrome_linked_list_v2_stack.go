@@ -3,7 +3,7 @@ package main
 // Функция для проверки, является ли список палиндромом
 func isPalindromeV2(head *ListNode) bool {
 	/*
-		Method: Stack
+		METHOD: Stack
 		Time Complexity: O(n)
 		Space Complexity: O(n)
 

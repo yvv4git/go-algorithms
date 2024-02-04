@@ -8,7 +8,7 @@ type Key [26]int
 // где каждый вложенный массив содержит группу анаграмм.
 func groupAnagramsV2(strs []string) [][]string {
 	/*
-		Method: Group by Hash / Hash
+		METHOD: Group by Hash / Hash
 		Time complexity: O(n * m), где n - количество слов в strs, а m - средняя длина слова.
 		Space complexity: O(m), где m - длина слова.
 	*/

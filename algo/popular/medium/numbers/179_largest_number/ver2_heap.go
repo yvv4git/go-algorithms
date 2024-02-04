@@ -9,7 +9,7 @@ import (
 // Она использует кучу (heap) для эффективного нахождения наибольшего числа.
 func largestNumberV2(nums []int) string {
 	/*
-		Method: Heap
+		METHOD: Heap
 		Time complexity: O(n log n)
 		Space complexity: O(n), где n - количество чисел в массиве nums
 

@@ -4,7 +4,7 @@ const balon = "balon"
 
 func maxNumberOfBalloonsV2(text string) int {
 	/*
-		Method: Hashing
+		METHOD: Hashing
 		Time complexity: O(n)
 		Space complexity: O(1)
 	*/

@@ -4,7 +4,7 @@ import "fmt"
 
 func backtrack(candidates []int, target int, temp []int, result *[][]int, start int) {
 	/*
-		Method: Backtracking
+		METHOD: Backtracking
 		Time complexity: O(n ^ T), где n - количество элементов в наборе, t - это целевое значение.
 
 		Почему так?
