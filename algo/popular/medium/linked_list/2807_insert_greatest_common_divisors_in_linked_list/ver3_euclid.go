@@ -4,7 +4,7 @@ func insertGreatestCommonDivisorsV3(head *ListNode) *ListNode {
 	/*
 		METHOD:
 		TIME COMPLEXITY: O(n)
-		Space complexity:	O(1)
+		SPACE COMPLEXITY:	O(1)
 
 		Данный метод insertGreatestCommonDivisors использует итеративный подход для добавления новых узлов в связный список.
 		Каждый новый узел содержит наибольший общий делитель (НОД) двух соседних узлов.

@@ -4,7 +4,7 @@ func subsetXORSumV1(nums []int) int {
 	/*
 		METHOD: Bruteforce with DFS(recursion)
 		TIME COMPLEXITY: O(e+v)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	res := 0
 	dfs(nums, 0, &res)

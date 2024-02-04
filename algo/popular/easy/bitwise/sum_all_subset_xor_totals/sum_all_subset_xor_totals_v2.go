@@ -4,7 +4,7 @@ func subsetXORSumV2(nums []int) int {
 	/*
 		METHOD: Backtrack with DFS(recursion)
 		TIME COMPLEXITY: O(e+v)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	return dfsBacktrack(0, nums, 0)
 }

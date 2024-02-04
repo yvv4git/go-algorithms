@@ -6,7 +6,7 @@ func threeSumV3(nums []int) [][]int {
 	/*
 		METHOD: Hash.
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	sort.Ints(nums) // O(n * log n)
 

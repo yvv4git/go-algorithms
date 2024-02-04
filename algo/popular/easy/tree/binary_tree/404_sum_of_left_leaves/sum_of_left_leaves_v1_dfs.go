@@ -4,7 +4,7 @@ func sumOfLeftLeavesV1(root *TreeNode) int {
 	/*
 		METHOD: DFS recursion.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n) - O(n^2)
+		SPACE COMPLEXITY: O(n) - O(n^2)
 
 		Time Complexity:
 		В худшем случае, когда дерево является сбалансированным, временная сложность алгоритма будет O(n),

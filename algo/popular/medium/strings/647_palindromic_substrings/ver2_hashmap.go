@@ -4,7 +4,7 @@ func countSubstringsV2(s string) int {
 	/*
 		METHOD: Hashmap
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность этого алгоритма составляет O(n^2), где n - длина строки.

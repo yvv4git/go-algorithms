@@ -4,7 +4,7 @@ func findKthLargestV3(nums []int, k int) int {
 	/*
 		METHOD: Quick selection
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	n := len(nums)
 	var quickSelect func(int, int, int) int

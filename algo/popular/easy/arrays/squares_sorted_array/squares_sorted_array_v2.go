@@ -4,7 +4,7 @@ func sortedSquaresV2(nums []int) []int {
 	/*
 		METHOD: Two pointers.
 		TIME COMPLEXITY: O(n)
-		Space complexity: ???
+		SPACE COMPLEXITY: ???
 	*/
 	// STEP 1
 	// First, we square all the nums

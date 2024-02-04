@@ -4,7 +4,7 @@ func lengthOfLongestSubstringV4(s string) int {
 	/*
 		METHOD: Dynamic programming
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1) or O(m), где m - длина алфавита
+		SPACE COMPLEXITY: O(1) or O(m), где m - длина алфавита
 	*/
 	// result - результат, который мы будем возвращать
 	result := 0

@@ -6,7 +6,7 @@ func convertToTitleV2(columnNumber int) string {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(log(columnNumber))
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	if columnNumber == 0 {
 		return ""

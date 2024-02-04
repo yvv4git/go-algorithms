@@ -10,7 +10,7 @@ func simplifyPathV2(path string) string {
 	/*
 		METHOD: Switch
 		TIME COMPLEXITY: O(n), где n - количество элементов в пути. Это означает, что временная сложность составляет O(n).
-		Space complexity: O(n), где n - количество элементов в пути.
+		SPACE COMPLEXITY: O(n), где n - количество элементов в пути.
 
 		Time complexity
 		Временная сложность функции simplifyPathV2 определяется количеством итераций цикла, который проходит по всем элементам в массиве s.

@@ -8,7 +8,7 @@ func findMinV2(nums []int) int {
 	/*
 		METHOD: Binary search optimized
 		TIME COMPLEXITY: O(log n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	// Инициализируем две переменные, которые будут указывать на начало и конец массива.
 	left, right := 0, len(nums)-1

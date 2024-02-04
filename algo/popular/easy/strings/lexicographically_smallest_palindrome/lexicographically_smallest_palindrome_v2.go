@@ -4,7 +4,7 @@ func makeSmallestPalindromeV2(s string) string {
 	/*
 		METHOD: Swap
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	p := []byte(s)
 

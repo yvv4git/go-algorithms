@@ -4,7 +4,7 @@ func insertIntoBST(root *TreeNode, val int) *TreeNode {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(h), где h - высота дерева.
-		Space complexity: O(h)
+		SPACE COMPLEXITY: O(h)
 
 		Time complexity
 		Временная сложность функции deleteNodeV2() в худшем случае составляет O(h), где h - высота дерева.

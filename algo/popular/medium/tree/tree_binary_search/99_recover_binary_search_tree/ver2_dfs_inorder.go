@@ -4,7 +4,7 @@ func recoverTreeV2(root *TreeNode) {
 	/*
 		METHOD: DFS
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Метод решения задачи:
 		1. Инициализируем два указателя на предыдущий и текущий узлы.

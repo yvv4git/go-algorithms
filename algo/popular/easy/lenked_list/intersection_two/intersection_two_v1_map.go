@@ -4,7 +4,7 @@ func getIntersectionNodeV1(headA, headB *ListNode) *ListNode {
 	/*
 		METHOD: Using map.
 		TIME COMPLEXITY: O(n + m)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	if headA == nil || headB == nil {
 		return nil

@@ -4,7 +4,7 @@ func findKthLargestV1(nums []int, k int) int {
 	/*
 		METHOD: Hash
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(max(nums) - min(nums)+1)
+		SPACE COMPLEXITY: O(max(nums) - min(nums)+1)
 	*/
 	const MaxInt = 2147483647
 	const MinInt = -2147483648
@@ -21,7 +21,7 @@ func findKthLargestV1(nums []int, k int) int {
 		}
 	}
 
-	// Space complexity: O(max(nums) - min(nums)+1)
+	// SPACE COMPLEXITY: O(max(nums) - min(nums)+1)
 	count := make([]int, maxValue-minValue+1)
 	for i := 0; i < len(nums); i++ {
 		count[nums[i]-minValue]++

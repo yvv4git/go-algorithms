@@ -4,7 +4,7 @@ func diagonalSumV1(mat [][]int) int {
 	/*
 		METHOD: Iterate
 		TIME COMPLEXITY: O(1)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	var (
 		n      = len(mat)

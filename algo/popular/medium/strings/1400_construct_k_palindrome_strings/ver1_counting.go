@@ -7,7 +7,7 @@ func canConstructV1(s string, k int) bool {
 	/*
 		METHOD: Counting
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность этого алгоритма составляет O(n), где n - длина строки s,

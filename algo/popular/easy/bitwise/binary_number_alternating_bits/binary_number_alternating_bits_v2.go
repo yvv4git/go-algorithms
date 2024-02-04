@@ -4,7 +4,7 @@ func hasAlternatingBitsV2(n int) bool {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: ???
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	prevBit := n & 1 // Если младший(правый) бит будет 1, то & даст 1, иначе 0.
 

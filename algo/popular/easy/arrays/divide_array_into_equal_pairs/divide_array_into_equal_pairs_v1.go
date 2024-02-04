@@ -6,7 +6,7 @@ func divideArrayV1(nums []int) bool {
 	/*
 		METHOD: Use lib sort.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	sort.Ints(nums) // TIME COMPLEXITY: O(n log(n))
 	res := true

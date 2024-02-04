@@ -4,7 +4,7 @@ func firstBadVersionV1(n int) int {
 	/*
 		METHOD: Binary search
 		TIME COMPLEXITY: O(log n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	left, right := 1, n
 

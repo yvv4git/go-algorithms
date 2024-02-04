@@ -4,7 +4,7 @@ func floodFillV3(image [][]int, sr int, sc int, color int) [][]int {
 	/*
 		METHOD: BFS iterative.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	type Point struct {
 		x, y int

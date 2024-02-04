@@ -9,7 +9,7 @@ func calcEquationV1(equations [][]string, values []float64, queries [][]string) 
 	/*
 		METHOD: BFS (Breadth-First Search)
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	graph := make(map[string]map[string]float64)
 	for i := 0; i < len(equations); i++ {

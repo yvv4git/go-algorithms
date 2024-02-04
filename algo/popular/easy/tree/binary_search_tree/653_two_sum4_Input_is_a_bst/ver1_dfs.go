@@ -4,7 +4,7 @@ func findTarget(root *TreeNode, k int) bool {
 	/*
 		METHOD: DFS
 		TIME COMPLEXITY: O(n), где n - количество узлов в дереве, поскольку мы посещаем каждый узел ровно один раз.
-		Space complexity: O(n), так как в худшем случае мы можем поместить все узлы в множество.
+		SPACE COMPLEXITY: O(n), так как в худшем случае мы можем поместить все узлы в множество.
 	*/
 	set := make(map[int]bool)
 	return dfs(root, k, set)

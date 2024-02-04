@@ -5,14 +5,14 @@ func integerBreakV1(n int) int {
 	/*
 		METHOD: Dynamic programming
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Это задача на динамическое программирование.
 
 		TIME COMPLEXITY:
 		Временная сложность этого алгоритма составляет O(n), так как в худшем случае мы проходимся по всем числам от 1 до n.
 
-		Space complexity:
+		SPACE COMPLEXITY:
 		Пространственная сложность также составляет O(1), так как мы используем фиксированное количество переменных,
 		не зависящих от размера входных данных.
 

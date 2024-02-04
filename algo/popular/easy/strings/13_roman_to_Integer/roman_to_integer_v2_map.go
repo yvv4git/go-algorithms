@@ -4,7 +4,7 @@ func romanToIntV2(s string) int {
 	/*
 		METHOD: Use map.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	romanMap := map[rune]int{
 		'I': 1,

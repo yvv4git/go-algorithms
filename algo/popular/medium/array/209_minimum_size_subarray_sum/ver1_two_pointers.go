@@ -7,7 +7,7 @@ func minSubArrayLenV1(target int, nums []int) int {
 	/*
 		METHOD: Two pointers
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность этого решения составляет O(n), где n - количество элементов в массиве.

@@ -4,7 +4,7 @@ func isIsomorphicV2(s string, t string) bool {
 	/*
 		METHOD: Map / Hash
 		TIME COMPLEXITY: O(2n)
-		Space complexity: O(1), количество символов ограничено
+		SPACE COMPLEXITY: O(1), количество символов ограничено
 	*/
 	return helper(s, t) && helper(t, s)
 }

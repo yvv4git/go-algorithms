@@ -4,7 +4,7 @@ func findErrorNums(nums []int) []int {
 	/*
 		METHOD: XOR
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Explanation: XOR of integer can cancel out each other. we can find the missing integer by using xor
 		e.g: (1^2^3^5) ^ (1^2^3^4^5) = 4 (4 is the missing integer in the set)

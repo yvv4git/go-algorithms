@@ -11,7 +11,7 @@ func largestNumberV2(nums []int) string {
 	/*
 		METHOD: Heap
 		TIME COMPLEXITY: O(n log n)
-		Space complexity: O(n), где n - количество чисел в массиве nums
+		SPACE COMPLEXITY: O(n), где n - количество чисел в массиве nums
 
 		Time complexity
 		1. Построение кучи: В цикле for _, num := range nums мы добавляем каждый элемент в кучу, что требует O(log n) времени для просеивания вверх.

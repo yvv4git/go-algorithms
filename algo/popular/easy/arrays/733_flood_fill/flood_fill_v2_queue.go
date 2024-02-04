@@ -4,7 +4,7 @@ func floodFillV2(image [][]int, sr int, sc int, color int) [][]int {
 	/*
 		METHOD: Queue
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Данный алгоритм представляет собой алгоритм покраски (flood fill) для изображений.
 		Он использует очередь (queue) для хранения координат пикселей, которые нужно покрасить.

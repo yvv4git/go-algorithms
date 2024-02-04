@@ -9,7 +9,7 @@ func readBinaryWatchV2(turnedOn int) []string {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: ???
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	result := []string{}
 	if turnedOn > 8 {

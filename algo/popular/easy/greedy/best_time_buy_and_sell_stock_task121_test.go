@@ -72,7 +72,7 @@ func TestMaxProfit(t *testing.T) {
 func maxProfit(prices []int) (result int) {
 	/*
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	var minPrice = prices[0] // Предполагаем, что это минимальная цена для покупки.
 

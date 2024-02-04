@@ -8,7 +8,7 @@ func mergeKListsV3(lists []*ListNode) *ListNode {
 	/*
 		METHOD: Sort
 		TIME COMPLEXITY: O(n log n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Что тут происходит:
 		1. Деление.

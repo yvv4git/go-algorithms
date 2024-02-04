@@ -4,7 +4,7 @@ func integerBreakV2(n int) int {
 	/*
 		METHOD: Math
 		TIME COMPLEXITY: O(1)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность функции integerBreak в худшем случае составляет O(1),
@@ -48,7 +48,7 @@ func integerBreakV2(n int) int {
 func pow(a, b int) int {
 	/*
 		TIME COMPLEXITY: O(b), где b - степень числа.
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity & Space complexity
 		Функция pow имеет временную сложность O(b), где b - степень числа, и пространственную сложность O(1),

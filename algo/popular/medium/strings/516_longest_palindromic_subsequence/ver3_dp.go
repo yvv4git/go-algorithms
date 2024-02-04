@@ -5,7 +5,7 @@ func longestPalindromeSubseqV3(s string) int {
 	/*
 		METHOD: Dynamic programming + Recursion
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(n^2)
+		SPACE COMPLEXITY: O(n^2)
 
 		Time complexity
 		Временная сложность этого алгоритма - O(n^2), где n - длина строки s.

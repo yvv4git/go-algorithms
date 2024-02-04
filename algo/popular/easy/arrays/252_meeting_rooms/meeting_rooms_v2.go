@@ -9,7 +9,7 @@ func canAttendMeetingsV2(intervals []Interval) bool {
 	/*
 		METHOD: Loop after sort.
 		TIME COMPLEXITY: O(n log n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		В этом коде мы используем быструю сортировку для сортировки начал и концов встреч.
 		Затем мы проверяем, есть ли пересечения в отсортированных массивах.

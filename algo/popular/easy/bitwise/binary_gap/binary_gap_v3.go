@@ -6,7 +6,7 @@ func binaryGapV3(n int) int {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	interval, result := 0, math.MinInt32
 

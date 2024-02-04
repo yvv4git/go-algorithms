@@ -6,7 +6,7 @@ func findKthLargestV5(nums []int, k int) int {
 	/*
 		METHOD: Counting sort with memory optimization
 		TIME COMPLEXITY: O(n + m), where m = max - min
-		Space complexity: O(m), where m = max - min
+		SPACE COMPLEXITY: O(m), where m = max - min
 	*/
 	min := math.MaxInt32
 	max := math.MinInt32

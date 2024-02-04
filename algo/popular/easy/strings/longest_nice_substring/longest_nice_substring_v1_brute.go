@@ -4,7 +4,7 @@ func longestNiceSubstringV1(s string) string {
 	/*
 		METHOD: Bruteforce
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	var lower, upper, longest, ind int
 

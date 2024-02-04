@@ -4,7 +4,7 @@ func isIsomorphicV1(s string, t string) bool {
 	/*
 		METHOD: Loop
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1), количество символов ограничено
+		SPACE COMPLEXITY: O(1), количество символов ограничено
 	*/
 	if len(s) != len(t) {
 		return false

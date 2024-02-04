@@ -4,7 +4,7 @@ func countSubstringsV3(s string) int {
 	/*
 		METHOD: Two pointer
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность этого алгоритма составляет O(n^2), где n - длина строки.

@@ -4,7 +4,7 @@ func findMedianSortedArraysV3(nums1 []int, nums2 []int) float64 {
 	/*
 		METHOD: Merge and divide
 		TIME COMPLEXITY: 	O(n)
-		Space complexity:	O(1)
+		SPACE COMPLEXITY:	O(1)
 	*/
 	lenNums1, lenNums2 := len(nums1), len(nums2)
 

@@ -4,7 +4,7 @@ func letterCombinationsV3(digits string) []string {
 	/*
 		METHOD: DFS
 		TIME COMPLEXITY: O(4^n), где n - количество цифр в входной строке.
-		Space complexity: O(4^n), так как в худшем случае мы можем иметь 4^n комбинаций.
+		SPACE COMPLEXITY: O(4^n), так как в худшем случае мы можем иметь 4^n комбинаций.
 
 		Time complexity
 		Временная сложность O(4^n) и пространственная сложность O(4^n) в этих решениях связаны с тем,

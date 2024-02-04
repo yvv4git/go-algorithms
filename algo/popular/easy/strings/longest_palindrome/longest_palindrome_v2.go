@@ -4,7 +4,7 @@ func longestPalindromeV2(s string) int {
 	/*
 		METHOD: Use bool array
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	hash := make([]bool, 58) // O(1), because we have constant length
 	result := 0

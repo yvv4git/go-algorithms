@@ -42,7 +42,7 @@ func inorderTraversal(root *TreeNode) []int {
 	/*
 		METHOD:
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность функции inorderTraversal в худшем случае составляет O(n), где n - количество узлов в дереве.

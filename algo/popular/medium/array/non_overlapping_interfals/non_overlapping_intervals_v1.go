@@ -4,7 +4,7 @@ func eraseOverlapIntervalsV1(intervals [][]int) int {
 	/*
 		METHOD:
 		TIME COMPLEXITY: O(nlogn + n) = O(nlogn)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	if len(intervals) <= 1 {
 		return 0
@@ -23,7 +23,7 @@ func numberOfNonOverlappingIntervals(intervals [][]int) int {
 	/*
 		METHOD: Loop
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	currentInterval := intervals[0]
 	var nbNonOverlappingIntervals int = 1

@@ -4,7 +4,7 @@ func searchBSTV2(root *TreeNode, val int) *TreeNode {
 	/*
 		METHOD: BST iterative
 		TIME COMPLEXITY: O(n), в худшем случае и O(log n) если дерево сбалансированное
-		Space complexity: O(1), т.к. не используем дополнительной памяти
+		SPACE COMPLEXITY: O(1), т.к. не используем дополнительной памяти
 
 		Time complexity
 		Временная сложность функции searchBSTV2 в худшем случае (когда дерево является сбалансированным) составляет O(n),

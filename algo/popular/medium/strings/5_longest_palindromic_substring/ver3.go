@@ -4,7 +4,7 @@ func longestPalindromeV3(s string) string {
 	/*
 		METHOD: Algorithm Manacher's
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	n := len(s)
 	d1 := make([]int, n) //odd

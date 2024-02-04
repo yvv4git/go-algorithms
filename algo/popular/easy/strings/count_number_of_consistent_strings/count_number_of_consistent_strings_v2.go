@@ -4,7 +4,7 @@ func countConsistentStringsV2(allowed string, words []string) int {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	result := 0
 	bitMask := 0

@@ -6,7 +6,7 @@ func findMinimumOperations(s1, s2, s3 string) int {
 	/*
 		METHOD: Divide and conquer
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1) or O(n)
+		SPACE COMPLEXITY: O(1) or O(n)
 
 		Time complexity
 		Для поиска общего префикса в строках s1, s2 и s3, а второй для вычисления количества операций.

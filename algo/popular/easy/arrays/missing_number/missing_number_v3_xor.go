@@ -4,7 +4,7 @@ func missingNumberV3(nums []int) int {
 	/*
 		METHOD: Pattern xor
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	a, b := 0, 0
 

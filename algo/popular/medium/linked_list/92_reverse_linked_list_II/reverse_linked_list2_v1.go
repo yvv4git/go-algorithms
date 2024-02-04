@@ -4,7 +4,7 @@ func reverseBetweenV1(head *ListNode, left int, right int) *ListNode {
 	/*
 		METHOD: Two pointers.
 		TIME COMPLEXITY: O(n).
-		Space complexity: O(1).
+		SPACE COMPLEXITY: O(1).
 
 		В начале функции мы проходим по всему списку до узла left, что занимает O(n) времени.
 		Затем мы проходим по всему списку от узла left до узла right, меняя указатели next, что также занимает O(n) времени.

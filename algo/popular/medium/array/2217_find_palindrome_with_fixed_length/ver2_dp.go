@@ -4,7 +4,7 @@ func kthPalindromeV2(queries []int, intLength int) []int64 {
 	/*
 		METHOD: DP + math
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность функции kthPalindrome составляет O(n), где n - количество запросов.
@@ -40,7 +40,7 @@ func kthPalindromeV2(queries []int, intLength int) []int64 {
 func mirror(v int, doubleLast bool) int64 {
 	/*
 		TIME COMPLEXITY: O(log(v)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность функции mirror составляет O(log(v)), где v - значение палиндрома.

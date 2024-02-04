@@ -4,7 +4,7 @@ func sumOfLeftLeavesV2(root *TreeNode) int {
 	/*
 		METHOD: BFS with queue.
 		TIME COMPLEXITY: O(n), O(n log n).
-		Space complexity: O(n).
+		SPACE COMPLEXITY: O(n).
 
 		1. В лучшем случае, когда граф является деревом, временная сложность BFS будет O(n),
 		где n - это количество узлов в дереве. Это происходит, когда мы посещаем каждый узел только один раз.

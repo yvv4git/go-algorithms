@@ -6,7 +6,7 @@ func findNthDigitV2(n int) int {
 	/*
 		METHOD: Math
 		TIME COMPLEXITY: O(log n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 
 	//1-9 		-> 9 * length-1 number

@@ -6,7 +6,7 @@ func detectCycleV3(head *ListNode) *ListNode {
 	/*
 		METHOD: Stack
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность составляет O(n^2), так как в худшем случае мы проходим по всему списку и для каждого узла мы проверяем, есть ли он в стеке.

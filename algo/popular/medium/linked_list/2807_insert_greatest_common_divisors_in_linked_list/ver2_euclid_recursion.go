@@ -4,13 +4,13 @@ func insertGreatestCommonDivisorsV2(head *ListNode) *ListNode {
 	/*
 		METHOD: Euclid + recursion
 		TIME COMPLEXITY: O(n)
-		Space complexity:  O(n)
+		SPACE COMPLEXITY:  O(n)
 
 		TIME COMPLEXITY:
 		Временная сложность этого алгоритма - O(n), где n - количество узлов в списке.
 		Это связано с тем, что мы проходим по каждому узлу списка ровно один раз.
 
-		Space complexity:
+		SPACE COMPLEXITY:
 		Пространственная сложность - O(n), так как в худшем случае (когда мы добавляем новый узел между каждыми двумя узлами) мы используем O(n) дополнительной памяти.
 	*/
 	// Базовый случай: если список содержит менее двух узлов, то ничего не делаем

@@ -8,7 +8,7 @@ func reverseKGroupV3(head *ListNode, k int) *ListNode {
 	/*
 		METHOD: Two pointer
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность каждой функции в худшем случае составляет O(n), где n - количество узлов в списке.

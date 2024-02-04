@@ -5,7 +5,7 @@ func climbStairs(n int) int {
 	/*
 		METHOD: Dynamic programming
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность этого алгоритма составляет O(n), где n - количество ступеней в лестнице,

@@ -6,7 +6,7 @@ func detectCycleV2(head *ListNode) *ListNode {
 	/*
 		METHOD: Hash set
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность составляет O(n), так как в худшем случае мы проходим по всему списку.

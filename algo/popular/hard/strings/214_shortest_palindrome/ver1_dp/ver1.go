@@ -5,7 +5,7 @@ func shortestPalindrome(s string) string {
 	/*
 		METHOD: Dynamic programming
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность этого алгоритма - O(n), где n - длина строки.

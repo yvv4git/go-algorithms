@@ -4,7 +4,7 @@ func CalculateDigitsNumberV1(num int) int {
 	/*
 		METHOD: Iterative
 		TIME COMPLEXITY: O(log_10(n)) or O(num digits)
-		Space complexity: O(1) or constant
+		SPACE COMPLEXITY: O(1) or constant
 	*/
 	if num == 0 {
 		return 1

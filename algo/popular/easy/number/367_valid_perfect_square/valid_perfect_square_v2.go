@@ -4,7 +4,7 @@ func isPerfectSquareV2(num int) bool {
 	/*
 		METHOD: Iterative
 		TIME COMPLEXITY: O(sqrt(n))
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	i := 1
 	for i*i < num {

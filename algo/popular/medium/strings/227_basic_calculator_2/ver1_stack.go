@@ -8,7 +8,7 @@ func calculate(s string) int {
 	/*
 		METHOD: Stack
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 	*/
 	// Стек для хранения чисел и знаков операций

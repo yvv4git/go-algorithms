@@ -7,7 +7,7 @@ func countStudentsV5(students []int, sandwiches []int) int {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность этого алгоритма составляет O(n), где n - количество студентов.

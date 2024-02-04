@@ -6,7 +6,7 @@ func summaryRangesV1(nums []int) []string {
 	/*
 		METHOD: Loop
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	result := []string{}
 	symbol := ""

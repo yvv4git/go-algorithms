@@ -4,7 +4,7 @@ func findErrorNumsV2(nums []int) []int {
 	/*
 		METHOD: Hash
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	numsMap := map[int]int{}
 	for _, num := range nums {

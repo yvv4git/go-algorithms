@@ -4,7 +4,7 @@ func invertTree(root *TreeNode) *TreeNode {
 	/*
 		METHOD: Loop by Stack
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	if root == nil {
 		return root

@@ -5,7 +5,7 @@ func isValidBSTV5(root *TreeNode) bool {
 	/*
 		METHOD: DFS
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность алгоритма DFS для проверки, является ли дерево бинарным деревом поиска, составляет O(n),

@@ -4,7 +4,7 @@ func floodFillV4(image [][]int, sr int, sc int, color int) [][]int {
 	/*
 		METHOD: DFS iterative.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Асимптотическая сложность алгоритмов BFS, DFS, итеративного DFS и рекурсивного DFS в этой задаче одинаковая и равна O(n),
 		где n - количество пикселей в изображении.

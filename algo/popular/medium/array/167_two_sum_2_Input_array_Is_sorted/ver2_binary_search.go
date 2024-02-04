@@ -4,7 +4,7 @@ func twoSumV2(numbers []int, target int) []int {
 	/*
 		METHOD: Binary search
 		TIME COMPLEXITY: O(n log n), где n - количество элементов в массиве.
-		Space complexity: O(1), поскольку мы не используем дополнительное пространство, которое зависит от размера входных данных.
+		SPACE COMPLEXITY: O(1), поскольку мы не используем дополнительное пространство, которое зависит от размера входных данных.
 	*/
 	for i := 0; i < len(numbers); i++ {
 		j := binarySearch(numbers, i+1, len(numbers)-1, target-numbers[i])

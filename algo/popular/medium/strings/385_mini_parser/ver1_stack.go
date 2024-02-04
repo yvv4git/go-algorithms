@@ -48,7 +48,7 @@ func deserialize(s string) *NestedInteger {
 	/*
 		METHOD: Stack
 		TIME COMPLEXITY: O(n), где n - длина строки s
-		Space complexity: O(n), используется дополнительная память на хранение stack
+		SPACE COMPLEXITY: O(n), используется дополнительная память на хранение stack
 	*/
 
 	// Добавляем символ конца файла (EOF) в конец строки, чтобы гарантировать, что последнее число будет обработано.

@@ -9,7 +9,7 @@ func maxEventsV1(events [][]int) int {
 	/*
 		METHOD: Heap
 		TIME COMPLEXITY: ???
-		Space complexity: ???
+		SPACE COMPLEXITY: ???
 	*/
 
 	// Convert the events into Event struct for easy sorting

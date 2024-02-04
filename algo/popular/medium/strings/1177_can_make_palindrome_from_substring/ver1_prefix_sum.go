@@ -16,7 +16,7 @@ func canMakePaliQueriesV1(s string, queries [][]int) []bool {
 	/*
 		METHOD: Prefix sums
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность решения составляет O(n), где n - длина подстроки, так как мы проходимся по подстроке дважды:

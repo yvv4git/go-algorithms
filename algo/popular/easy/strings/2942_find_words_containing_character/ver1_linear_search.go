@@ -6,7 +6,7 @@ func findWordsContaining(words []string, x byte) []int {
 	/*
 		METHOD: Linear search
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность функции findWordsContaining составляет O(n), где n - количество слов в массиве words.

@@ -5,7 +5,7 @@ func searchBST(root *TreeNode, val int) *TreeNode {
 	/*
 		METHOD: BST
 		TIME COMPLEXITY: O(n), где n - количество узлов в дереве. Это
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Space complexity
 		В среднем случае временная сложность будет меньше, если дерево сбалансировано.

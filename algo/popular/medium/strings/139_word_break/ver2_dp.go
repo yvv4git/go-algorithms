@@ -6,7 +6,7 @@ func wordBreakV2(s string, wordDict []string) bool {
 	/*
 		METHOD: Dynamic programming & Memoization
 		TIME COMPLEXITY: O(n^2), где n - длина строки s. Это связано с двумя вложенными циклами, которые проходят по всем подстрокам строки s.
-		Space complexity: O(n), так как мы используем дополнительный массив dp для хранения результатов подзадач.
+		SPACE COMPLEXITY: O(n), так как мы используем дополнительный массив dp для хранения результатов подзадач.
 	*/
 	// Создаем множество wordSet для быстрого поиска слов в словаре.
 	wordSet := make(map[string]struct{}, len(wordDict))

@@ -5,7 +5,7 @@ func amountOfTimeV4(root *TreeNode, start int) int {
 	/*
 		METHOD: BFS
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность этого кода составляет O(n), где n - количество узлов в дереве.

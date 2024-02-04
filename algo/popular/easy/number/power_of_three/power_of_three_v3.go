@@ -4,7 +4,7 @@ func isPowerOfThreeV3(n int) bool {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(1)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	if n == 1 {
 		return true

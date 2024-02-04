@@ -4,7 +4,7 @@ func minDifficultyV1(jobDifficulty []int, d int) int {
 	/*
 		METHOD: Dynamic programming
 		TIME COMPLEXITY: O(n^2 * d), где n - количество задач, d - количество дней.
-		Space complexity: O(n * d), так как мы используем дополнительный массив dp для хранения результатов
+		SPACE COMPLEXITY: O(n * d), так как мы используем дополнительный массив dp для хранения результатов
 	*/
 
 	// Длина массива сложностей задач.

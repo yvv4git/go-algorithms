@@ -6,7 +6,7 @@ func checkArithmeticSubArraysV1(nums []int, l []int, r []int) []bool {
 	/*
 		METHOD: ???
 		TIME COMPLEXITY: O(mn log(n))
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	resul := make([]bool, len(l))
 

@@ -5,7 +5,7 @@ func generateParenthesisV2(n int) []string {
 	/*
 		METHOD: Dynamic programming
 		TIME COMPLEXITY: O(4^n / n^(3/2))
-		Space complexity: O(4^n / n^(3/2))
+		SPACE COMPLEXITY: O(4^n / n^(3/2))
 
 		Time complexity
 		Временная сложность O(4^n / n^(3/2)) обусловлена тем, что для каждой пары скобок n,

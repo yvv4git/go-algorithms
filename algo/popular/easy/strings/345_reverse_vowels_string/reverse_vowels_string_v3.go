@@ -6,7 +6,7 @@ func reverseVowelsV3(s string) string {
 	/*
 		METHOD: Two pointer / Window.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	vowelsMap := map[rune]bool{
 		'a': true,

@@ -12,7 +12,7 @@ func generateParenthesisV3(n int) []string {
 	/*
 		METHOD: Iterative
 		TIME COMPLEXITY: O(4^n / sqrt(n))
-		Space complexity: O(4^n / sqrt(n))
+		SPACE COMPLEXITY: O(4^n / sqrt(n))
 	*/
 	// Результирующий срез для хранения всех правильных скобочных последовательностей.
 	result := make([]string, 0)

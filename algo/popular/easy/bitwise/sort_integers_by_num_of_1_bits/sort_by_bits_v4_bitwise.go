@@ -7,7 +7,7 @@ func sortByBitsV4(arr []int) []int {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	sort.SliceStable(arr, func(a, b int) bool {
 		bitsA := countBits(arr[a]) // Самостоятельно посчитаем количество разрядов с 1

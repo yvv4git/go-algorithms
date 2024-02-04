@@ -4,7 +4,7 @@ func counter(count int, x *TreeNode) int {
 	/*
 		METHOD: Recursion.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	if x == nil {
 		return 0

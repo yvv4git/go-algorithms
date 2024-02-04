@@ -4,7 +4,7 @@ func eraseOverlapIntervalsV2(intervals [][]int) int {
 	/*
 		METHOD:
 		TIME COMPLEXITY: O(n*log(n))
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	cnt, result := len(intervals), 0
 	if cnt <= 1 {

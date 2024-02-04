@@ -4,12 +4,12 @@ func deleteDuplicatesV1(head *ListNode) *ListNode {
 	/*
 		METHOD: Two pointers & Dummy
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность O(n), где n - количество узлов в списке. Мы проходим по списку один раз.
 
-		Space complexity:
+		SPACE COMPLEXITY:
 		Пространственная сложность O(1), так как мы используем фиктивный узел и не используем дополнительное пространство,
 		зависящее от размера входных данных.
 

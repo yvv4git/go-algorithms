@@ -4,7 +4,7 @@ func toHexV1(num int) string {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: O(1)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	const (
 		hexCharacters = "0123456789abcdef"

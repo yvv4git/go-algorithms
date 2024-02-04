@@ -4,7 +4,7 @@ func findKthLargestV2(nums []int, k int) int {
 	/*
 		METHOD: Quick selection
 		TIME COMPLEXITY: O(n) + O(n*log(n)) = O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	return recursion(nums, k, 0, len(nums)-1)
 }

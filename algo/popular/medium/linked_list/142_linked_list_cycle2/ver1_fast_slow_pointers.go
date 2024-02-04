@@ -6,7 +6,7 @@ func detectCycleV1(head *ListNode) *ListNode {
 	/*
 		METHOD: Floyd's Tortoise and Hare / Fast and slow pointers
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность составляет O(n), так как в худшем случае мы проходим по всему списку два раза:

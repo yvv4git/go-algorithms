@@ -6,7 +6,7 @@ func maxProductV1(nums []int) int {
 	/*
 		METHOD: Use default sort.
 		TIME COMPLEXITY: O(n log(n))
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	sort.Ints(nums)
 	i := len(nums) - 1

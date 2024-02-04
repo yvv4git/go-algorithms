@@ -4,7 +4,7 @@ func findKthLargestV4(nums []int, k int) int {
 	/*
 		METHOD: Hash, memory
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	left := []int{}  // Hash left
 	right := []int{} // Hash right

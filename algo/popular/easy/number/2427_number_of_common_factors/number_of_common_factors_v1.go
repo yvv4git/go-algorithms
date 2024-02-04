@@ -4,7 +4,7 @@ func commonFactorsV1(a int, b int) int {
 	/*
 		METHOD: Math
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	min := a
 	if min > b {

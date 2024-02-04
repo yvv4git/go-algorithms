@@ -4,7 +4,7 @@ func destCityV3(paths [][]string) string {
 	/*
 		METHOD: Список смежности / Adjacency List
 		TIME COMPLEXITY: O(V)
-		Space complexity: O(V)
+		SPACE COMPLEXITY: O(V)
 
 		Time complexity
 		Пространственная сложность этого алгоритма составляет O(V), где V - количество вершин (городов).

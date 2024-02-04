@@ -4,7 +4,7 @@ func divideArrayV2(nums []int) bool {
 	/*
 		METHOD: Hash
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	hash := map[int]bool{}
 

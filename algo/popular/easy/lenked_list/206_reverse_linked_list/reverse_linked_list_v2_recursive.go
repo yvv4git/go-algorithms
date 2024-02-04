@@ -5,13 +5,13 @@ func reverseListV2(head *ListNode) *ListNode {
 	/*
 		METHOD: Recursive
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity.
 		Временная сложность этого метода составляет O(n), где n - количество узлов в списке.
 		Это связано с тем, что мы проходим по всем узлам списка только один раз.
 
-		Space complexity:
+		SPACE COMPLEXITY:
 		Пространственная сложность этого метода составляет O(n),
 		так как в худшем случае глубина рекурсии может достигать n (когда список является связным списком с n узлами).
 	*/

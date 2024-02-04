@@ -6,7 +6,7 @@ func shortestPalindrome(s string) string {
 	/*
 		METHOD: KMP(Knuth-Morris-Pratt)
 		TIME COMPLEXITY: O(m + n), где m - длина подстроки, n - длина строки
-		Space complexity: O(m)
+		SPACE COMPLEXITY: O(m)
 
 		Time complexity
 		Временная сложность O(m + n) в алгоритме KMP обусловлена двумя факторами:

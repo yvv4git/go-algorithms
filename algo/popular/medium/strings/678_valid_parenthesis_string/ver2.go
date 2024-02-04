@@ -4,7 +4,7 @@ func checkValidStringV2(s string) bool {
 	/*
 		METHOD: Loop with counters.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	open, closed, last := 0, 0, len(s)-1
 

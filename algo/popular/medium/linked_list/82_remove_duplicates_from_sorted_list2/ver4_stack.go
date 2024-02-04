@@ -4,7 +4,7 @@ func deleteDuplicatesV4(head *ListNode) *ListNode {
 	/*
 		METHOD: Stack
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность O(n), где n - количество узлов в списке. Мы проходим по списку один раз.

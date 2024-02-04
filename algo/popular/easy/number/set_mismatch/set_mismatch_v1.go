@@ -4,7 +4,7 @@ func findErrorNumsV1(nums []int) []int {
 	/*
 		METHOD: Cycle sort
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 
 	// Какая-то сортировка

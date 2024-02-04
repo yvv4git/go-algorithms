@@ -4,7 +4,7 @@ func dfsTraversalIterativeV2(root *Node) []int {
 	/*
 		Алгоритм обхода(Traversal) графа в грубину(DFS - Depth-First Search).
 		TIME COMPLEXITY: O(V + E)
-		Space complexity: O(V + E)
+		SPACE COMPLEXITY: O(V + E)
 		Where V is the number of vertices and E is the number of edges in the graph.
 	*/
 	out := []int{}

@@ -4,7 +4,7 @@ func deleteDuplicatesV2(head *ListNode) *ListNode {
 	/*
 		METHOD: Hash table, Dictionary
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	// Создаем фиктивный узел, который указывает на начало списка
 	dummy := &ListNode{0, head}

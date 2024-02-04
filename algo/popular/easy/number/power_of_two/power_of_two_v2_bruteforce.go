@@ -4,7 +4,7 @@ func isPowerOfTwoV2(n int) bool {
 	/*
 		METHOD: Bruteforce
 		TIME COMPLEXITY: O(log n) - последовательность на каждом шаге будет уменьшаться в 2 раза.
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	if n <= 0 {
 		return false

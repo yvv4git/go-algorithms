@@ -4,7 +4,7 @@ func sortColorsV2(nums []int) {
 	/*
 		METHOD: Counting sort.
 		TIME COMPLEXITY: O(n+k), where n - length of nums, k - max number in nums (its at worst 2, so the complexity is basically can be considered O(n)).
-		Space complexity: O(n+k) - same logic here.
+		SPACE COMPLEXITY: O(n+k) - same logic here.
 	*/
 	c := make([]int, max(nums)+1)
 	for _, n := range nums {

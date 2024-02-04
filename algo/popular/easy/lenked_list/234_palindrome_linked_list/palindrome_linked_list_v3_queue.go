@@ -4,7 +4,7 @@ func isPalindromeV3(head *ListNode) bool {
 	/*
 		METHOD: Queue
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	// Инициализируем очередь для хранения значений узлов
 	var queue []int

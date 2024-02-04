@@ -4,7 +4,7 @@ func countStudentsV2(students []int, sandwiches []int) int {
 	/*
 		METHOD: Counting map
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	studMap := make(map[int]int)
 	for i := 0; i < len(students); i++ {

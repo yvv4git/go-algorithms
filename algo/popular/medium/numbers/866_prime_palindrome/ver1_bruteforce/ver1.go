@@ -6,7 +6,7 @@ func primePalindromeV1(N int) int {
 	/*
 		METHOD: Bruteforce
 		TIME COMPLEXITY: O(n sqrt(n)), это связано с двумя циклами: внешним, который проверяет каждое число на простоту и палиндромность, и внутренним, который проверяет каждую цифру в числе на палиндромность.
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	if N <= 2 {
 		return 2

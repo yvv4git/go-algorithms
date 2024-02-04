@@ -6,7 +6,7 @@ func sumDigits(n float64) int {
 	/*
 		METHOD: Math + loop
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	sum := 0
 	whole, fraction := math.Modf(n)

@@ -5,7 +5,7 @@ func partitionV1(s string) [][]string {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(n * 2^n)
-		Space complexity: O(n * 2^n)
+		SPACE COMPLEXITY: O(n * 2^n)
 
 		Time complexity
 		Временная сложность этого алгоритма составляет O(n * 2^n), где n - длина строки.

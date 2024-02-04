@@ -4,7 +4,7 @@ func shuffleV2(nums []int, n int) []int {
 	/*
 		METHOD: Iterate
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	result := []int{}
 

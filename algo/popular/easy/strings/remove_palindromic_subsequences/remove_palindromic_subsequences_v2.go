@@ -4,7 +4,7 @@ func removePalindromeSubV2(s string) int {
 	/*
 		METHOD: Iterate
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	if len(s) == 0 {
 		return 0

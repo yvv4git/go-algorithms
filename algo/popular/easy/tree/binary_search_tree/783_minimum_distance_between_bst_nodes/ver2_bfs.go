@@ -7,7 +7,7 @@ func minDiffInBSTV2(root *TreeNode) int {
 	/*
 		METHOD: BFS
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность функции minDiffInBSTV2 в худшем случае составляет O(n^2), где n - количество узлов в дереве.

@@ -4,7 +4,7 @@ func reverseBetweenV2(head *ListNode, left int, right int) *ListNode {
 	/*
 		METHOD: Recursion.
 		TIME COMPLEXITY: O(n).
-		Space complexity: O(1).
+		SPACE COMPLEXITY: O(1).
 	*/
 
 	// Из условия задачи, надо поменять узлы местами, когда left <= right.

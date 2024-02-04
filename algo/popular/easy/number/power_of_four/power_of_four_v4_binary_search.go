@@ -6,7 +6,7 @@ func isPowerOfFourV4(n int) bool {
 	/*
 		METHOD: Binary search
 		TIME COMPLEXITY: O(log(n))
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	left := 0
 	right := 16

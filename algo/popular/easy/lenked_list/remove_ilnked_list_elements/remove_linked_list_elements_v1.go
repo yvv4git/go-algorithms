@@ -4,7 +4,7 @@ func removeElementsV1(head *ListNode, val int) *ListNode {
 	/*
 		METHOD: Loop
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	var (
 		rear = head          // pointer to the next node of the current node

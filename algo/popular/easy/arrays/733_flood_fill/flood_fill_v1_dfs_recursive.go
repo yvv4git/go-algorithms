@@ -4,7 +4,7 @@ func floodFillV1(image [][]int, sr int, sc int, color int) [][]int {
 	/*
 		METHOD: DFS recursive
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Почему O(n)?
 		1. Каждый пиксель в изображении будет посещен только один раз.

@@ -6,7 +6,7 @@ func summaryRangesV3(nums []int) []string {
 	/*
 		METHOD: Recursive
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	if len(nums) == 0 {
 		return []string{}

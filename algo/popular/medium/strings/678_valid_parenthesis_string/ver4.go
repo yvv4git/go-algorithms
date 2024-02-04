@@ -4,7 +4,7 @@ func checkValidStringV4(s string) bool {
 	/*
 		METHOD: Greedy solution
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	leftMin, leftMax := 0, 0
 

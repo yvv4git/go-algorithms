@@ -5,7 +5,7 @@ func amountOfTimeV3(root *TreeNode, start int) int {
 	/*
 		Methods: BFS + backtracking
 		TIME COMPLEXITY: O(n^2), в среднем случае, так как она вызывает функции bfs и backtracking.
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 
 	// Инициализация максимального расстояния и двух структур данных: nodes и footprint.

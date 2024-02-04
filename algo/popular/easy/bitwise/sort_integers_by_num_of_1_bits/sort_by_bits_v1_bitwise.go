@@ -8,7 +8,7 @@ func sortByBitsV1(arr []int) []int {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: O(n * 14 + n)
-		Space complexity: O1) - так как мы просто обновляем значения в массиве
+		SPACE COMPLEXITY: O1) - так как мы просто обновляем значения в массиве
 
 		Explanation:
 		Стандартная сортировка имеет сложность O(n * log(n)).

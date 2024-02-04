@@ -6,7 +6,7 @@ func getMinimumDifferenceV2(root *TreeNode) int {
 	/*
 		METHOD: DFS in-order
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Depth-First Search (DFS) - это метод обхода графа или дерева, который использует стек.
 		В DFS мы начинаем с корня (или произвольного узла) и посещаем каждый дочерний узел,

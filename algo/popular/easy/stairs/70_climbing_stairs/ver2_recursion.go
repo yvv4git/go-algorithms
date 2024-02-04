@@ -4,7 +4,7 @@ func climbStairsV2(n int) int {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 
 	// Базовый случай 1: если n равно 1, то есть только один способ подняться - сразу на одну ступеньку.

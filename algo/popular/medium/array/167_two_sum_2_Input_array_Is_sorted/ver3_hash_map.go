@@ -7,7 +7,7 @@ func twoSumV3(numbers []int, target int) []int {
 	/*
 		METHOD: Hash map
 		TIME COMPLEXITY: O(n), где n - количество элементов в массиве.
-		Space complexity: O(n), поскольку в худшем случае мы можем хранить все элементы в HashMap.
+		SPACE COMPLEXITY: O(n), поскольку в худшем случае мы можем хранить все элементы в HashMap.
 	*/
 
 	// Создаем HashMap для хранения чисел и их индексов.

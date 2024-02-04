@@ -5,7 +5,7 @@ func mergeTwoListsV2(l1 *ListNode, l2 *ListNode) *ListNode {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity.
 		Временная сложность этого алгоритма составляет O(n), где n - количество узлов в обоих списках.

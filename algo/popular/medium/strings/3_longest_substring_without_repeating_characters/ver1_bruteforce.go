@@ -5,7 +5,7 @@ func lengthOfLongestSubstringV1(s string) int {
 	/*
 		METHOD: Bruteforce
 		TIME COMPLEXITY: O(n^3)
-		Space complexity: O(min(n,m)), где n - длина строки, а m - размер алфавита
+		SPACE COMPLEXITY: O(min(n,m)), где n - длина строки, а m - размер алфавита
 
 		В этом коде мы используем метод брутфорса для решения задачи.
 		Мы проходим по всем возможным подстрокам строки и проверяем, является ли каждая подстрока уникальной.

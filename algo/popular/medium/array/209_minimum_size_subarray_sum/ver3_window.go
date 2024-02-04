@@ -4,7 +4,7 @@ func minSubArrayLenV3(target int, nums []int) int {
 	/*
 		METHOD: Window
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Алгоритм проходит по массиву один раз, поэтому временная сложность - O(n), где n - количество элементов в массиве.

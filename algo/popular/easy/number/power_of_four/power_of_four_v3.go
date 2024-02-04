@@ -6,7 +6,7 @@ func isPowerOfFourV3(n int) bool {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: O(1)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Explanation:
 		We can observe that every power of 4 has only 1 bit, and it's always in the odd(нечетное) positions. (1st, 3rd, 5th).

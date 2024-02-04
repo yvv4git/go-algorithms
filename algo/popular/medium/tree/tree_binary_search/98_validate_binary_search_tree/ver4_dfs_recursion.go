@@ -9,7 +9,7 @@ func isValidBSTV4(root *TreeNode) bool {
 	/*
 		METHOD: DFS
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 
 	// Определяем вложенную функцию validate, которая будет проверять каждый узел дерева.

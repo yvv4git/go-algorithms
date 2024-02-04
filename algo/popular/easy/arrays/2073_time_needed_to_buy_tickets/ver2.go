@@ -7,7 +7,7 @@ func timeRequiredToBuyV2(tickets []int, k int) (res int) {
 	/*
 		METHOD: Loop
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Хороший метод решения задачи за O(n).
 		Смысл в том, что не обязательно проходить несколько итераций по списку билетов(tickets), а можно

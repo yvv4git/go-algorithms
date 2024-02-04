@@ -5,7 +5,7 @@ func destCityV1(paths [][]string) string {
 	/*
 		METHOD: Adjacency List(список смежности) on hash table
 		TIME COMPLEXITY: O(n) - где n есть количество путей
-		Space complexity: O(n) - храним все пути в хеш-таблице
+		SPACE COMPLEXITY: O(n) - храним все пути в хеш-таблице
 	*/
 	// Создаем хеш-таблицу для подсчета вхождений каждого города
 	// Здесь мы используем пустую структуру, так как мы не храним никаких значений,

@@ -5,7 +5,7 @@ import "fmt"
 func isValidV1(s string) bool {
 	/*
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	var stack []rune
 	var checkParameter = map[rune]rune{')': '(', '}': '{', ']': '['}

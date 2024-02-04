@@ -5,13 +5,13 @@ func insertGreatestCommonDivisorsV1(head *ListNode) *ListNode {
 	/*
 		METHOD:
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		TIME COMPLEXITY:
 		Временная сложность этого алгоритма составляет O(n), где n - количество узлов в связанном списке.
 		Это связано с тем, что мы проходим по каждому узлу списка ровно один раз.
 
-		Space complexity:
+		SPACE COMPLEXITY:
 		Пространственная сложность также составляет O(n), так как в худшем случае мы можем хранить в памяти все узлы списка.
 	*/
 	curr := head

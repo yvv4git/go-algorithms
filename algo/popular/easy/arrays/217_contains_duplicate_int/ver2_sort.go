@@ -8,7 +8,7 @@ func containsDuplicateV2(nums []int) bool {
 	/*
 		METHOD: Sort
 		TIME COMPLEXITY: O(n log n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		В этом коде мы сначала сортируем массив, а затем проходим по нему и проверяем, равны ли соседние элементы.
 		Если они равны, то мы нашли дубликат, и функция возвращает true.

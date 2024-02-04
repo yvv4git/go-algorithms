@@ -4,7 +4,7 @@ func findTheDifferenceV2(s string, t string) byte {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: O(n + n) = O(2n) = O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	var bs, bt byte
 	// Time: O(n)

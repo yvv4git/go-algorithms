@@ -6,7 +6,7 @@ func longestNiceSubstringV4(s string) string {
 	/*
 		METHOD: Divide And Conquer
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Разделяй и властвуй в информатике — схема разработки алгоритмов, заключающаяся в рекурсивном разбиении решаемой
 		задачи на две или более подзадачи того же типа, но меньшего размера, и комбинировании их решений для получения

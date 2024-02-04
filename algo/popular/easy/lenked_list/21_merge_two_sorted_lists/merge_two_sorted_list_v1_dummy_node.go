@@ -7,7 +7,7 @@ func mergeTwoListsV1(l1 *ListNode, l2 *ListNode) *ListNode {
 	/*
 		METHOD: Dummy node
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Временная сложность: O(n), где n - количество узлов в обоих списках.
 		Это происходит, потому что мы проходимся по каждому узлу в обоих списках по одному разу.

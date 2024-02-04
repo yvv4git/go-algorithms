@@ -6,7 +6,7 @@ func longestNiceSubstringV3(s string) string {
 	/*
 		METHOD: Divide And Conquer
 		TIME COMPLEXITY: ???
-		Space complexity: ???
+		SPACE COMPLEXITY: ???
 	*/
 	return string(helper([]byte(s)))
 }

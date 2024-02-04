@@ -4,7 +4,7 @@ func evenOddBitV1(n int) []int {
 	/*
 		METHOD: Hash
 		TIME COMPLEXITY: O(num), where num is count of bits
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	res := make([]int, 2, 2)
 

@@ -88,7 +88,7 @@ func max(x, y int) int {
 func maxProfitWithTransactionFeeV1(prices []int, fee int) int {
 	/*
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	cash := 0           // Сколько заработаем.
 	sell := math.MinInt // Задаем минимальное значение, какое только возможно.
@@ -104,7 +104,7 @@ func maxProfitWithTransactionFeeV1(prices []int, fee int) int {
 func maxProfitWithTransactionFeeV2(prices []int, fee int) int {
 	/*
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	result, hold := 0, math.MinInt32
 
@@ -118,7 +118,7 @@ func maxProfitWithTransactionFeeV2(prices []int, fee int) int {
 func maxProfitWithTransactionFeeV3(prices []int, fee int) int {
 	/*
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	// Hold - сколько денег удержано.
 	// Sold - сколько денег потрачено.
@@ -133,7 +133,7 @@ func maxProfitWithTransactionFeeV3(prices []int, fee int) int {
 func maxProfitWithTransactionFeeV4(prices []int, fee int) int {
 	/*
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	length := len(prices)
 	dp, curMax := make([]int, length+1), 0
@@ -154,7 +154,7 @@ func maxProfitWithTransactionFeeV5(prices []int, fee int) int {
 		Задача решается динамическим программированием.
 
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 
 	//bestIfOwn, bestIfDontOwn := -math.MaxInt32, 0

@@ -4,7 +4,7 @@ func intersectionV1(nums [][]int) []int {
 	/*
 		METHOD: Hash
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	const max = 1001 // From constraints
 

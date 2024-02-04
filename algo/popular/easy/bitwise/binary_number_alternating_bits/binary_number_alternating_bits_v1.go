@@ -43,7 +43,7 @@ func hasAlternatingBitsV1(n int) bool {
 	/*
 		METHOD: Use constants
 		TIME COMPLEXITY: O(1)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	set := make(map[int]void)
 	for _, x := range arr {

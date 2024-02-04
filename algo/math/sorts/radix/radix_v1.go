@@ -9,7 +9,7 @@ func radixSortV1(list []int32) {
 	/*
 		Time complexity worst case: O(log_b(mx)(n+b))
 		Time complexity average: O(d(n+b))
-		Space complexity: O(n+b)
+		SPACE COMPLEXITY: O(n+b)
 
 		Здесь,
 		- b - основание системы счисления. У десятичной системы счисления это 10.

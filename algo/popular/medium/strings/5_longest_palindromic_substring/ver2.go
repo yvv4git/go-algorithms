@@ -4,7 +4,7 @@ func longestPalindromeV2(s string) string {
 	/*
 		METHOD: Hash
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	var n = len(s)
 

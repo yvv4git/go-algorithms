@@ -4,7 +4,7 @@ func invertTreeV2(root *TreeNode) *TreeNode {
 	/*
 		METHOD: Recursion, DSF
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	if root == nil {
 		return nil

@@ -4,7 +4,7 @@ func canMakePaliQueriesV2(s string, queries [][]int) []bool {
 	/*
 		METHOD: Hashmap
 		TIME COMPLEXITY: O(n + m), где n - длина строки s, m - количество запросов
-		Space complexity: O(n), где n - длина строки s.
+		SPACE COMPLEXITY: O(n), где n - длина строки s.
 
 		Объяснение:
 		1. Создаем массив prefixCounts, где prefixCounts[i] - это количество вхождений каждого символа до индекса i в строке s.

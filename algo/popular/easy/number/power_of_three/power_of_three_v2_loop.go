@@ -4,7 +4,7 @@ func isPowerOfThreeV2(n int) bool {
 	/*
 		METHOD: For loop
 		TIME COMPLEXITY: O(1)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	if n < 1 {
 		return false

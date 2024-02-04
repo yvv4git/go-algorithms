@@ -3,7 +3,7 @@ package xor_operation_in_array
 func xorOperationV2(n int, start int) int {
 	/*
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	result := start
 

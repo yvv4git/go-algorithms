@@ -6,7 +6,7 @@ func summaryRangesV2(nums []int) []string {
 	/*
 		METHOD: Window
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	if len(nums) == 0 {
 		return []string{}

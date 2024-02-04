@@ -5,7 +5,7 @@ func checkPalindromeFormationV2(a string, b string) bool {
 	/*
 		METHOD: Two pointers & Greedy
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n), helper будет создавать новые строки, которые могут быть достаточно большими.
+		SPACE COMPLEXITY: O(n), helper будет создавать новые строки, которые могут быть достаточно большими.
 
 
 		Алгоритм называется "жадным", если он всегда делает локально оптимальный выбор в каждый момент времени,

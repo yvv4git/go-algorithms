@@ -5,7 +5,7 @@ func reverseListV4(head *ListNode) *ListNode {
 	/*
 		METHOD: Two pointers
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity.
 		Временная сложность этого метода составляет O(n), где n - количество узлов в списке.

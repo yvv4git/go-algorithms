@@ -5,7 +5,7 @@ func middleNodeV4(head *ListNode) *ListNode {
 	/*
 		METHOD: Using an Array
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time Complexity.
 		Временная сложность для этого алгоритма составляет O(n), где n - количество узлов в списке.

@@ -4,7 +4,7 @@ func checkValidStringV1(s string) bool {
 	/*
 		METHOD: Reverse and check.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	var validate func(string, byte) bool
 	validate = func(s string, op byte) bool {
@@ -33,7 +33,7 @@ func checkValidStringV1(s string) bool {
 			return s
 		}
 
-		// Space complexity: O(n)
+		// SPACE COMPLEXITY: O(n)
 		origin := []byte(s)
 
 		l, r := 0, len(s)-1

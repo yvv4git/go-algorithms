@@ -12,7 +12,7 @@ func letterCombinationsV1(digits string) []string {
 	/*
 		METHOD: Iterate
 		TIME COMPLEXITY: O(4^n)
-		Space complexity: O(4^n)
+		SPACE COMPLEXITY: O(4^n)
 
 		Time complexity
 		Временная сложность функции letterCombinationsV1 зависит от количества цифр в входной строке digits.

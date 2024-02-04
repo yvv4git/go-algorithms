@@ -4,7 +4,7 @@ func repeatedSubstringPatternV3(s string) bool {
 	/*
 		METHOD: KMP (Алгоритм Кнута-Морриса-Пратта)
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность этой функции составляет O(n), где n - длина строки.

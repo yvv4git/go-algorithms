@@ -10,7 +10,7 @@ func groupAnagrams(strs []string) [][]string {
 	/*
 		METHOD: Hashing
 		TIME COMPLEXITY: O(n * m log m), где n - количество слов в strs, а m - средняя длина слова.
-		Space complexity: O(n * m), так как в худшем случае мы можем хранить каждое слово и его отсортированный анаграммный ключ.
+		SPACE COMPLEXITY: O(n * m), так как в худшем случае мы можем хранить каждое слово и его отсортированный анаграммный ключ.
 	*/
 	groups := make(map[string][]string)
 

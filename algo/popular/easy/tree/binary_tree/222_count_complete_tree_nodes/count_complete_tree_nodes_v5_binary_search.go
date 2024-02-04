@@ -4,7 +4,7 @@ func countNodesV5(root *TreeNode) int {
 	/*
 		METHOD: Binary search.
 		TIME COMPLEXITY: O(logN * logN)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	if root == nil {
 		return 0

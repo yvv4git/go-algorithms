@@ -3,7 +3,7 @@ package _875_minimum_size_subarray_in_infinite_array
 /*
 	METHOD: Window
 	TIME COMPLEXITY: O(n)
-	Space complexity: O(1)
+	SPACE COMPLEXITY: O(1)
 
 	Time complexity
 	Алгоритм проходит по бесконечному массиву, поэтому временная сложность - O(n),

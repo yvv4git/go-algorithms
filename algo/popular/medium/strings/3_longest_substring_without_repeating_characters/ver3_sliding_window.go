@@ -4,7 +4,7 @@ func lengthOfLongestSubstringV3(s string) int {
 	/*
 		METHOD: Sliding window
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(min(n, m)), где m - размер алфавита, а n - количество символов в окне.
+		SPACE COMPLEXITY: O(min(n, m)), где m - размер алфавита, а n - количество символов в окне.
 
 		Текущий подход в функции lengthOfLongestSubstringV3 использует карту для хранения уникальных символов и их позиций.
 		Преимущество этого подхода по сравнению с использованием простой карты заключается в следующем:

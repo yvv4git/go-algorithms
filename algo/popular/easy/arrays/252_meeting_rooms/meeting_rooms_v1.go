@@ -25,7 +25,7 @@ func canAttendMeetingsV1(intervals []Interval) bool {
 	/*
 		METHOD: Loop after sort.
 		TIME COMPLEXITY: O(n log n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Асимптотическая сложность(Time complexity) алгоритма зависит от того, как вы реализуете сортировку.
 		Если вы используете стандартную функцию сортировки в Go (sort.Sort), то временная сложность этого алгоритма будет O(n log n),

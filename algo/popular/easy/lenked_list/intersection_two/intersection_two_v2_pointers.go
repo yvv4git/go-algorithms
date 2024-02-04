@@ -4,7 +4,7 @@ func getIntersectionNodeV2(headA, headB *ListNode) *ListNode {
 	/*
 		METHOD: Using two pointers.
 		TIME COMPLEXITY: O(n + m)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Объяснение: Здесь есть хитрость, которая ни всегда очевидна.
 		- Если оба списка имеют одинаковую длину, то двигая оба указателя за итерацию на 1 шаг, то в какой-то момент они пересекутся на требуемой ListNode.

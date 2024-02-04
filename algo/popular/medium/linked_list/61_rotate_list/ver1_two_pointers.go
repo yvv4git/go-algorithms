@@ -5,7 +5,7 @@ func rotateRightV1(head *ListNode, k int) *ListNode {
 	/*
 		METHOD: Two-Pointer
 		TIME COMPLEXITY: O(n), где n - количество узлов в списке.
-		Space complexity: O(1).
+		SPACE COMPLEXITY: O(1).
 	*/
 
 	// Если список пуст, содержит один узел или k равно 0, то возвращаем исходный список.

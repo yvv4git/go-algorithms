@@ -3,7 +3,7 @@ package main
 func isValidV2(s string) bool {
 	/*
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	stack := make([]rune, 0)
 	m := map[rune]rune{

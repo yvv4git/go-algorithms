@@ -47,7 +47,7 @@ func sortedListToBST(head *ListNode) *TreeNode {
 	/*
 		METHOD: Morris Traversal
 		TIME COMPLEXITY: O(n log n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность метода "Преобразование в BST с помощью Morris Traversal" составляет O(n log n) в худшем случае,

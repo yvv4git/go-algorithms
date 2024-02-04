@@ -4,7 +4,7 @@ func climbStairsV3(n int) int {
 	/*
 		METHOD: Fibonacci
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Функция climbStairs(n int) int принимает на вход количество ступеней n и возвращает количество способов,
 		которыми можно добраться до верхней ступеньки, если можно шагать на одну или две ступеньки за раз.

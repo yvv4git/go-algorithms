@@ -4,7 +4,7 @@ func findTheDifferenceV1(s string, t string) byte {
 	/*
 		METHOD: Hash
 		TIME COMPLEXITY: O(n + n + n) = O(3n) = O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 
 	// Space: O(n + n) = O(2n) = O(n)

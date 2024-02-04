@@ -6,7 +6,7 @@ func maxNumberOfBalloonsV2(text string) int {
 	/*
 		METHOD: Hashing
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	mm := make(map[byte]int)
 	for i := range text {

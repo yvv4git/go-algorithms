@@ -4,7 +4,7 @@ func minBitFlipsV2(start int, goal int) int {
 	/*
 		METHOD: Kernighan algorithm
 		TIME COMPLEXITY: O(log(n))
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	result := 0
 	for x := start ^ goal; x != 0; x &= x - 1 {

@@ -5,7 +5,7 @@ func largestPalindromicV1(num string) string {
 	/*
 		METHOD: Greedy algorithm
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность данного алгоритма составляет O(n), где n - количество цифр в строке num.

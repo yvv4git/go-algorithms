@@ -4,7 +4,7 @@ func floodFillV5(image [][]int, sr int, sc int, color int) [][]int {
 	/*
 		METHOD: Union-Find.
 		TIME COMPLEXITY: O(m*n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Сложность алгоритма зависит от размера входного изображения. Предположим, что изображение имеет размеры M x N.
 		1. Создание Union-Find структуры: O(MN)

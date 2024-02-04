@@ -8,7 +8,7 @@ func isValidBST(root *TreeNode) bool {
 	/*
 		METHOD: DFS
 		TIME COMPLEXITY: O(n), где n - количество узлов в дереве, так как мы проходим по каждому узлу.
-		Space complexity: O(h), где h - высота дерева, так как в худшем случае глубина рекурсии может достигать h.
+		SPACE COMPLEXITY: O(h), где h - высота дерева, так как в худшем случае глубина рекурсии может достигать h.
 	*/
 	return validate(root, math.MinInt64, math.MaxInt64)
 }

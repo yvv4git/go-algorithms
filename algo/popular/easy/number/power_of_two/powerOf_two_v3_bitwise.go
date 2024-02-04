@@ -4,7 +4,7 @@ func isPowerOfTwoV3(n int) bool {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: O(1)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Как числа хранятся в памяти?
 		1 байтовое число - 8 бит.

@@ -4,7 +4,7 @@ func firstPalindromeV1(words []string) string {
 	/*
 		METHOD: Iterate
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	// Проверяем строку на палиндром
 	isPalindromic := func(s string) bool {

@@ -5,7 +5,7 @@ func removeDuplicateLettersV1(s string) string {
 	/*
 		METHOD: Stack
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность этого алгоритма - O(n), где n - длина строки, поскольку мы проходим по строке дважды:

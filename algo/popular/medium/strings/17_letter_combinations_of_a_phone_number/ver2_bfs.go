@@ -4,7 +4,7 @@ func letterCombinationsV2(digits string) []string {
 	/*
 		METHOD: BFS
 		TIME COMPLEXITY: O(4^n), где n - количество цифр в входной строке. Это связано с тем, что для каждой цифры мы можем выбрать 3-4 буквы.
-		Space complexity: O(4^n), так как в худшем случае мы можем иметь 4^n комбинаций.
+		SPACE COMPLEXITY: O(4^n), так как в худшем случае мы можем иметь 4^n комбинаций.
 	*/
 	if len(digits) == 0 {
 		return []string{}

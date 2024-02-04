@@ -6,7 +6,7 @@ func isPerfectSquareV1(num int) bool {
 	/*
 		METHOD: Binary search.
 		TIME COMPLEXITY: O(log n)
-		Space complexity:
+		SPACE COMPLEXITY:
 
 		Асимптотическая сложность данного алгоритма - O(log n).
 		Это связано с использованием бинарного поиска, который имеет логарифмическую сложность O(log n).
@@ -64,7 +64,7 @@ func isPerfectSquareV1Research(num int) bool {
 	/*
 		METHOD: Binary search.
 		TIME COMPLEXITY: O(log n)
-		Space complexity:
+		SPACE COMPLEXITY:
 
 		Асимптотическая сложность данного алгоритма - O(log n).
 		Это связано с использованием бинарного поиска, который имеет логарифмическую сложность O(log n).

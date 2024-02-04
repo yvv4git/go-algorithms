@@ -5,7 +5,7 @@ func minSubArrayLenV2(target int, nums []int) int {
 	/*
 		METHOD: Binary search
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Создание префиксных сумм занимает O(n) времени, где n - количество элементов в массиве.

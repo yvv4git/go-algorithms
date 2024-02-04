@@ -5,7 +5,7 @@ func myAtoiV2(s string) int {
 	/*
 		METHOD: Divide and conquer
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Разделяй и властвуй:
 		1. Разделяй:

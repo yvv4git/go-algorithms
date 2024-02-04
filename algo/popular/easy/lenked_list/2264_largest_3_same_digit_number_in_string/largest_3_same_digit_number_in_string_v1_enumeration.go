@@ -11,13 +11,13 @@ func largestGoodIntegerV1(num string) string {
 	/*
 		METHOD: Enumeration / Перебор
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		TIME COMPLEXITY:
 		Временная сложность этого алгоритма составляет O(n), где n - длина входной строки,
 		потому что мы проходим по каждому символу в строке.
 
-		Space complexity:
+		SPACE COMPLEXITY:
 		Пространственная сложность составляет O(1), поскольку мы используем фиксированное количество дополнительной памяти,
 		независимо от размера входной строки.
 	*/

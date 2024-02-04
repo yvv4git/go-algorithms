@@ -6,7 +6,7 @@ func binaryTreePathsV1(root *TreeNode) []string {
 	/*
 		METHOD: DFS / Recursion
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(n^2)
+		SPACE COMPLEXITY: O(n^2)
 	*/
 	if root == nil {
 		return []string{}

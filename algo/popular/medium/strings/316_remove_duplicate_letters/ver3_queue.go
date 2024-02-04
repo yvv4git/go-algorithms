@@ -6,7 +6,7 @@ func removeDuplicateLettersV3(s string) string {
 	/*
 		METHOD: Queue
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность этого алгоритма составляет O(n), где n - количество символов в строке.

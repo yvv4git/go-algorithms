@@ -4,7 +4,7 @@ func intersection(nums1 []int, nums2 []int) []int {
 	/*
 		METHOD: Hash
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	tmp := make(map[int]int)
 	temp := []int{}

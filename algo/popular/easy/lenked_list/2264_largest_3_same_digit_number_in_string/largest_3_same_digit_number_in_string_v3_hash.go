@@ -10,7 +10,7 @@ func largestGoodInteger(num string) string {
 	/*
 		METHOD:
 		TIME COMPLEXITY: O(n log n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 
 	// Преобразуем строку в слайс рун.

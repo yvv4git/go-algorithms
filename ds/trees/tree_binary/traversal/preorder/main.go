@@ -42,7 +42,7 @@ func preorderTraversal(root *TreeNode) []int {
 	/*
 		METHOD:
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1) или O(n)
+		SPACE COMPLEXITY: O(1) или O(n)
 
 		Time complexity
 		Временная сложность функции preorderTraversal в худшем случае составляет O(n), где n - количество узлов в дереве.

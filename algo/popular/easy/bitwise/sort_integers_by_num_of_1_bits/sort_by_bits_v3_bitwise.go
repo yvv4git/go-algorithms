@@ -10,7 +10,7 @@ func sortByBitsV3(arr []int) []int {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	sort.SliceStable(arr, func(a, b int) bool {
 		bitsA := bits.OnesCount(uint(arr[a])) // Можно использовать готовую функцию для подсчета битов-1

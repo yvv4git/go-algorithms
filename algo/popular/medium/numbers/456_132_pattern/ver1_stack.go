@@ -6,7 +6,7 @@ func find132patternV1(nums []int) bool {
 	/*
 		METHOD: Stack
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность этого алгоритма - O(n), где n - количество элементов в массиве nums,

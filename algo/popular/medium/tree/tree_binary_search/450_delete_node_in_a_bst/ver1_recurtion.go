@@ -4,7 +4,7 @@ func deleteNode(root *TreeNode, key int) *TreeNode {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(h) / O(log n)
-		Space complexity: O(h) / O(log n)
+		SPACE COMPLEXITY: O(h) / O(log n)
 
 		Time complexity
 		Временная сложность будет O(h), где h - высота дерева, так как в худшем случае нам придется пройти по всему дереву.

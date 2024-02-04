@@ -6,7 +6,7 @@ func sortedSquaresV1(nums []int) []int {
 	/*
 		METHOD: Use default go sort.
 		TIME COMPLEXITY: O(n log n)
-		Space complexity: ???
+		SPACE COMPLEXITY: ???
 	*/
 	for idx, num := range nums {
 		num *= num

@@ -6,7 +6,7 @@ func countConsistentStringsV1(allowed string, words []string) int {
 	/*
 		METHOD: Hash
 		TIME COMPLEXITY: O(n log(n))
-		Space complexity: O(n log(n))
+		SPACE COMPLEXITY: O(n log(n))
 	*/
 	Hashmap := make(map[byte]int)
 	for i := 0; i < len(allowed); i++ {

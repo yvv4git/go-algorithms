@@ -4,7 +4,7 @@ func findTargetV2(root *TreeNode, k int) bool {
 	/*
 		METHOD: BFS
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		BFS используется, когда нам нужно найти кратчайший путь от одной вершины до другой.
 		Он проходит по всем вершинам, которые находятся на одном расстоянии от начальной вершины,

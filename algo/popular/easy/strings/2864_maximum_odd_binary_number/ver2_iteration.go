@@ -4,7 +4,7 @@ func maximumOddBinaryNumberV2(s string) string {
 	/*
 		METHOD: Iteration
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	count := 0
 	for _, r := range s {

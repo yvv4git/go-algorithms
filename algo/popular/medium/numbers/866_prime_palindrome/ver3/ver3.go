@@ -6,7 +6,7 @@ func primePalindrome(n int) int {
 	/*
 		METHOD: Iteration
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность этой функции зависит от размера входного числа n. В худшем случае,

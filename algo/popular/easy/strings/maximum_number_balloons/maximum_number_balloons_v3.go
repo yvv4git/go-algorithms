@@ -6,7 +6,7 @@ func maxNumberOfBalloonsV3(text string) int {
 	/*
 		METHOD: Hashing & Frequency
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	freqArr := [26]int{}
 

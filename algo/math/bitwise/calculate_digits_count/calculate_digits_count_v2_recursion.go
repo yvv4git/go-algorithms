@@ -4,7 +4,7 @@ func CalculateDigitsNumberV2(num int) int {
 	/*
 		Method Recursion
 		TIME COMPLEXITY: O(log(n))
-		Space complexity: O(log(n))
+		SPACE COMPLEXITY: O(log(n))
 	*/
 	if num/10 == 0 {
 		return 1

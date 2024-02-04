@@ -8,7 +8,7 @@ import (
 func bitwiseComplementV1(n int) int {
 	/*
 		TIME COMPLEXITY: ???
-		Space complexity: ???
+		SPACE COMPLEXITY: ???
 	*/
 	if n == 0 {
 		return 1

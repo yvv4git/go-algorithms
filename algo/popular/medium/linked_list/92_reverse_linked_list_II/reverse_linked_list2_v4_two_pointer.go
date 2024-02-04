@@ -4,7 +4,7 @@ func reverseBetweenV4(head *ListNode, left int, right int) *ListNode {
 	/*
 		METHOD: Two pointers.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	dummy := &ListNode{Val: 0, Next: head}
 	prev := dummy

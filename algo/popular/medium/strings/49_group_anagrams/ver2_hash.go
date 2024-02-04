@@ -10,7 +10,7 @@ func groupAnagramsV2(strs []string) [][]string {
 	/*
 		METHOD: Group by Hash / Hash
 		TIME COMPLEXITY: O(n * m), где n - количество слов в strs, а m - средняя длина слова.
-		Space complexity: O(m), где m - длина слова.
+		SPACE COMPLEXITY: O(m), где m - длина слова.
 	*/
 	// Создаем карту, где ключ - это хеш-ключ, а значение - это слайс строк.
 	// Ключ - это структура, которая представляет собой частоту вхождения каждой буквы в слове.

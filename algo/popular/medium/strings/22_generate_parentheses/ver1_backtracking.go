@@ -7,7 +7,7 @@ func generateParenthesis(n int) []string {
 	/*
 		METHOD: Backtracking & Recursion
 		TIME COMPLEXITY: O(4^n / sqrt(n))
-		Space complexity: O(4^n / sqrt(n))
+		SPACE COMPLEXITY: O(4^n / sqrt(n))
 
 		Time complexity
 		Временная сложность этого алгоритма составляет O(4^n / sqrt(n)),

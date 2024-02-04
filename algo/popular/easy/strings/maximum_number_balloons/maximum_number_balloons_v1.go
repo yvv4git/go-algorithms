@@ -4,7 +4,7 @@ func maxNumberOfBalloonsV1(text string) int {
 	/*
 		METHOD: Hashing
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	hashMap := map[byte]int{'b': 0, 'a': 0, 'l': 0, 'o': 0, 'n': 0}
 

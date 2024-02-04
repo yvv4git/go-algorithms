@@ -4,7 +4,7 @@ func isPowerOfTwoV1(n int) bool {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(1)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	return power2(float64(n))
 }

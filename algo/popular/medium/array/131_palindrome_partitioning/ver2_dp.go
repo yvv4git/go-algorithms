@@ -4,7 +4,7 @@ func partitionV2(s string) [][]string {
 	/*
 		METHOD: Dynamic programming
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(n^2)
+		SPACE COMPLEXITY: O(n^2)
 
 		Time complexity
 		Временная сложность этого алгоритма - O(n^2), где n - длина строки s.

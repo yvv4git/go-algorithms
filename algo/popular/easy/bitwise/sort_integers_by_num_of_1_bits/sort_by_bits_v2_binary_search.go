@@ -4,7 +4,7 @@ func sortByBitsV2(arr []int) []int {
 	/*
 		METHOD: Binary search
 		TIME COMPLEXITY: O(log(n))
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	var bitCounters [16]*node
 

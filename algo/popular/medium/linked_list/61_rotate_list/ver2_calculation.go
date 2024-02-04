@@ -4,7 +4,7 @@ func rotateRightV2(head *ListNode, k int) *ListNode {
 	/*
 		METHOD: Length Calculation Method
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность этого решения O(n), где n - количество узлов в списке,

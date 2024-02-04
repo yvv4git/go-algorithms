@@ -6,7 +6,7 @@ func isVowel(c rune) bool {
 	/*
 		METHOD: Window loop.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	// alternatively, we can just check
 	// return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' ||

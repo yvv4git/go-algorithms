@@ -4,7 +4,7 @@ func kthSmallest(root *TreeNode, k int) int {
 	/*
 		METHOD: In-Order Traversal (Обход дерева в порядке возрастания)
 		TIME COMPLEXITY: O(H+k), где H - высота дерева, а k - номер элемента, который мы ищем.
-		Space complexity: O(H), где H - высота дерева.
+		SPACE COMPLEXITY: O(H), где H - высота дерева.
 
 		Обход дерева в порядке возрастания работает следующим образом:
 		1. Сначала обходим левое поддерево.

@@ -5,7 +5,7 @@ func middleNodeV1(head *ListNode) *ListNode {
 	/*
 		METHOD: Fast and slow pointers
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Особенность метода Fast & slow pointers!
 		Когда fast указатель достигает конца списка, это означает, что список имеет четное количество узлов.

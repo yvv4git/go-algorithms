@@ -4,7 +4,7 @@ func isPalindromeV4(head *ListNode) bool {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		TIME COMPLEXITY:
 		Временная сложность для всех этих решений будет O(n), где n - количество узлов в списке.

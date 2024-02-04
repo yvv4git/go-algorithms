@@ -4,7 +4,7 @@ func reverseBetweenV3(head *ListNode, left int, right int) *ListNode {
 	/*
 		METHOD: Recursion.
 		TIME COMPLEXITY: O(n).
-		Space complexity: O(n).
+		SPACE COMPLEXITY: O(n).
 
 		Time complexity - O(n):
 		В начале функции мы проходим по всему списку до узла left, что занимает O(n) времени.

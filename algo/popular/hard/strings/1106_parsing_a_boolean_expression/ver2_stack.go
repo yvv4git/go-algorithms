@@ -5,7 +5,7 @@ func parseBoolExprV2(expression string) bool {
 	/*
 		METHOD: Stack & Recursion
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность функции parseBoolExpr и helper в худшем случае составляет O(n),

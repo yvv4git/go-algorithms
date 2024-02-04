@@ -4,7 +4,7 @@ func canPermutePalindromeV1(s string) bool {
 	/*
 		METHOD: HashMap, Dict
 		TIME COMPLEXITY: O(n), где n - длина строки, поскольку мы проходим по всем символам строки.
-		Space complexity: O(n), поскольку в худшем случае мы можем хранить все символы строки в словаре
+		SPACE COMPLEXITY: O(n), поскольку в худшем случае мы можем хранить все символы строки в словаре
 	*/
 	// Создаем словарь для подсчета количества вхождений каждого символа
 	charCount := make(map[rune]int)

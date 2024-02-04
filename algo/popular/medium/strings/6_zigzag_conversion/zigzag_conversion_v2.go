@@ -4,7 +4,7 @@ func convertV2(s string, numRows int) string {
 	/*
 		METHOD: Matrix
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time Complexity для этого алгоритма составляет O(n), где n - длина входной строки.
 		Внутри алгоритма мы проходимся по строке и по матрице. Проход по строке занимает O(n) времени,

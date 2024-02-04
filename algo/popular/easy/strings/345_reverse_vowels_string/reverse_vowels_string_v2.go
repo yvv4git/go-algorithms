@@ -6,7 +6,7 @@ func reverseVowelsV2(s string) string {
 	/*
 		METHOD: Window loop.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	low, high := 0, len(s)-1
 	vowels := "aeiouAEIOU"

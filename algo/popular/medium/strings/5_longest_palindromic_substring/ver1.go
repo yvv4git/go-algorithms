@@ -4,7 +4,7 @@ func longestPalindromeV1(s string) string {
 	/*
 		METHOD:
 		TIME COMPLEXITY: O(n^2)
-		Space complexity:  O(1)
+		SPACE COMPLEXITY:  O(1)
 	*/
 	var result string
 

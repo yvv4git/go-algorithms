@@ -5,7 +5,7 @@ func checkPalindromeFormationV1(a string, b string) bool {
 	/*
 		METHOD: Two pointers
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность этого алгоритма - O(n), где n - длина строк. Это связано с тем, что мы проходим по строкам только один раз.

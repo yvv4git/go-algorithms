@@ -4,7 +4,7 @@ func destCityV2(paths [][]string) string {
 	/*
 		METHOD: Graph
 		TIME COMPLEXITY: O(V+E)
-		Space complexity: O(V+E)
+		SPACE COMPLEXITY: O(V+E)
 
 		Time complexity
 		Временная сложность также составляет O(V + E), так как алгоритм проходит по всем вершинам и ребрам графа ровно один раз.

@@ -4,7 +4,7 @@ func countNodesV2(root *TreeNode) int {
 	/*
 		METHOD: Stack.
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	var count int
 	if root == nil {

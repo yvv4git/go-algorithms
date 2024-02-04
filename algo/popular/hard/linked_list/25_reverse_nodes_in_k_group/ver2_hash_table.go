@@ -4,13 +4,13 @@ func reverseKGroupV2(head *ListNode, k int) *ListNode {
 	/*
 		METHOD: Hash table, Dictionary
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность функции reverse в худшем случае составляет O(n), где n - количество узлов в диапазоне от first до last.
 		Это происходит потому, что функция проходит по всем узлам в диапазоне от first до last только один раз.
 
-		Space complexity:
+		SPACE COMPLEXITY:
 		Пространственная сложность функции reverse также составляет O(1),
 		так как функция использует фиксированное количество переменных, не зависящих от размера входного списка.
 	*/

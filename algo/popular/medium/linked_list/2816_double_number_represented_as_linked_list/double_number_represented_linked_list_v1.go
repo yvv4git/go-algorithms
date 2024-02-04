@@ -4,7 +4,7 @@ func doubleItV1(head *ListNode) *ListNode {
 	/*
 		METHOD:
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Основная идея метода заключается в том, чтобы удвоить значение каждого узла в списке, если его значение меньше 5,
 		и удвоить значение и прибавить 1, если значение узла больше или равно 5.

@@ -4,7 +4,7 @@ func robV3(nums []int) int {
 	/*
 		METHOD: Knapsack Problem = Dynamic programming
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность этого кода O(n), где n - количество домов.

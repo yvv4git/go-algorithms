@@ -4,7 +4,7 @@ func canConstructV1(ransomNote string, magazine string) bool {
 	/*
 		METHOD: Hash map, Dictionary
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity
 		Временная сложность этого алгоритма - O(n), где n - длина самого длинного из строк (ransomNote или magazine).

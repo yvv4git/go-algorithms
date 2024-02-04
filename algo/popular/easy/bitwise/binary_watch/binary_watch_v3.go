@@ -6,7 +6,7 @@ func readBinaryWatchV3(turnedOn int) []string {
 	/*
 		METHOD: Not backtrack
 		TIME COMPLEXITY: ???
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	const (
 		hours   = 12

@@ -4,7 +4,7 @@ func rob(nums []int) int {
 	/*
 		METHOD: Dynamic programming
 		TIME COMPLEXITY: O(n), где n - количество домов, так как мы проходим по каждому дому только один раз.
-		Space complexity: O(n), так как мы используем дополнительный массив dp размера n.
+		SPACE COMPLEXITY: O(n), так как мы используем дополнительный массив dp размера n.
 	*/
 	n := len(nums)
 

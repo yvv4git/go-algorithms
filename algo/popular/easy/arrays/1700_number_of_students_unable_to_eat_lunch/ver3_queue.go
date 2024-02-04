@@ -67,7 +67,7 @@ func countStudentsV3(students []int, sandwiches []int) int {
 	/*
 		METHOD: Queue
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	studentQueue, sandwichQueue := NewIntQueueFromValues(students), NewIntQueueFromValues(sandwiches)
 

@@ -4,7 +4,7 @@ func checkPerfectNumberV4(num int) bool {
 	/*
 		METHOD: Bruteforce
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Совершенное число - натуральное число, равное сумме всех своих собственных делителей.
 		Собственные делители - это числа, на которые исходное число делится без остатка,

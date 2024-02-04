@@ -5,7 +5,7 @@ func removeNthFromEndV4(head *ListNode, n int) *ListNode {
 	/*
 		METHOD: Two pointer and dummy
 		TIME COMPLEXITY: O(n)
-		Space complexity:	O(1)
+		SPACE COMPLEXITY:	O(1)
 
 		Time Complexity: O(n)
 		Временная сложность этого алгоритма составляет O(n), где n - количество узлов в списке.

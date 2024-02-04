@@ -5,7 +5,7 @@ func lengthOfLongestSubstringV2(s string) int {
 	/*
 		METHOD: Optimize map
 		TIME COMPLEXITY: O(n)
-		Space complexity:  O(min(n, m)), где m - размер алфавита, а n - количество символов в окне.
+		SPACE COMPLEXITY:  O(min(n, m)), где m - размер алфавита, а n - количество символов в окне.
 	*/
 	// Инициализируем map для хранения последнего встречаемого символа
 	m := make(map[rune]int)

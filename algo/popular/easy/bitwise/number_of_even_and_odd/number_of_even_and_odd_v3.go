@@ -4,7 +4,7 @@ func evenOddBitV3(n int) []int {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: O(log(n))
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	result := []int{0, 0}
 	var p int = 0

@@ -4,7 +4,7 @@ func longestPalindromeV3(s string) int {
 	/*
 		METHOD: Use hash map
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1) - используем только символы из алфавита, значит константа O(1), так как количество символов в алфавите ограничено
+		SPACE COMPLEXITY: O(1) - используем только символы из алфавита, значит константа O(1), так как количество символов в алфавите ограничено
 	*/
 	myMap := make(map[rune]bool)
 	max := 0

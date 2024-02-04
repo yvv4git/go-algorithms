@@ -4,7 +4,7 @@ func removeNthFromEndV2(head *ListNode, n int) *ListNode {
 	/*
 		METHOD: Dummy node
 		TIME COMPLEXITY: O(N)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		В этом коде мы создаем фиктивный узел dummy, который указывает на начало списка head.
 		Затем мы используем два указателя first и second, чтобы найти узел, который нужно удалить.

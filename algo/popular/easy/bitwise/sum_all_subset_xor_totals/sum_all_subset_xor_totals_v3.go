@@ -4,7 +4,7 @@ func subsetXORSumV3(nums []int) int {
 	/*
 		METHOD: Backtrack + recursion
 		TIME COMPLEXITY: ???
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	res := 0
 	list := make([]int, 0)

@@ -4,7 +4,7 @@ func middleNodeV3(head *ListNode) *ListNode {
 	/*
 		METHOD: Counting the Nodes
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Суть метода:
 		В этом коде мы сначала подсчитываем количество узлов в списке. Затем мы проходим по списку еще раз,

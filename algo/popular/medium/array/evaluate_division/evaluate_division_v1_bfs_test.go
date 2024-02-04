@@ -9,7 +9,7 @@ func Test_calcEquationV1(t *testing.T) {
 	/*
 		METHOD: BFS(Breadth-First Search)
 		TIME COMPLEXITY: O(n^2)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	type args struct {
 		equations [][]string

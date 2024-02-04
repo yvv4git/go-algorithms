@@ -3,7 +3,7 @@ package decode_xored_array
 func decodeV1(encoded []int, first int) []int {
 	/*
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	result := make([]int, len(encoded)+1)
 	result[0] = first

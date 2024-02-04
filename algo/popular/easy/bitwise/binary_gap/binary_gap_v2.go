@@ -4,7 +4,7 @@ func BinaryGapV2(N int) int {
 	/*
 		METHOD: Bitwise
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Explanation: We check each bit of number from right to left.
 		After finding a "1" bit, start to count and continue to find next "1" and so on

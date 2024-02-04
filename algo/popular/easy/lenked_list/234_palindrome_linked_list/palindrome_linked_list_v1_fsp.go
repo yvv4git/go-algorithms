@@ -5,7 +5,7 @@ func isPalindromeV1(head *ListNode) bool {
 	/*
 		METHOD: Fast and slow pointers
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		Time complexity для этого алгоритма составляет O(n), где n - количество узлов в связном списке.
 		Это связано с тем, что мы проходим по всему списку дважды: один раз для нахождения середины списка,

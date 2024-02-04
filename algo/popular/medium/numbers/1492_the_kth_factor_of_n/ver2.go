@@ -4,7 +4,7 @@ func kthFactorV2(n int, k int) int {
 	/*
 		METHOD: Math
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	var counter int
 

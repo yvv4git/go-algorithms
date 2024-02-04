@@ -5,12 +5,12 @@ func swapPairsV2(head *ListNode) *ListNode {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		TIME COMPLEXITY:
 		Временная сложность этого алгоритма составляет O(n), где n - количество узлов в списке, потому что мы проходим по списку один раз.
 
-		Space complexity:
+		SPACE COMPLEXITY:
 		Пространственная сложность составляет O(n), поскольку мы используем рекурсию, которая может добавить дополнительные уровни рекурсии в стеке вызовов.
 	*/
 

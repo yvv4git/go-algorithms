@@ -6,7 +6,7 @@ func find132patternV2(nums []int) bool {
 	/*
 		Method Dynamic programming
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность этого алгоритма O(n), где n - размер входного массива, потому что мы проходим по массиву дважды:

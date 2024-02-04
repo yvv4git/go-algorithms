@@ -6,7 +6,7 @@ func countAndSayV2(n int) string {
 	/*
 		METHOD: Iterative
 		TIME COMPLEXITY: O(n*m), где n - количество чисел в последовательности, а m - средняя длина строки, полученной на предыдущем шаге.
-		Space complexity: O(n*m)
+		SPACE COMPLEXITY: O(n*m)
 
 		Time complexity
 		Временная сложность для этого алгоритма составляет O(n*m), где n - количество чисел в последовательности,

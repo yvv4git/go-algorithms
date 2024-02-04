@@ -4,7 +4,7 @@ func removePalindromeSubV3(s string) int {
 	/*
 		METHOD: Iterate
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		1. If s is a palindrome return 1
 		2. If not, remove all the letter a first, then remove all the letter b

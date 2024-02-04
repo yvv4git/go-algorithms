@@ -4,7 +4,7 @@ func numTreesV1(n int) int {
 	/*
 		METHOD: Dynamic programming
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity
 		Временная сложность этого алгоритма - O(n^2), потому что мы используем два вложенных цикла,

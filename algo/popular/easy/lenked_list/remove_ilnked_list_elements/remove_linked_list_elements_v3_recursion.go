@@ -4,7 +4,7 @@ func removeElementsV3(head *ListNode, val int) *ListNode {
 	/*
 		METHOD: Recursion
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 	*/
 	if head == nil {
 		return nil

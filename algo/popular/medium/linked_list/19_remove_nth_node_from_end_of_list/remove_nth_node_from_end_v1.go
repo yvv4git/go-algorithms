@@ -4,7 +4,7 @@ func removeNthFromEndV1(head *ListNode, n int) *ListNode {
 	/*
 		METHOD: Two pointer / "Два прохода"
 		TIME COMPLEXITY: O(n), где n - число узлов
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 
 		В этом алгоритме мы используем два указателя, которые начинают с одного узла.
 		Затем мы перемещаем первый указатель на n+1 шагов вперед. Это делает разрыв между первым и вторым указателем равным n узлам.

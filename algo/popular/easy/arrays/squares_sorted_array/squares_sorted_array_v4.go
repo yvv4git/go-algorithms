@@ -4,7 +4,7 @@ func sortedSquaresV4(nums []int) []int {
 	/*
 		METHOD: Two pointer
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n) - используется массив, в который помещается результат
+		SPACE COMPLEXITY: O(n) - используется массив, в который помещается результат
 	*/
 	res := make([]int, len(nums))
 	// Три указателя: left, right, i.

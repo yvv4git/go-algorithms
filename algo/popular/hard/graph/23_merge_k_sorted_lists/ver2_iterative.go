@@ -8,7 +8,7 @@ func mergeKListsV2(lists []*ListNode) *ListNode {
 	/*
 		METHOD: Iterative
 		TIME COMPLEXITY: O(N*M), где N - общее количество узлов, M - количество списков
-		Space complexity: O(1), так как дополнительной памяти не используется
+		SPACE COMPLEXITY: O(1), так как дополнительной памяти не используется
 	*/
 	// Если список пуст, возвращаем nil
 	if len(lists) == 0 {

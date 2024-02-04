@@ -5,7 +5,7 @@ func reverseListV3(head *ListNode) *ListNode {
 	/*
 		METHOD: Stack
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Time complexity.
 		Временная сложность этого метода составляет O(n), где n - количество узлов в списке.

@@ -6,7 +6,7 @@ func convertV3(s string, numRows int) string {
 	/*
 		METHOD: Simple loop
 		TIME COMPLEXITY: O(n)
-		Space complexity: O(n)
+		SPACE COMPLEXITY: O(n)
 
 		Команда curRow-- используется для перемещения вверх по строкам.
 		В "zigzag" формате, когда мы достигаем нижней границы строк, мы начинаем двигаться вверх.

@@ -6,7 +6,7 @@ func shortestPalindrome(s string) string {
 	/*
 		METHOD: HashMap
 		TIME COMPLEXITY: O(n^2), где n - длина входной строки.
-		Space complexity: O(n), где n - длина входной строки.
+		SPACE COMPLEXITY: O(n), где n - длина входной строки.
 	*/
 	// Если длина слова меньше 2, то самое короткое палиндромное слово - это само слово.
 	if len(s) < 2 {

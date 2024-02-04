@@ -7,7 +7,7 @@ func addDigitsV1(num int) int {
 		Например, сумма цифр числа 38 равна 2 (3 + 8 = 11, 1 + 1 = 2, остаток от деления 38 на 9 равен 2).
 
 		TIME COMPLEXITY: O(1)
-		Space complexity: O(1)
+		SPACE COMPLEXITY: O(1)
 	*/
 	if num == 0 {
 		return 0

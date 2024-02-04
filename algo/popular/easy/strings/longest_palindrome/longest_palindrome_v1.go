@@ -4,7 +4,7 @@ func longestPalindromeV1(s string) int {
 	/*
 		METHOD: Map
 		TIME COMPLEXITY: O(n), n - length of string
-		Space complexity: O(n), if all characters are different in string
+		SPACE COMPLEXITY: O(n), if all characters are different in string
 	*/
 	result := 0
 	var m map[rune]int
