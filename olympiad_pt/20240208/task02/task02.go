@@ -12,26 +12,26 @@ import (
 */
 
 var numbers = []int{1, 4, 5, 6}
-var target = 24
+var targetNumber = 24
 
-func evaluate(num1, num2 int, op rune) int {
+func evaluate(x, y int, op rune) int {
 	switch op {
 	case '+':
-		return num1 + num2
+		return x + y
 	case '-':
-		return num1 - num2
+		return x - y
 	case '*':
-		return num1 * num2
+		return x * y
 	case '/':
-		if num2 != 0 && num1%num2 == 0 {
-			return num1 / num2
+		if y != 0 && x%y == 0 {
+			return x / y
 		}
-		return -1 // Indicates division by zero or non-integer result
+		return -1
 	}
-	return -1 // Indicates an invalid operator
+	return -1
 }
 
-func solve(nums []int, target int, expression string) {
+func solveWithRecursion(nums []int, target int, expression string) {
 	if len(nums) == 1 && nums[0] == target {
 		fmt.Println(expression + strconv.Itoa(nums[0]))
 	}
@@ -47,7 +47,7 @@ func solve(nums []int, target int, expression string) {
 					newNums[i] = result
 
 					newExpression := "(" + expression + strconv.Itoa(nums[i]) + string(op) + strconv.Itoa(nums[j]) + ")"
-					solve(newNums, target, newExpression)
+					solveWithRecursion(newNums, target, newExpression)
 				}
 			}
 		}
@@ -55,5 +55,5 @@ func solve(nums []int, target int, expression string) {
 }
 
 func main() {
-	solve(numbers, target, "")
+	solveWithRecursion(numbers, targetNumber, "")
 }

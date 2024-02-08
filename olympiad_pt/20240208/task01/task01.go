@@ -12,9 +12,9 @@ import (
 */
 
 var numbers = []int{2, 5, 3, 8}
-var target = 16
+var targetNumber = 16
 
-func solve(nums []int, target int, expression string) {
+func solveWithRecursion(nums []int, target int, expression string) {
 	if len(nums) == 1 && nums[0] == target {
 		fmt.Println(expression + strconv.Itoa(nums[0]))
 	}
@@ -27,25 +27,25 @@ func solve(nums []int, target int, expression string) {
 
 			newExpression := expression + "(" + strconv.Itoa(nums[i]) + "+" + strconv.Itoa(nums[j]) + ")"
 			newNums[i] = nums[i] + nums[j]
-			solve(newNums, target, newExpression)
+			solveWithRecursion(newNums, target, newExpression)
 
 			newExpression = expression + "(" + strconv.Itoa(nums[i]) + "-" + strconv.Itoa(nums[j]) + ")"
 			newNums[i] = nums[i] - nums[j]
-			solve(newNums, target, newExpression)
+			solveWithRecursion(newNums, target, newExpression)
 
 			newExpression = expression + "(" + strconv.Itoa(nums[i]) + "*" + strconv.Itoa(nums[j]) + ")"
 			newNums[i] = nums[i] * nums[j]
-			solve(newNums, target, newExpression)
+			solveWithRecursion(newNums, target, newExpression)
 
 			if nums[j] != 0 {
 				newExpression = expression + "(" + strconv.Itoa(nums[i]) + "/" + strconv.Itoa(nums[j]) + ")"
 				newNums[i] = nums[i] / nums[j]
-				solve(newNums, target, newExpression)
+				solveWithRecursion(newNums, target, newExpression)
 			}
 		}
 	}
 }
 
 func main() {
-	solve(numbers, target, "")
+	solveWithRecursion(numbers, targetNumber, "")
 }
