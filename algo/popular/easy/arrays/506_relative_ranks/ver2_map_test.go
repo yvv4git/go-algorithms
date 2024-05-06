@@ -1,0 +1,55 @@
+package main
+
+import (
+	"reflect"
+	"testing"
+)
+
+func Test_findRelativeRanksV2(t *testing.T) {
+	type args struct {
+		score []int
+	}
+
+	tests := []struct {
+		name string
+		args args
+		want []string
+	}{
+		{
+			name: "Тест 1",
+			args: args{
+				score: []int{5, 4, 3, 2, 1},
+			},
+			want: []string{"Gold Medal", "Silver Medal", "Bronze Medal", "4", "5"},
+		},
+		{
+			name: "Тест 2",
+			args: args{
+				score: []int{10, 3, 8, 9, 4},
+			},
+			want: []string{"Gold Medal", "5", "Bronze Medal", "Silver Medal", "4"},
+		},
+		{
+			name: "Тест 3",
+			args: args{
+				score: []int{1, 2, 3, 4, 5},
+			},
+			want: []string{"5", "4", "Bronze Medal", "Silver Medal", "Gold Medal"},
+		},
+		{
+			name: "Тест 5",
+			args: args{
+				score: []int{1},
+			},
+			want: []string{"Gold Medal"},
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := findRelativeRanksV2(tt.args.score); !reflect.DeepEqual(got, tt.want) {
+				t.Errorf("findRelativeRanksV2() = %v, want %v", got, tt.want)
+			}
+		})
+	}
+}
