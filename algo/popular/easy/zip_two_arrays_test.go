@@ -1,4 +1,4 @@
-package arrays
+package easy
 
 import (
 	"fmt"
