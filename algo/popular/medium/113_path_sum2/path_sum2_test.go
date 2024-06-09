@@ -1,4 +1,4 @@
-package path_sum2
+package _13_path_sum2
 
 import (
 	"reflect"
