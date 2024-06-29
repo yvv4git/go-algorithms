@@ -8,14 +8,28 @@ import (
 // MinHeap представляет минимальную кучу
 type MinHeap []int
 
-func (h MinHeap) Len() int           { return len(h) }
-func (h MinHeap) Less(i, j int) bool { return h[i] < h[j] }
-func (h MinHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
+// Len возвращает длину кучи
+// Временная сложность: O(1)
+func (h MinHeap) Len() int { return len(h) }
 
+// Less сравнивает элементы кучи
+// Временная сложность: O(1)
+func (h MinHeap) Less(i, j int) bool { return h[i] < h[j] }
+
+// Swap меняет местами элементы кучи
+// Временная сложность: O(1)
+func (h MinHeap) Swap(i, j int) { h[i], h[j] = h[j], h[i] }
+
+// Push добавляет элемент в кучу
+// Временная сложность: O(log n)
+// Пространственная сложность: O(1)
 func (h *MinHeap) Push(x interface{}) {
 	*h = append(*h, x.(int))
 }
 
+// Pop удаляет и возвращает наименьший элемент из кучи
+// Временная сложность: O(log n)
+// Пространственная сложность: O(1)
 func (h *MinHeap) Pop() interface{} {
 	old := *h
 	n := len(old)
@@ -27,14 +41,28 @@ func (h *MinHeap) Pop() interface{} {
 // MaxHeap представляет максимальную кучу
 type MaxHeap []int
 
-func (h MaxHeap) Len() int           { return len(h) }
-func (h MaxHeap) Less(i, j int) bool { return h[i] > h[j] }
-func (h MaxHeap) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
+// Len возвращает длину кучи
+// Временная сложность: O(1)
+func (h MaxHeap) Len() int { return len(h) }
 
+// Less сравнивает элементы кучи
+// Временная сложность: O(1)
+func (h MaxHeap) Less(i, j int) bool { return h[i] > h[j] }
+
+// Swap меняет местами элементы кучи
+// Временная сложность: O(1)
+func (h MaxHeap) Swap(i, j int) { h[i], h[j] = h[j], h[i] }
+
+// Push добавляет элемент в кучу
+// Временная сложность: O(log n)
+// Пространственная сложность: O(1)
 func (h *MaxHeap) Push(x interface{}) {
 	*h = append(*h, x.(int))
 }
 
+// Pop удаляет и возвращает наибольший элемент из кучи
+// Временная сложность: O(log n)
+// Пространственная сложность: O(1)
 func (h *MaxHeap) Pop() interface{} {
 	old := *h
 	n := len(old)
