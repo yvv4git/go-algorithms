@@ -1,6 +1,10 @@
 package main
 
-import "testing"
+import (
+	"fmt"
+	"strconv"
+	"testing"
+)
 
 func Test_validUtf8(t *testing.T) {
 	type args struct {
@@ -71,4 +75,23 @@ func Test_validUtf8(t *testing.T) {
 			}
 		})
 	}
+}
+
+// PrettyPrintBinary принимает целое число и возвращает его бинарное представление в виде строки
+func PrettyPrintBinary(value int) string {
+	// Преобразуем число в бинарную строку
+	binaryString := strconv.FormatInt(int64(value), 2)
+
+	// Дополняем строку до длины, кратной 8
+	for len(binaryString)%8 != 0 {
+		binaryString = "0" + binaryString
+	}
+
+	return binaryString
+}
+
+func TestResearch01(t *testing.T) {
+	b := 0b00000000
+	d := 0b10000000
+	fmt.Printf("%s & %s = %s\n", PrettyPrintBinary(b), PrettyPrintBinary(d), PrettyPrintBinary(b&0b10000000))
 }
