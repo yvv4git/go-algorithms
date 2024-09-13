@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"sort"
 	"strings"
 	"unicode"
 )
@@ -23,17 +22,16 @@ func mostCommonWordV2(paragraph string, banned []string) string {
 		METHOD:
 		- Удаляем пунктуацию из текста.
 		- Разбиваем текст на слова и приводим их к нижнему регистру.
-		- Создаем словарь для подсчета частоты слов.
-		- Создаем список пар (слово, частота) и сортируем его по частоте в порядке убывания.
-		- Проходим по отсортированному списку и возвращаем первое слово, которое не входит в список запрещенных слов.
+		- Создаем словарь для подсчета частоты слов, игнорируя запрещенные слова.
+		- Проходим по всем словам и обновляем счетчик частоты, если слово не запрещено.
+		- Определяем слово с максимальной частотой.
 
 		TIME COMPLEXITY:
 		- Удаление пунктуации: O(n), где n — длина текста.
 		- Разбиение текста на слова: O(n).
 		- Подсчет частоты слов: O(n).
-		- Сортировка списка пар: O(n log n).
 		- Проверка на запрещенные слова: O(n * m), где m — количество запрещенных слов.
-		Общая временная сложность: O(n log n + n * m).
+		Общая временная сложность: O(n * m).
 
 		SPACE COMPLEXITY:
 		- Хранение слов и их частот: O(n).
@@ -49,24 +47,6 @@ func mostCommonWordV2(paragraph string, banned []string) string {
 
 	// Создаем словарь для подсчета частоты слов
 	wordCount := make(map[string]int)
-	for _, word := range words {
-		wordCount[word]++
-	}
-
-	// Создаем список пар (слово, частота)
-	type wordFreq struct {
-		word string
-		freq int
-	}
-	var wordFreqList []wordFreq
-	for word, freq := range wordCount {
-		wordFreqList = append(wordFreqList, wordFreq{word, freq})
-	}
-
-	// Сортируем список по частоте в порядке убывания
-	sort.Slice(wordFreqList, func(i, j int) bool {
-		return wordFreqList[i].freq > wordFreqList[j].freq
-	})
 
 	// Создаем множество для хранения запрещенных слов
 	bannedSet := make(map[string]bool)
@@ -74,21 +54,30 @@ func mostCommonWordV2(paragraph string, banned []string) string {
 		bannedSet[word] = true
 	}
 
-	// Проходим по отсортированному списку и возвращаем первое слово, которое не входит в список запрещенных слов
-	for _, wf := range wordFreqList {
-		if !bannedSet[wf.word] {
-			return wf.word
+	// Проходим по всем словам и обновляем счетчик частоты, если слово не запрещено
+	for _, word := range words {
+		if !bannedSet[word] {
+			wordCount[word]++
 		}
 	}
 
-	// Если все слова запрещены, возвращаем пустую строку
-	return ""
+	// Определяем слово с максимальной частотой
+	maxCount := 0
+	mostCommon := ""
+	for word, count := range wordCount {
+		if count > maxCount {
+			maxCount = count
+			mostCommon = word
+		}
+	}
+
+	return mostCommon
 }
 
 func main() {
-	paragraph := "Bob hit a ball, the hit BALL flew far after it was hit."
-	banned := []string{"hit"}
+	paragraph := "a, a, a, a, b,b,b,c, c"
+	banned := []string{"a"}
 
 	result := mostCommonWordV2(paragraph, banned)
-	fmt.Println("Наиболее часто встречающееся слово:", result) // Вывод: ball
+	fmt.Println("Наиболее часто встречающееся слово:", result) // Вывод: b
 }
