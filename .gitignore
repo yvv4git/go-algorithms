@@ -15,3 +15,5 @@
 # vendor/
 
 .idea
+.vcode
+.vscode/settings.json
