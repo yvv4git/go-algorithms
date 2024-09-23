@@ -1,3 +1,5 @@
+//go:build ignore
+
 package main
 
 import "fmt"
@@ -29,5 +31,5 @@ func trailingZeroesV4(n int) int {
 }
 
 func main() {
-	fmt.Println(trailingZeroes(30)) // Вывод: 7
+	fmt.Println(trailingZeroesV4(30)) // Вывод: 7
 }
