@@ -22,6 +22,8 @@ func shuffleArray(arr []int) []int {
 }
 
 // Задача заключается в том, чтобы перемешать массив с использованием алгоритма Fisher-Yates(Knuth shuffle).
+//
+// nolint
 func main() {
 	// Исходный массив
 	nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
