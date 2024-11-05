@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -59,7 +58,7 @@ func findLHS(nums []int) int {
 	return maxLen
 }
 
-func main() {
-	nums := []int{1, 3, 2, 2, 5, 2, 3, 7}
-	fmt.Println(findLHS(nums)) // Вывод: 5
-}
+// func main() {
+// 	nums := []int{1, 3, 2, 2, 5, 2, 3, 7}
+// 	fmt.Println(findLHS(nums)) // Вывод: 5
+// }
