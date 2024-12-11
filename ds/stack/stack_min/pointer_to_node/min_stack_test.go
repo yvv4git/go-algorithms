@@ -1,4 +1,4 @@
-package stackmin
+package main
 
 import "testing"
 
