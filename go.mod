@@ -1,6 +1,6 @@
 module github.com/yvv4git/go-algorithms
 
-go 1.18
+go 1.23
 
 require (
 	github.com/onsi/ginkgo v1.16.5
