@@ -7,6 +7,7 @@ import (
 	"sort"
 )
 
+// TASK: Имеется определенное количество монет разных номиналов. Необходимо выдать сдачу или вернуть nil, если это невозможно.
 func coinChange(coins []int, amount int) map[int]int {
 	/*
 		APPROACH: Greedy
