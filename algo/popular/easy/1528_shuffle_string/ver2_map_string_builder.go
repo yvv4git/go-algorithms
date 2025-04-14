@@ -7,34 +7,59 @@ import (
 	"strings"
 )
 
-func restoreString(s string, indices []int) string {
+func replaceWords(dictionary []string, sentence string) string {
 	/*
-		APPROACH: Using strings.Builder
-		- Создаем `builder` длиной n.
-		- Заполняем `builder` пустыми символами.
-		- Проходим по `s` и `indices`, записывая символы `s[i]` в `builder` на позицию `indices[i]`.
+		APPROACH: Prefix Replacement with Hash Set
+		- Создаем хэш-множество корней для быстрого поиска O(1)
+		- Разбиваем предложение на слова
+		- Для каждого слова проверяем все возможные префиксы от коротких к длинным
+		- При нахождении первого совпадающего префикса заменяем слово
+		- Собираем обработанные слова в новое предложение
 
-		TIME COMPLEXITY: O(n)
-		- Мы проходим по `s` и `indices` ровно один раз, выполняя O(1) операций для каждого символа.
+		TIME COMPLEXITY: O(N*M)
+		- N - количество слов в предложении
+		- M - средняя длина слова
+		- В худшем случае для каждого слова проверяем все префиксы
 
-		SPACE COMPLEXITY: O(n)
-		- Используем `strings.Builder`, но без промежуточных срезов, что уменьшает накладные расходы.
+		SPACE COMPLEXITY: O(K + N)
+		- K - размер словаря (храним в хэш-множестве)
+		- N - длина предложения (храним разбитые слова)
 	*/
-	n := len(s)
-	builder := strings.Builder{}
-	builder.Grow(n) // Предварительно выделяем память
-
-	result := make([]byte, n) // Создаем срез байтов
-	for i, index := range indices {
-		result[index] = s[i] // Расставляем символы
+	// Создаем множество корней для быстрого поиска
+	rootSet := make(map[string]struct{})
+	for _, root := range dictionary {
+		rootSet[root] = struct{}{}
 	}
 
-	builder.WriteString(string(result)) // Записываем результат
-	return builder.String()
+	words := strings.Split(sentence, " ")
+
+	for i, word := range words {
+		// Проверяем все возможные префиксы слова
+		for l := 1; l <= len(word); l++ {
+			prefix := word[:l]
+			if _, exists := rootSet[prefix]; exists {
+				words[i] = prefix // Заменяем на найденный корень
+				break             // Используем первый найденный (самый короткий)
+			}
+		}
+	}
+
+	return strings.Join(words, " ")
 }
 
 func main() {
-	s := "codeleet"
-	indices := []int{4, 5, 6, 7, 0, 2, 1, 3}
-	fmt.Println(restoreString(s, indices)) // "leetcode"
+	// Тест 1 из условия задачи
+	dictionary := []string{"cat", "bat", "rat"}
+	sentence := "the cattle was rattled by the battery"
+	fmt.Println(replaceWords(dictionary, sentence)) // "the cat was rat by the bat"
+
+	// Тест 2 из условия задачи
+	dictionary = []string{"a", "b", "c"}
+	sentence = "aadsfasf absbs bbab cadsfafs"
+	fmt.Println(replaceWords(dictionary, sentence)) // "a a b c"
+
+	// Дополнительный тест
+	dictionary = []string{"go", "gol", "prog"}
+	sentence = "gopher went to program golang code"
+	fmt.Println(replaceWords(dictionary, sentence)) // "go went to prog gol code"
 }
