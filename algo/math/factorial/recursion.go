@@ -1,11 +1,11 @@
 package factorial
 
-// FactorialByRecursion - used recursion for calc factorial
+// FactorialByRecursion вычисляет факториал числа n с использованием рекурсии.
 func FactorialByRecursion(n int) int {
-	var result int
 	if n == 0 || n == 1 {
-		return 1
+		return 1 // Базовый случай(база рекурсии)
 	}
-	result = FactorialByRecursion(n-1) * n
-	return result
+
+	// Рекурсивно вызываем функцию для n-1 и умножаем на n
+	return FactorialByRecursion(n-1) * n
 }
