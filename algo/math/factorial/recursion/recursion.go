@@ -1,4 +1,4 @@
-package factorial
+package main
 
 // FactorialByRecursion вычисляет факториал числа n с использованием рекурсии.
 func FactorialByRecursion(n int) int {

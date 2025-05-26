@@ -1,4 +1,4 @@
-package factorial
+package main
 
 // FactorialByLoop - calculate factorial without recursion
 func FactorialByLoop(n int) int {

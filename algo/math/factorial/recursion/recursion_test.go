@@ -1,4 +1,4 @@
-package factorial
+package main
 
 import (
 	"testing"
@@ -53,5 +53,27 @@ func BenchmarkFactorialByRecursion(b *testing.B) {
 				FactorialByRecursion(bm.InValue)
 			}
 		})
+	}
+}
+
+// Benchmark
+// go test -bench .
+// go test -bench=. -run ^$
+
+func BenchmarkFactorialConcurrent10(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		FactorialByRecursion(10)
+	}
+}
+
+func BenchmarkFactorialConcurrent15(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		FactorialByRecursion(15)
+	}
+}
+
+func BenchmarkFactorialConcurrent20(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		FactorialByRecursion(20)
 	}
 }

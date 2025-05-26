@@ -1,4 +1,4 @@
-package factorial
+package main
 
 import (
 	"testing"
@@ -53,5 +53,27 @@ func BenchmarkFactorialByLoop(b *testing.B) {
 				FactorialByLoop(bm.InValue)
 			}
 		})
+	}
+}
+
+// Benchmark
+// go test -bench .
+// go test -bench=. -run ^$
+
+func BenchmarkFactorialConcurrent10(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		FactorialByLoop(10)
+	}
+}
+
+func BenchmarkFactorialConcurrent15(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		FactorialByLoop(15)
+	}
+}
+
+func BenchmarkFactorialConcurrent20(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		FactorialByLoop(20)
 	}
 }
