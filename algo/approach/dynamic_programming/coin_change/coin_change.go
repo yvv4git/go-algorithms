@@ -1,5 +1,3 @@
-//go:build ignore
-
 package main
 
 import (
@@ -7,7 +5,9 @@ import (
 	"math"
 )
 
-// Функция для нахождения минимального количества монет для суммы S
+// coinChange - функция, которая вычисляет минимальное количество монет для набора заданной суммы.
+// coins - массив номиналов монет (например, [1, 2, 5]).
+// amount - сумма, которую нужно набрать (например, 11).
 func coinChange(coins []int, amount int) int {
 	/*
 		METHOD: Dynamic Programming
