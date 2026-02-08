@@ -1,0 +1,104 @@
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"os"
+)
+
+func maximalSquare(matrix [][]byte) int {
+	/*
+		METHOD: Dynamic Programming (двумерный массив)
+		Суть задачи: Найти площадь наибольшего квадрата, состоящего только из единиц.
+
+		dp[i][j] - размер наибольшего квадрата с правым нижним углом в позиции (i, j).
+		Переход: если matrix[i][j] == '1', то dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1
+
+		ПОЧЕМУ ТАК:
+		- Квадрат размера k в позиции (i, j) требует, чтобы вокруг были квадраты размера k-1
+		- Минимум из трёх соседей определяет максимальный размер, который можно расширить
+		- Если хоть одна сторона меньше, то квадрат не может быть больше этой стороны
+
+		TIME COMPLEXITY: O(m*n) - проход по всем ячейкам матрицы
+		SPACE COMPLEXITY: O(m*n) - хранение dp-таблицы
+	*/
+
+	// Если матрица пустая, возвращаем 0.
+	if len(matrix) == 0 || len(matrix[0]) == 0 {
+		return 0
+	}
+
+	// Получаем размеры матрицы: строки m, столбцы n.
+	m := len(matrix)
+	n := len(matrix[0])
+
+	// dp[i][j] — размер наибольшего квадрата с правым нижним углом в (i, j).
+	dp := make([][]int, m)
+	for i := range dp {
+		dp[i] = make([]int, n)
+	}
+
+	// maxSide хранит максимальный размер стороны квадрата, найденного на данный момент.
+	maxSide := 0
+
+	// Проходим по каждой ячейке матрицы.
+	for i := range m {
+		for j := range n {
+			// Рассматриваем только ячейки со значением '1'.
+			if matrix[i][j] == '1' {
+				// Если мы на первой строке или первом столбце,
+				// то квадрат может быть только размера 1x1.
+				if i == 0 || j == 0 {
+					dp[i][j] = 1
+				} else {
+					// Для остальных ячеек: размер квадрата определяется
+					// минимальным значением из трёх соседних клеток плюс 1.
+					dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1
+				}
+
+				// Обновляем максимальный размер стороны.
+				if dp[i][j] > maxSide {
+					maxSide = dp[i][j]
+				}
+			}
+		}
+	}
+
+	// Возвращаем площадь квадрата (side * side).
+	return maxSide * maxSide
+}
+
+// min возвращает минимум из трёх целых чисел.
+func min(a, b, c int) int {
+	if a < b {
+		if a < c {
+			return a
+		}
+		return c
+	}
+	if b < c {
+		return b
+	}
+	return c
+}
+
+func main() {
+	in := bufio.NewReader(os.Stdin)
+
+	// Читаем матрицу из ввода.
+	var m, n int
+	fmt.Fscan(in, &m, &n)
+
+	matrix := make([][]byte, m)
+	for i := 0; i < m; i++ {
+		matrix[i] = make([]byte, n)
+		for j := 0; j < n; j++ {
+			var s string
+			fmt.Fscan(in, &s)
+			matrix[i][j] = byte(s[0])
+		}
+	}
+
+	result := maximalSquare(matrix)
+	fmt.Println(result)
+}
