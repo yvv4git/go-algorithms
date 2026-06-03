@@ -1,3 +1,10 @@
+// Гласно-согласный поиск (поиск с классами эквивалентности)
+// Подход: Каждая буква заменяется на класс: '0' — гласная, '1' — согласная.
+// После замены задача сводится к точному поиску подстроки, который
+// решается алгоритмом Кнута — Морриса — Пратта (префикс-функция).
+// Time complexity:  O(|T| + |S|) — преобразование + КМП.
+// Space complexity: O(|T| + |S|) — хранение преобразованных строк.
+
 package main
 
 import (
@@ -18,6 +25,7 @@ func class(c byte) byte {
 	return '1'
 }
 
+// transform заменяет каждую букву её классом (0 — гласная, 1 — согласная).
 func transform(s string) string {
 	b := make([]byte, len(s))
 	for i := range s {
@@ -26,6 +34,7 @@ func transform(s string) string {
 	return string(b)
 }
 
+// prefixFunction возвращает массив π длины len(s) для алгоритма КМП.
 func prefixFunction(s string) []int {
 	n := len(s)
 	pi := make([]int, n)
