@@ -35,13 +35,6 @@ func zFunction(s string) []int {
 	return z
 }
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
 // reverse возвращает перевёрнутую копию строки.
 func reverse(s string) string {
 	b := []byte(s)

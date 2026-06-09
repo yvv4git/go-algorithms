@@ -10,6 +10,8 @@ package main
 
 // zFunction возвращает массив Z длины len(s).
 // Z[i] — длина нбольшего общего префикса s и s[i..].
+// Time complexity:  O(n)
+// Space complexity: O(n)
 func zFunction(s string) []int {
 	n := len(s)
 	z := make([]int, n)
@@ -28,14 +30,9 @@ func zFunction(s string) []int {
 	return z
 }
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
-
 // periodZ возвращает минимальную длину периода строки s.
+// Time complexity:  O(n) — вызов zFunction + проход по массиву
+// Space complexity: O(n) — массив Z длины n
 func periodZ(s string) int {
 	n := len(s)
 	z := zFunction(s)
