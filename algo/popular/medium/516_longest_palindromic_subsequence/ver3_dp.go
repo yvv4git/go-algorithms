@@ -1,33 +1,35 @@
 package _16_longest_palindromic_subsequence
 
-// Функция longestPalindromeSubseqV3 находит длину наибольшей палиндромной подпоследовательности в строке s
 func longestPalindromeSubseqV3(s string) int {
 	/*
-		METHOD: Dynamic programming + Recursion
+		TASK: Найти длину наибольшей палиндромной подпоследовательности в строке s.
+		Подпоследовательность отличается от подстроки тем, что символы не обязаны
+		идти подряд (можно пропускать символы).
+
+		APPROACH: Top-down DP (Recursion + Memoization, с указателем на матрицу)
+		Вариант ver2, но передаём dp через указатель (*[][]int) вместо замыкания.
+		1. Рекурсивная функция helper(dp, s, begin, end).
+		2. База: begin > end — 0, begin == end — 1.
+		3. Если s[begin] == s[end]: dp[begin][end] = 2 + helper(begin+1, end-1).
+		4. Иначе: dp[begin][end] = max(helper(begin+1, end), helper(begin, end-1)).
+		5. Ответ: helper(&dp, s, 0, n-1).
+
 		TIME COMPLEXITY: O(n^2)
+		- Каждая пара (begin, end) вычисляется один раз.
+
 		SPACE COMPLEXITY: O(n^2)
-
-		Time complexity
-		Временная сложность этого алгоритма - O(n^2), где n - длина строки s.
-		Это связано с двумя вложенными циклами, которые проходят по всем символам строки.
-
-		Space complexity
-		Пространственная сложность - O(n^2), так как мы используем двумерный массив dp для хранения результатов подсчета.
+		- Таблица dp размером n×n плюс глубина рекурсии O(n).
 	*/
 
-	// Если длина строки s меньше 2, то возвращаем длину строки s
 	if len(s) < 2 {
 		return len(s)
 	}
 
-	// Создаем двумерный массив dp размером len(s) x len(s)
 	dp := make([][]int, len(s))
-
 	for i := 0; i < len(s); i++ {
 		dp[i] = make([]int, len(s))
 	}
 
-	// Вызываем функцию helper, которая вычисляет длину наибольшей палиндромной подпоследовательности
 	return helper(&dp, s, 0, len(s)-1)
 }
 
