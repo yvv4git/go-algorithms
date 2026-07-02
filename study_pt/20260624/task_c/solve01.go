@@ -1,1 +1,5 @@
-package taskc
+package main
+
+func main() {
+
+}
