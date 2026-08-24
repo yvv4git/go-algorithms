@@ -36,13 +36,16 @@ the following sections in order:
 7. **Constraints** — same as in the original source.
 8. **См. также** — links to approach files
    using relative paths.
+9. **Quotes** — use straight quotes `"` instead of
+   curly quotes `«` and `»`.
+10. **Dashes** — use hyphen `-` instead of em dash `—`.
 
 ### Linting
 
-Before committing, validate every `README.md`:
+Before committing, validate all `*.md` files:
 
 ```bash
-markdownlint README.md
+markdownlint **/*.md
 ```
 
 Fix all reported issues before committing.
