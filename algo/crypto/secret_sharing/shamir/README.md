@@ -122,3 +122,4 @@ S = y_1·L_1(0) + y_2·L_2(0) = 21·3 + 25·(-2) = 63 - 50 = 13
 - [Blakley](../blakley/README.md) - геометрический аналог, плоскости
 - [Verifiable Secret Sharing](../vss/README.md) - защита от нечестного дилера
 - [Additive Secret Sharing](../additive/README.md) - схема Мэтью, порог = N
+- [Distributed Key Generation](../dkg/README.md) - совместная генерация ключа
