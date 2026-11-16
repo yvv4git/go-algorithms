@@ -118,4 +118,4 @@ Explanation: sumRegion(0, 0, 1, 1) = 12 (1 + 2 + 4 + 5),
 - [Bruteforce (перебор элементов прямоугольника)](ver1_bruteforce/main.go)
 - [Row prefix sums (префиксные суммы по строкам)](ver2_row_prefix_sum/main.go)
 - [2D prefix sums (двумерные префиксные суммы)](ver3_2d_prefix_sum/main.go)
-- [Prefix sum](../../../approach/prefix_sum/README.md)
+- [Prefix sum](../../../approach/arrays/prefix_sum/README.md)

@@ -69,4 +69,4 @@ Explanation: The repeated subarray with maximum length is [0,0,0,0,0].
 
 - [Bruteforce (полный перебор)](ver1_bruteforce/ver1_bruteforce.go)
 - [Dynamic programming (динамическое программирование)](ver2_dp/ver2_dp.go)
-- [Dynamic programming (обзор подхода)](../../../approach/dynamic_programming/README.md)
+- [Dynamic programming (обзор подхода)](../../../approach/paradigms/dynamic_programming/README.md)

@@ -66,4 +66,4 @@ Output: 10
 
 ## См. также
 
-- [Динамическое программирование](../../../approach/dynamic_programming/README.md)
+- [Динамическое программирование](../../../approach/paradigms/dynamic_programming/README.md)

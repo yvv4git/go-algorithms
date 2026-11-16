@@ -14,7 +14,7 @@ Brute Force может быть эффективным, если количес�
 
 func bruteForce(target int, numbers []int) bool {
 	// Проходим по всем числам в списке.
-	for i := 0; i < len(numbers); i++ {
+	for i := range numbers {
 		// Если текущее число равно цели, возвращаем true.
 		if numbers[i] == target {
 			return true
