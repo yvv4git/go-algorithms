@@ -23,37 +23,74 @@ func recoverPermutation(n, k, q int, ask asker) []int {
 		Граница: k = 0, тогда каждый ответ правдивый и обычная сортировка восстанавливает pi.
 
 		METHOD: Repeated majority sort (сортировка с повторными сравнениями большинством)
-		Надёжное сравнение повторяет один и тот же запрос r = 2*k+1 раз.
-		Если ответов YES больше, считаем pi(x) < pi(y), иначе pi(x) > pi(y).
-		Жюри может соврать не больше k раз всего, поэтому абсолютное большинство из 2*k+1 ответов верно.
-		Дальше сортируем позиции 1..N сортировкой слиянием, используя надёжное сравнение.
-		Сортировка слиянием делит массив пополам, рекурсивно сортирует части и сливает их по порядку.
-		После сортировки позиций по значению pi получаем порядок от меньшего значения к большему.
-		По этому порядку восстанавливаем массив p, где p[pos-1] = значение pi(pos).
+		Базовая идея - повторять один и тот же запрос фиксированное число раз и брать ответ большинства.
+		Число повторов r выбирается как 2*k+1, но ограничивается бюджетом Q, чтобы не превысить лимит.
+		При малом r большинство может ошибаться, поэтому это простой, но не всегда надёжный подход.
+		Позиции 1..N сортируются сортировкой слиянием, где сравнение использует процедуру большинства.
+		Сортировка слиянием делит массив пополам, сортирует части и сливает их по порядку.
+		После сортировки позиций по значению pi восстанавливаем p, где p[pos-1] = значение pi(pos).
 
-		TIME COMPLEXITY: O(r * N log N), где r = 2*k+1.
-		Сортировка слиянием делает O(N log N) сравнений, каждое сравнение делает r запросов.
+		TIME COMPLEXITY: O(r * N log N), где r - число повторов сравнения.
+		Сортировка даёт O(N log N) сравнений, каждое сравнение делает до r запросов.
 
 		SPACE COMPLEXITY: O(N).
 		Храним массив позиций, временный буфер слияния и итоговую перестановку.
 	*/
-	repeats := max(2*k+1, 1)
+	queriesUsed := 0
+	maxQueries := q
+	if maxQueries < 0 {
+		maxQueries = 0
+	}
+
+	repeats := 2*k + 1
+	if repeats < 1 {
+		repeats = 1
+	}
+	estComparisons := n
+	log2 := 0
+	for (1 << log2) < n {
+		log2++
+	}
+	estComparisons = n * log2
+	if estComparisons < 1 {
+		estComparisons = 1
+	}
+	if repeats*estComparisons > maxQueries && maxQueries > 0 {
+		repeats = maxQueries / estComparisons
+		if repeats < 1 {
+			repeats = 1
+		}
+	}
 
 	less := func(x, y int) bool {
 		yes := 0
 		no := 0
-		for range repeats {
+		for i := 0; i < repeats; i++ {
+			if queriesUsed >= maxQueries {
+				break
+			}
+			queriesUsed++
 			if ask(x, y) {
 				yes++
 			} else {
 				no++
 			}
+			remaining := repeats - i - 1
+			if yes > no+remaining {
+				return true
+			}
+			if no > yes+remaining {
+				return false
+			}
+		}
+		if yes == no {
+			return x < y
 		}
 		return yes > no
 	}
 
 	order := make([]int, n)
-	for i := range n {
+	for i := 0; i < n; i++ {
 		order[i] = i + 1
 	}
 
@@ -100,7 +137,6 @@ func main() {
 	if _, err := fmt.Fscan(reader, &n, &k, &q); err != nil {
 		return
 	}
-	_ = q
 
 	ask := func(x, y int) bool {
 		fmt.Fprintf(writer, "? %d %d\n", x, y)
